@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.11.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Módulo 1A: La IA llegó para quedarse: ¿Cómo la recibe un docente? – ¿Aprender con o a pesar de la IA?</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./modulo1b.html" rel="next">
+<link href="./taller1.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-32df71be6b98c21a863fcf0fb8b64bbd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<meta name="mermaid-theme" content="neutral">
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" aria-label="Toolbar">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./taller1.html">Taller 1: La IA ya llegó (Recepción y Tareas)</a></li><li class="breadcrumb-item"><a href="./modulo1a.html"><span class="chapter-title">Módulo 1A: La IA llegó para quedarse: ¿Cómo la recibe un docente?</span></a></li></ol></nav>
+        <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto" aria-label="Site">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">¿Aprender con o a pesar de la IA?</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentación y Enfoque Pedagógico</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-controls="quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-1-label">Taller 1: La IA ya llegó (Recepción y Tareas)</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-1" aria-labelledby="quarto-sidebar-section-1-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./taller1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Taller 1: La IA ya llegó (Recepción y Tareas)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modulo1a.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Módulo 1A: La IA llegó para quedarse: ¿Cómo la recibe un docente?</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modulo1b.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Módulo 1B: Tareas Escolares bajo la Lupa</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-controls="quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-2-label">Taller 2: Epistemología y Entendimiento</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-2" aria-labelledby="quarto-sidebar-section-2-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./taller2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Taller 2: Epistemología y Entendimiento</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modulo2a.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Módulo 2A: El Marco Neuroevolutivo y la IA-Fluidez</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modulo2b.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Módulo 2B: Epistemología, Percepción y Mediación del Saber Escolar</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-controls="quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-3-label">Taller 3: Evaluación Auténtica, Valores y Cuidado</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-3" aria-labelledby="quarto-sidebar-section-3-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./taller3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Taller 3: Evaluación Auténtica, Valores y Cuidado</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modulo3a.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Módulo 3A: Rediseñar la Evaluación</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modulo3b.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Módulo 3B: La Escuela como Comunidad Ética y Relacional</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-controls="quarto-sidebar-section-4" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-4-label">Acreditación y Fuentes</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-4" aria-labelledby="quarto-sidebar-section-4-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./evaluacion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sistema de Evaluación y Acreditación Asincrónica</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./recursos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Recursos y Enlaces a Fuentes Primarias</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Referencias Bibliográficas</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Materiales.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Materiales y Recursos de Apoyo: Taller 1</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#qué-se-espera-lograr-en-este-módulo" id="toc-qué-se-espera-lograr-en-este-módulo" class="nav-link active" data-scroll-target="#qué-se-espera-lograr-en-este-módulo">1. ¿Qué se espera lograr en este módulo?</a></li>
+  <li><a href="#punto-de-partida-vivencial-de-la-emoción-al-criterio-docente-25-minutos" id="toc-punto-de-partida-vivencial-de-la-emoción-al-criterio-docente-25-minutos" class="nav-link" data-scroll-target="#punto-de-partida-vivencial-de-la-emoción-al-criterio-docente-25-minutos">2. Punto de partida vivencial: De la emoción al criterio docente (25 Minutos)</a></li>
+  <li><a href="#la-perspectiva-de-la-realidad-escolar-salvadoreña-15-minutos" id="toc-la-perspectiva-de-la-realidad-escolar-salvadoreña-15-minutos" class="nav-link" data-scroll-target="#la-perspectiva-de-la-realidad-escolar-salvadoreña-15-minutos">3. La perspectiva de la realidad escolar salvadoreña (15 Minutos)</a></li>
+  <li><a href="#fundamentación-conceptual-la-historia-del-cognitive-offloading-20-minutos" id="toc-fundamentación-conceptual-la-historia-del-cognitive-offloading-20-minutos" class="nav-link" data-scroll-target="#fundamentación-conceptual-la-historia-del-cognitive-offloading-20-minutos">4. Fundamentación conceptual: La historia del Cognitive Offloading (20 Minutos)</a>
+  <ul class="collapse">
+  <li><a href="#sistemas-deterministas-frente-a-modelos-probabilísticos-llm" id="toc-sistemas-deterministas-frente-a-modelos-probabilísticos-llm" class="nav-link" data-scroll-target="#sistemas-deterministas-frente-a-modelos-probabilísticos-llm">Sistemas deterministas frente a modelos probabilísticos (LLM)</a></li>
+  <li><a href="#la-escuela-en-el-sándwich-didáctico-wolfgang-spahn" id="toc-la-escuela-en-el-sándwich-didáctico-wolfgang-spahn" class="nav-link" data-scroll-target="#la-escuela-en-el-sándwich-didáctico-wolfgang-spahn">La escuela en el «Sándwich Didáctico» (Wolfgang Spahn)</a></li>
+  </ul></li>
+  <li><a href="#evidencia-científica-sobre-cognición-y-aprendizaje-15-minutos" id="toc-evidencia-científica-sobre-cognición-y-aprendizaje-15-minutos" class="nav-link" data-scroll-target="#evidencia-científica-sobre-cognición-y-aprendizaje-15-minutos">5. Evidencia científica sobre cognición y aprendizaje (15 Minutos)</a></li>
+  <li><a href="#modelo-de-referencia-el-modelo-multicomponente-de-la-profesionalidad-docente-15-minutos" id="toc-modelo-de-referencia-el-modelo-multicomponente-de-la-profesionalidad-docente-15-minutos" class="nav-link" data-scroll-target="#modelo-de-referencia-el-modelo-multicomponente-de-la-profesionalidad-docente-15-minutos">6. Modelo de referencia: El Modelo Multicomponente de la Profesionalidad Docente (15 Minutos)</a></li>
+  <li><a href="#referencias-del-módulo-1a" id="toc-referencias-del-módulo-1a" class="nav-link" data-scroll-target="#referencias-del-módulo-1a">7. Referencias del Módulo 1A</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content" tabindex="-1">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./taller1.html">Taller 1: La IA ya llegó (Recepción y Tareas)</a></li><li class="breadcrumb-item"><a href="./modulo1a.html"><span class="chapter-title">Módulo 1A: La IA llegó para quedarse: ¿Cómo la recibe un docente?</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Módulo 1A: La IA llegó para quedarse: ¿Cómo la recibe un docente?</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>Taller 1 – Parte A (13:15 – 15:00)</strong><br>
+<em>Actitudes, emociones y el modelo de profesionalidad docente frente a los algoritmos en la escuela</em></p>
+<section id="qué-se-espera-lograr-en-este-módulo" class="level2">
+<h2 class="anchored" data-anchor-id="qué-se-espera-lograr-en-este-módulo">1. ¿Qué se espera lograr en este módulo?</h2>
+<p>Se espera que los docentes:</p>
+<ul>
+<li><strong>Reconozcan y legitimen sus vivencias emocionales</strong> y actitudes iniciales frente a la IA mediante herramientas de mediación reflexiva.</li>
+<li><strong>Analicen críticamente las prácticas</strong> que ya observan en sus aulas salvadoreñas frente al acceso a teléfonos móviles y asistentes de texto.</li>
+<li><strong>Comprendan la evolución histórica</strong> del fenómeno de la descarga cognitiva (<em>Cognitive Offloading</em>) desde la escritura hasta los modelos generativos.</li>
+<li><strong>Diferencien con rigor conceptual</strong> los sistemas digitales deterministas de los Modelos de Lenguaje de Gran Escala (LLM estocásticos y probabilísticos).</li>
+<li><strong>Sitúen su práctica dentro del Modelo Multicomponente de la Profesionalidad Docente</strong> <span class="citation" data-cites="ittner2019">(<a href="references.html#ref-ittner2019" role="doc-biblioref">Ittner, 2019</a>)</span> y los estratos del saber <span class="citation" data-cites="neuweg2014">(<a href="references.html#ref-neuweg2014" role="doc-biblioref">Neuweg, 2014</a>)</span> para consolidar su autonomía pedagógica.</li>
+</ul>
+<hr>
+</section>
+<section id="punto-de-partida-vivencial-de-la-emoción-al-criterio-docente-25-minutos" class="level2">
+<h2 class="anchored" data-anchor-id="punto-de-partida-vivencial-de-la-emoción-al-criterio-docente-25-minutos">2. Punto de partida vivencial: De la emoción al criterio docente (25 Minutos)</h2>
+<p>Toda innovación tecnológica irrumpe primero en el plano afectivo. Antes de debatir sobre algoritmos, aplicaciones o metodologías, el docente experimenta sensaciones encontradas: el asombro ante la velocidad de la máquina, la inquietud ante la pérdida de control en las tareas, la sospecha frente al engaño y el cansancio ante una nueva exigencia del sistema educativo.</p>
+<p>En la pedagogía reflexiva, estas reacciones no se reprimen: se escuchan. Detrás de cada emoción intensa existe una necesidad profesional legítima: certeza, tiempo, justicia evaluativa o sentido pedagógico.</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Dinámica vivencial: Cartas de resonancia emocional (En sala)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Paso 1 (Selección individual - 4 min):</strong> En la mesa central se dispone una colección de tarjetas visuales de asesoramiento. Cada participante escoge en silencio la imagen que mejor represente lo que experimenta internamente frente a la presencia de la IA en el entorno escolar.</li>
+<li><strong>Paso 2 (Tríadas reflexivas - 10 min):</strong> En grupos de tres docentes, cada persona comparte su tarjeta guiándose por tres preguntas:
+<ol type="1">
+<li>¿Qué rasgo de la imagen conecta con mi estado afectivo actual (desconfianza, asombro, agobio, esperanza, alivio)?</li>
+<li>¿Con qué situación concreta de mi práctica escolar o centro educativo relaciono esta imagen?</li>
+<li>¿Qué necesidad profesional legítima subyace a esta emoción?</li>
+</ol></li>
+<li><strong>Paso 3 (Cartografía mural - 11 min):</strong> En un papelógrafo mural, la facilitación traza dos ejes perpendiculares que dividen el espacio en cuatro cuadrantes:</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>🧭 ¿Dónde nos ubicamos frente a la IA? (Matriz de Reacción Emocional)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<details>
+<summary>
+<b>Haga clic aquí para revelar los cuadrantes y contrastar su postura inicial</b>
+</summary>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Postura pasiva / Reactiva (Evitar o esperar)</th>
+<th style="text-align: left;">Disposición activa / Propositiva (Explorar y actuar)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Valencia alta / Apertura</strong><br><em>(Curiosidad, asombro, alivio)</em></td>
+<td style="text-align: left;"><strong>Cuadrante II: Fascinación pasiva</strong><br>«Veo mucho potencial o magia técnica, pero no sé cómo guiarlo ni qué hacer en el aula.»</td>
+<td style="text-align: left;"><strong>Cuadrante I: Acción propositiva</strong><br>«Reconozco oportunidades claras y quiero diseñar experiencias de aprendizaje enriquecidas.»</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Valencia baja / Alerta</strong><br><em>(Preocupación, fatiga, desconfianza)</em></td>
+<td style="text-align: left;"><strong>Cuadrante III: Resistencia o parálisis</strong><br>«Siento rechazo o temor ante el engaño; preferiría prohibir o ignorar estas herramientas.»</td>
+<td style="text-align: left;"><strong>Cuadrante IV: Criterio crítico activo</strong><br>«Me preocupa el atajo cognitivo y el plagio, por eso asumo el reto de rediseñar tareas resistentes.»</td>
+</tr>
+</tbody>
+</table>
+</details>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Guía para el estudio autónomo asincrónico
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Observe las siguientes cinco metáforas visuales habituales en procesos de asesoramiento profesional. Elija una y reflexione por escrito en su cuaderno:</p>
+<ul>
+<li><strong>A. La Brújula:</strong> Necesidad de orientación conceptual clara ante la niebla técnica.</li>
+<li><strong>B. La Marioneta:</strong> Temor a perder la soberanía y ser dirigido por plataformas comerciales.</li>
+<li><strong>C. La Avalancha:</strong> Sensación de verse sobrepasado por una velocidad tecnológica inasumible.</li>
+<li><strong>D. Las Manos en la Arcilla:</strong> Convicción de que la tecnología requiere el toque humano para cobrar valor pedagógico.</li>
+<li><strong>E. El Espejo:</strong> Oportunidad para reflexionar sobre lo que la máquina jamás podrá sustituir de mi labor docente.</li>
+</ul>
+</div>
+</div>
+<hr>
+</section>
+<section id="la-perspectiva-de-la-realidad-escolar-salvadoreña-15-minutos" class="level2">
+<h2 class="anchored" data-anchor-id="la-perspectiva-de-la-realidad-escolar-salvadoreña-15-minutos">3. La perspectiva de la realidad escolar salvadoreña (15 Minutos)</h2>
+<p>Los datos globales más recientes confirman que la inteligencia artificial generativa ya no es un fenómeno lejano: en <strong>El Salvador, el 20.1 % de la población activa ya utiliza herramientas de IA generativa en 2026</strong> (ocupando el puesto #59 a nivel mundial, con un crecimiento sostenido trimestre a trimestre).</p>
+<div id="fig-mapa-adopcion" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-mapa-adopcion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="assets/ai_adoption_el_salvador.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;1.1: Adopción global de IA generativa: El Salvador alcanza un 20.1 % de cuota de usuarios en 2026 (Puesto #59 a nivel mundial). Fuente: Datos extraídos del informe oficial Microsoft AI Economy Institute: Global AI Diffusion Report."><img src="assets/ai_adoption_el_salvador.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:88.0%"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-mapa-adopcion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.1: <strong>Adopción global de IA generativa:</strong> El Salvador alcanza un 20.1 % de cuota de usuarios en 2026 (Puesto #59 a nivel mundial).<br>
+<em>Fuente:</em> Datos extraídos del informe oficial <a href="https://www.microsoft.com/en-us/corporate-responsibility/topics/ai-economy-institute/reports/global-ai-diffusion-report/" target="_blank">Microsoft AI Economy Institute: Global AI Diffusion Report</a>.
+</figcaption>
+</figure>
+</div>
+<p>Partiendo de esta realidad empírica y de la experiencia viva de las y los docentes que trabajan a diario en las escuelas salvadoreñas, analizamos tres situaciones recurrentes en el aula:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Situación observada en el aula</th>
+<th style="text-align: left;">Diagnóstico didáctico: El problema de fondo</th>
+<th style="text-align: left;">Potencial formativo: Dónde podría haber valor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>A. La copia literal instantánea:</strong><br>Entregas con vocabulario o giros lingüísticos que el estudiante nunca utiliza oralmente en clase.</td>
+<td style="text-align: left;"><strong>Descarga cognitiva absoluta:</strong> Se anula el esfuerzo de redactar, dudar y estructurar. No se consolida aprendizaje.</td>
+<td style="text-align: left;">Evidencia destreza técnica en el manejo de interfaces y comandos de búsqueda.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>B. La consulta privada por inseguridad:</strong><br>El alumno que no se atreve a preguntar al docente por vergüenza y pide explicaciones al bot.</td>
+<td style="text-align: left;"><strong>Riesgo de falso entendimiento:</strong> Seguir la explicación del bot genera una ilusión de dominio que se desmorona sin la pantalla.</td>
+<td style="text-align: left;"><strong>Andamiaje adaptativo:</strong> Permite repasar conceptos a ritmo propio y sin juicio social.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>C. El resumen automático:</strong><br>Pedir al chatbot que resuma un libro o artículo para evitar la lectura completa.</td>
+<td style="text-align: left;"><strong>Atrofia de la lectura profunda:</strong> Se pierde la capacidad de sostener la atención ante textos complejos o contradictorios.</td>
+<td style="text-align: left;">Puede servir como esquema de contraste posterior a la lectura íntegra.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="fundamentación-conceptual-la-historia-del-cognitive-offloading-20-minutos" class="level2">
+<h2 class="anchored" data-anchor-id="fundamentación-conceptual-la-historia-del-cognitive-offloading-20-minutos">4. Fundamentación conceptual: La historia del Cognitive Offloading (20 Minutos)</h2>
+<p>El concepto de <em>Cognitive Offloading</em> <span class="citation" data-cites="risko2016">(<a href="references.html#ref-risko2016" role="doc-biblioref">Risko &amp; Gilbert, 2016</a>)</span> demuestra que delegar tareas mentales a herramientas externas forma parte del desarrollo cultural humano:</p>
+<ol type="1">
+<li><p><strong>Libros y escritura:</strong> Nos liberaron de memorizarlo todo <span class="math inline">\(\rightarrow\)</span> <em>Exigencia resultante:</em> Desarrollar lectura crítica e interpretación de fuentes.</p></li>
+<li><p><strong>Calculadoras:</strong> Nos liberaron del cálculo aritmético mecánico <span class="math inline">\(\rightarrow\)</span> <em>Exigencia resultante:</em> Comprender qué operaciones aplicar y formular modelos matemáticos.</p></li>
+<li><p><strong>Buscadores en Internet:</strong> Nos liberaron del archivo físico <span class="math inline">\(\rightarrow\)</span> <em>Exigencia resultante:</em> Curar, filtrar y verificar fiabilidad de datos.</p></li>
+<li><p><strong>Máquinas generativas (LLM):</strong> Prometen redactar borradores, resumir y argumentar <span class="math inline">\(\rightarrow\)</span> <em>Exigencia resultante:</em> Gobernar la herramienta, auditar alucinaciones y ejercer juicio ético.</p></li>
+</ol>
+<p>Las investigaciones de Risko y Gilbert (2016) revelan una consecuencia paradójica: al externalizar nuestras tareas cognitivas a herramientas tecnológicas, nuestra retención y memoria biológica se resienten de manera medible[cite: 37, 38]. Cuando usamos un sistema de memoria externa, el cerebro cambia su prioridad y pasa de recordar el «qué» (el contenido) a recordar simplemente el «dónde» (la ubicación de la información)[cite: 37].</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>🧠 Los costos ocultos de delegar el pensamiento
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<details>
+<summary>
+<b>Haga clic aquí para desplegar los hallazgos empíricos sobre el impacto del Offloading (Risko &amp; Gilbert, 2016)</b>
+</summary>
+<p><br></p>
+<ul>
+<li><strong>La transición del «Qué» al «Dónde»:</strong> En entornos digitales, si las personas esperan que un dato se guarde en la computadora, su recuerdo del contenido disminuye, pero mejora su capacidad para recordar la ruta o ubicación donde encontrarlo.</li>
+<li><strong>El efecto GPS (Deterioro de la memoria espacial):</strong> Externalizar la orientación y navegación a un dispositivo de mapas perjudica la memoria espacial, provocando que los individuos tengan un rendimiento más pobre al intentar recorrer la misma ruta por segunda vez sin la ayuda tecnológica.</li>
+<li><strong>Amnesia por fotografía:</strong> El acto de tomar una foto hace que las personas deleguen el esfuerzo de retención en la cámara, lo que deteriora posteriormente su memoria sobre los objetos que fueron fotografiados.</li>
+<li><strong>Ilusión de conocimiento (Inflación metacognitiva):</strong> Buscar información en Internet provoca que los individuos confundan los datos de la red con su propia memoria, llevándolos a creer erróneamente que tienen más conocimientos almacenados «en la cabeza» de los que realmente poseen.</li>
+</ul>
+</details>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>📖 Glosario Conceptual: Cognitive Offloading y Procesos Relacionados
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<details>
+<summary>
+<b>Haga clic aquí para desplegar el glosario técnico (Risko &amp; Gilbert, 2016, p.&nbsp;677)</b>
+</summary>
+<p><br></p>
+<ul>
+<li><strong>Cognitive offloading:</strong> Uso de una acción física para alterar los requisitos de procesamiento de información de una tarea con el fin de reducir la demanda cognitiva <span class="citation" data-cites="risko2016">(<a href="references.html#ref-risko2016" role="doc-biblioref">Risko &amp; Gilbert, 2016</a>)</span>.</li>
+<li><strong>External normalization:</strong> Uso de una acción física (por ejemplo, inclinar la cabeza) para alinear un estímulo con una representación almacenada en la memoria <span class="citation" data-cites="risko2016">(<a href="references.html#ref-risko2016" role="doc-biblioref">Risko &amp; Gilbert, 2016</a>)</span>.</li>
+<li><strong>Feeling-of-knowing:</strong> Predicciones realizadas por un individuo sobre si será capaz de recuperar información específica <span class="citation" data-cites="risko2016">(<a href="references.html#ref-risko2016" role="doc-biblioref">Risko &amp; Gilbert, 2016</a>)</span>.</li>
+<li><strong>Intention offloading:</strong> Creación de una señal en el entorno externo para activar una intención diferida <span class="citation" data-cites="risko2016">(<a href="references.html#ref-risko2016" role="doc-biblioref">Risko &amp; Gilbert, 2016</a>)</span>.</li>
+<li><strong>Internal normalization:</strong> Uso de una transformación interna (es decir, rotación mental) para alinear la representación interna de un estímulo con una representación almacenada en la memoria <span class="citation" data-cites="risko2016">(<a href="references.html#ref-risko2016" role="doc-biblioref">Risko &amp; Gilbert, 2016</a>)</span>.</li>
+<li><strong>Metacognition:</strong> Pensamiento de orden superior, o «pensar sobre el pensamiento», para permitir la evaluación y el control de los propios procesos mentales <span class="citation" data-cites="risko2016">(<a href="references.html#ref-risko2016" role="doc-biblioref">Risko &amp; Gilbert, 2016</a>)</span>.</li>
+<li><strong>Stroop task:</strong> Tarea de tiempo de reacción que implica un conflicto entre dos dimensiones de estímulo (por ejemplo, el color y el significado de estímulos de palabras) <span class="citation" data-cites="risko2016">(<a href="references.html#ref-risko2016" role="doc-biblioref">Risko &amp; Gilbert, 2016</a>)</span>.</li>
+<li><strong>Transactive memory system:</strong> Sistema de memoria compuesto por un grupo que codifica, almacena y recupera conocimientos de forma colectiva <span class="citation" data-cites="risko2016">(<a href="references.html#ref-risko2016" role="doc-biblioref">Risko &amp; Gilbert, 2016</a>)</span>.</li>
+</ul>
+</details>
+</div>
+</div>
+<section id="sistemas-deterministas-frente-a-modelos-probabilísticos-llm" class="level3">
+<h3 class="anchored" data-anchor-id="sistemas-deterministas-frente-a-modelos-probabilísticos-llm">Sistemas deterministas frente a modelos probabilísticos (LLM)</h3>
+<ul>
+<li><strong>Sistemas deterministas (TIC tradicionales):</strong> Operan bajo reglas causales formales: ante un mismo <em>input</em>, arrojan siempre el mismo <em>output</em>.</li>
+<li><strong>Modelos probabilísticos (LLM):</strong> Redes neuronales profundas que calculan la probabilidad estadística de qué palabra debe seguir a la anterior según patrones masivos de entrenamiento. Su objetivo es la <strong>plausibilidad formal</strong>, no la verdad del mundo real.</li>
+<li><strong>La alucinación estructural:</strong> Al optimizar la coherencia del texto por encima de la exactitud empírica, el modelo genera con elocuencia datos erróneos, fechas falsas y citas inexistentes.</li>
+</ul>
+</section>
+<section id="la-escuela-en-el-sándwich-didáctico-wolfgang-spahn" class="level3">
+<h3 class="anchored" data-anchor-id="la-escuela-en-el-sándwich-didáctico-wolfgang-spahn">La escuela en el «Sándwich Didáctico» (Wolfgang Spahn)</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="assets/Sandwich_Docente.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="El Sándwich Didáctico: La mediación docente como núcleo entre las exigencias sociales (pan superior) y la comodidad tecnológica (pan inferior). Imagen generada con Nano Banana por Doris Ittner."><img src="assets/Sandwich_Docente.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%" alt="El Sándwich Didáctico: La mediación docente como núcleo entre las exigencias sociales (pan superior) y la comodidad tecnológica (pan inferior). Imagen generada con Nano Banana por Doris Ittner."></a></p>
+</figure>
+</div>
+<figcaption><strong>El Sándwich Didáctico:</strong> La mediación docente como núcleo entre las exigencias sociales (pan superior) y la comodidad tecnológica (pan inferior). <em>Imagen generada con Nano Banana por Doris Ittner</em>.</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>Pan superior (Demanda social):</strong> Formar pensamiento de orden superior, criterio ético, creatividad y argumentación compleja.</li>
+<li><strong>El centro del sándwich (El profesorado):</strong> La mediación docente es la única instancia capaz de arbitrar esta contradicción mediante consignas resistentes.</li>
+<li><strong>Pan inferior (Tentación técnica):</strong> Herramientas que ofrecen comodidad mental inmediata (<em>cognitive ease</em>), suprimiendo la fricción cognitiva necesaria para aprender.</li>
+</ul>
+<div class="callout callout-style-simple callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span><span style="font-size: 1.1em;">Alerta crítica: El riesgo de la «Skillflation» y la falsa adaptación neoliberal <span class="citation" data-cites="bettinger2021 kalz2023">(<a href="references.html#ref-bettinger2021" role="doc-biblioref">Bettinger, 2021</a>; <a href="references.html#ref-kalz2023" role="doc-biblioref">Kalz, 2023</a>)</span></span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Al discutir la alfabetización digital, el debate contemporáneo suele verse inundado de modas conceptuales (<em>21st Century Skills</em>, <em>Future Skills</em>), fenómeno que la investigación denuncia como <strong>«Skillflation»</strong> <span class="citation" data-cites="kalz2023 bettinger2021">(<a href="references.html#ref-bettinger2021" role="doc-biblioref">Bettinger, 2021</a>; <a href="references.html#ref-kalz2023" role="doc-biblioref">Kalz, 2023</a>)</span>: la invención constante de nuevas etiquetas en inglés para designar fines pedagógicos clásicos.</p>
+<p>Desde una lectura crítica de la gubernamentalidad <span class="citation" data-cites="bettinger2021">(<a href="references.html#ref-bettinger2021" role="doc-biblioref">Bettinger, 2021</a>)</span>, estas listas a menudo promueven una lógica de mera <em>adaptación al mercado tecnológico</em>, concibiendo al estudiante como un simple «gestor de su propio capital humano». Frente a este sesgo, afirmamos con rigor:</p>
+<ol type="1">
+<li><strong>No hay competencia sin contenido:</strong> Pretender enseñar «pensamiento crítico» en el vacío, sin un sólido dominio disciplinar, produce una erosión del conocimiento.</li>
+<li><strong>Emancipación vs.&nbsp;Adaptación:</strong> La meta de la educación no es ajustar a los jóvenes pasivamente a las plataformas corporativas, sino dotarlos de autonomía, criterio ético y soberanía pedagógica (<em>Human Agency</em>).</li>
+</ol>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="evidencia-científica-sobre-cognición-y-aprendizaje-15-minutos" class="level2">
+<h2 class="anchored" data-anchor-id="evidencia-científica-sobre-cognición-y-aprendizaje-15-minutos">5. Evidencia científica sobre cognición y aprendizaje (15 Minutos)</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="assets/Cognitive_Debt_Bild.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Deuda Cognitiva: La transferencia del esfuerzo mental a la máquina, debilitando la conectividad neuronal y la retención a largo plazo del estudiante. Imagen generada con Nano Banana por Doris Ittner."><img src="assets/Cognitive_Debt_Bild.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%" alt="Deuda Cognitiva: La transferencia del esfuerzo mental a la máquina, debilitando la conectividad neuronal y la retención a largo plazo del estudiante. Imagen generada con Nano Banana por Doris Ittner."></a></p>
+</figure>
+</div>
+<figcaption><strong>Deuda Cognitiva:</strong> La transferencia del esfuerzo mental a la máquina, debilitando la conectividad neuronal y la retención a largo plazo del estudiante. <em>Imagen generada con Nano Banana por Doris Ittner</em>.</figcaption>
+</figure>
+</div>
+<p><strong>Lectura introductoria: El precio del atajo digital</strong></p>
+<p>Aunque la IA generativa ofrece respuestas inmediatas y reduce la carga cognitiva, la ciencia advierte sobre un costo oculto <span class="citation" data-cites="stadler2024">(<a href="references.html#ref-stadler2024" role="doc-biblioref">Stadler et al., 2024</a>)</span>. Estudios recientes revelan que delegar el pensamiento a los LLM disminuye la profundidad de la argumentación y debilita la conectividad neuronal necesaria para el aprendizaje a largo plazo <span class="citation" data-cites="kosmyna2025">(<a href="references.html#ref-kosmyna2025" role="doc-biblioref"><span class="nocase">Kosmyna et al.</span>, 2025</a>)</span>. Al usar la IA sin barreras didácticas, ganamos velocidad técnica, pero sacrificamos nuestra autonomía cognitiva.</p>
+<ul>
+<li><strong>Acumulación de deuda cognitiva (<em>Cognitive Debt</em>, <span class="citation" data-cites="kosmyna2025"><span class="nocase">Kosmyna et al.</span> (<a href="references.html#ref-kosmyna2025" role="doc-biblioref">2025</a>)</span>):</strong> Al monitorizar a estudiantes durante cuatro meses en tareas de redacción asistidas por IA, la actividad en la corteza prefrontal y áreas de memoria de trabajo disminuyó sensiblemente. Aunque los textos finales eran gramaticalmente avanzados, la retención conceptual a largo plazo cayó y los estudiantes fueron incapaces de defender sus tesis sin la pantalla.</li>
+<li><strong>Facilidad cognitiva a expensas de la profundidad <span class="citation" data-cites="stadler2024">(<a href="references.html#ref-stadler2024" role="doc-biblioref">Stadler et al., 2024</a>)</span>:</strong> La comodidad de obtener respuestas inmediatas (<em>cognitive ease</em>) redujo de forma estadísticamente significativa la profundidad argumentativa y el cuestionamiento crítico.</li>
+<li><strong>Peligro de la falta de barreras didácticas (<em>Guardrails</em>, <span class="citation" data-cites="bastani2025">Bastani et al. (<a href="references.html#ref-bastani2025" role="doc-biblioref">2025</a>)</span>):</strong> En secundaria, los estudiantes que resolvieron matemáticas con acceso libre a bots conversacionales rindieron peor en exámenes individuales sin tecnología que aquellos que trabajaron con métodos tradicionales.</li>
+</ul>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>📖 Glosario Conceptual: El impacto de la IA en la cognición
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<details>
+<summary>
+<b>Haga clic aquí para desplegar los conceptos clave (Kosmyna, 2025; Stadler, 2024)</b>
+</summary>
+<p><br></p>
+<ul>
+<li><strong>Teoría de la Carga Cognitiva (Cognitive Load Theory - CLT):</strong> Postula que la memoria de trabajo humana tiene una capacidad limitada que es crucial para el aprendizaje. El diseño instruccional y las herramientas digitales juegan un rol fundamental en exacerbar o aliviar esta carga <span class="citation" data-cites="stadler2024">(<a href="references.html#ref-stadler2024" role="doc-biblioref">Stadler et al., 2024</a>)</span>.</li>
+<li><strong>Carga Cognitiva Intrínseca (Intrinsic Cognitive Load - ICL):</strong> La carga mental que está directamente vinculada a la complejidad del material de aprendizaje en sí mismo <span class="citation" data-cites="stadler2024">(<a href="references.html#ref-stadler2024" role="doc-biblioref">Stadler et al., 2024</a>)</span>.</li>
+<li><strong>Carga Cognitiva Extrínseca (Extraneous Cognitive Load - ECL):</strong> La carga impuesta por la manera en que se presenta la información a los estudiantes, como la necesidad de discernir entre información relevante e irrelevante durante una búsqueda <span class="citation" data-cites="stadler2024">(<a href="references.html#ref-stadler2024" role="doc-biblioref">Stadler et al., 2024</a>)</span>.</li>
+<li><strong>Carga Cognitiva Germana (Germane Cognitive Load - GCL):</strong> El esfuerzo mental dedicado a construir y automatizar esquemas que apoyan el aprendizaje. El uso de LLMs reduce esta carga, lo que disminuye el compromiso profundo con el material <span class="citation" data-cites="stadler2024">(<a href="references.html#ref-stadler2024" role="doc-biblioref">Stadler et al., 2024</a>)</span>.</li>
+<li><strong>Facilidad Cognitiva (Cognitive Ease):</strong> La reducción de la carga cognitiva intrínseca y extrínseca al obtener respuestas directas y sintetizadas de la IA. Aunque aumenta la eficiencia, los estudiantes generan argumentaciones de menor calidad en comparación con la búsqueda en la web tradicional <span class="citation" data-cites="stadler2024">(<a href="references.html#ref-stadler2024" role="doc-biblioref">Stadler et al., 2024</a>)</span>.</li>
+<li><strong>Deuda Cognitiva (Cognitive Debt):</strong> La disminución de la retención a largo plazo y de las habilidades de resolución independiente de problemas debido a una excesiva dependencia de los sistemas de IA <span class="citation" data-cites="kosmyna2025">(<a href="references.html#ref-kosmyna2025" role="doc-biblioref"><span class="nocase">Kosmyna et al.</span>, 2025</a>)</span>.</li>
+<li><strong>Cámaras de Eco (Echo Chambers):</strong> Sistemas cerrados donde se excluyen otras voces, amplificando o reforzando creencias existentes. Los LLMs pueden exacerbar esto al proveer respuestas únicas basadas en la predicción de tokens, limitando la exposición a perspectivas diversas <span class="citation" data-cites="kosmyna2025">(<a href="references.html#ref-kosmyna2025" role="doc-biblioref"><span class="nocase">Kosmyna et al.</span>, 2025</a>)</span>.</li>
+<li><strong>Conectividad Neuronal (Neural Connectivity):</strong> La interacción y sincronización de las redes cerebrales durante tareas complejas. Escribir sin asistencia aumenta significativamente la conectividad en bandas theta y alfa (vinculadas a la memoria y el control ejecutivo), mientras que el uso de IA reduce estas interacciones neuronales <span class="citation" data-cites="kosmyna2025">(<a href="references.html#ref-kosmyna2025" role="doc-biblioref"><span class="nocase">Kosmyna et al.</span>, 2025</a>)</span>.</li>
+</ul>
+</details>
+</div>
+</div>
+<hr>
+</section>
+<section id="modelo-de-referencia-el-modelo-multicomponente-de-la-profesionalidad-docente-15-minutos" class="level2">
+<h2 class="anchored" data-anchor-id="modelo-de-referencia-el-modelo-multicomponente-de-la-profesionalidad-docente-15-minutos">6. Modelo de referencia: El Modelo Multicomponente de la Profesionalidad Docente (15 Minutos)</h2>
+<p><em>(Adaptado de Ittner, 2019)</em></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+
+<pre class="mermaid mermaid-js">flowchart LR
+    S1["&lt;b&gt;SABER 1: Codificado&lt;/b&gt;&lt;br&gt;&lt;i&gt;El saber de la formación&lt;/i&gt;&lt;br&gt;───────────────&lt;br&gt;• Manuales, libros y datos&lt;br&gt;• Contenidos formales&lt;br&gt;&lt;br&gt;⚠️ &lt;b&gt;Vulnerable a LLMs&lt;/b&gt;&lt;br&gt;(Copia instantánea)"]
+    
+    S2["&lt;b&gt;SABER 2: Interiorizado&lt;/b&gt;&lt;br&gt;&lt;i&gt;Estructuras mentales&lt;/i&gt;&lt;br&gt;───────────────&lt;br&gt;• Modelos mentales propios&lt;br&gt;• Duda y esquemas internos&lt;br&gt;&lt;br&gt;🧠 &lt;b&gt;Esfuerzo Biológico&lt;/b&gt;&lt;br&gt;(Fricción y sinapsis)"]
+    
+    S3["&lt;b&gt;SABER 3: En la Acción&lt;/b&gt;&lt;br&gt;&lt;i&gt;El saber cómo / la acción&lt;/i&gt;&lt;br&gt;───────────────&lt;br&gt;• Pericia práctica en el aula&lt;br&gt;• Relación viva con alumnos&lt;br&gt;&lt;br&gt;🛡️ &lt;b&gt;Irreductible&lt;/b&gt;&lt;br&gt;(Juicio humano situado)"]
+
+    S1 ==&gt;|"Interiorización&lt;br&gt;reflexiva"| S2
+    S2 ==&gt;|"Manifestación&lt;br&gt;en contexto"| S3
+
+    style S1 fill:#fff5f5,stroke:#e03131,stroke-width:2px,color:#212529
+    style S2 fill:#fff9db,stroke:#f59f00,stroke-width:2px,color:#212529
+    style S3 fill:#ebfbee,stroke:#2f9e44,stroke-width:2.5px,color:#212529
+</pre>
+</div>
+<p></p><figcaption> Los Tres Estratos del Saber Docente frente a la IA <span class="citation" data-cites="neuweg2014">(<a href="references.html#ref-neuweg2014" role="doc-biblioref">Neuweg, 2014</a>)</span></figcaption> </figure><p></p>
+</div>
+</div>
+</div>
+<ul>
+<li><strong>Saber 1 (Conocimiento objetivo / <em>El saber de la formación</em>):</strong> Formalizado en libros y manuales. Los LLM lo reproducen en segundos. Si la escuela solo evalúa Saber 1, se vuelve pedagógicamente vulnerable.</li>
+<li><strong>Saber 2 (Estructuras mentales subjetivas):</strong> Conocimiento interiorizado en la mente del sujeto. No se descarga de un servidor; requiere activación sináptica, duda y esfuerzo biológico propio.</li>
+<li><strong>Saber 3 (Saber implícito en la acción / <em>El saber cómo</em>):</strong> La pericia situada (<em>«saber cómo se hace»</em> ante un grupo escolar o un problema de la vida real). Se manifiesta exclusivamente en la acción viva. Ningún LLM posee Saber 3.</li>
+</ul>
+<hr>
+</section>
+<section id="referencias-del-módulo-1a" class="level2">
+<h2 class="anchored" data-anchor-id="referencias-del-módulo-1a">7. Referencias del Módulo 1A</h2>
+<p><em>Las citas bibliográficas de este módulo <span class="citation" data-cites="bastani2025 bettinger2021 ittner2019 kalz2023 kosmyna2025 neuweg2014 risko2016 schon1983 spahn2026 stadler2024">(<a href="references.html#ref-bastani2025" role="doc-biblioref">Bastani et al., 2025</a>; <a href="references.html#ref-bettinger2021" role="doc-biblioref">Bettinger, 2021</a>; <a href="references.html#ref-ittner2019" role="doc-biblioref">Ittner, 2019</a>; <a href="references.html#ref-kalz2023" role="doc-biblioref">Kalz, 2023</a>; <a href="references.html#ref-kosmyna2025" role="doc-biblioref"><span class="nocase">Kosmyna et al.</span>, 2025</a>; <a href="references.html#ref-neuweg2014" role="doc-biblioref">Neuweg, 2014</a>; <a href="references.html#ref-risko2016" role="doc-biblioref">Risko &amp; Gilbert, 2016</a>; <a href="references.html#ref-schon1983" role="doc-biblioref">Schön, 1983</a>; <a href="references.html#ref-spahn2026" role="doc-biblioref">Spahn, 2026</a>; <a href="references.html#ref-stadler2024" role="doc-biblioref">Stadler et al., 2024</a>)</span> están vinculadas interactivamente. Pase el cursor sobre cada cita en el texto para previsualizar la referencia completa o consulte la sección general de <a href="./references.html">Referencias Bibliográficas</a>.</em></p>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
+<div id="ref-bastani2025" class="csl-entry" role="listitem">
+Bastani, H., Bastani, O., Sungur, A., Ge, H., Kabakcı, O., &amp; Mariman, R. (2025). Generative <span>AI</span> without guardrails can harm learning: Evidence from high school mathematics. <em>Proceedings of the National Academy of Sciences (PNAS)</em>, <em>122</em>(26), e2416752122. <a href="https://doi.org/10.1073/pnas.2416752122">https://doi.org/10.1073/pnas.2416752122</a>
+</div>
+<div id="ref-bettinger2021" class="csl-entry" role="listitem">
+Bettinger, P. (2021). Etablierung normativer ordnungen als spielarten optimierter selbstf<span>"u</span>hrung? Die regierung des p<span>"a</span>dagogischen am beispiel des 4K- und 21st-century-skills-diskurses. <em>MedienP<span>"a</span>dagogik: Zeitschrift f<span>"u</span>r Theorie Und Praxis Der Medienbildung</em>, <em>45</em>, 34–58. <a href="https://doi.org/10.21240/mpaed/45/2021.12.17.X">https://doi.org/10.21240/mpaed/45/2021.12.17.X</a>
+</div>
+<div id="ref-ittner2019" class="csl-entry" role="listitem">
+Ittner, D. (2019). <em>Zukunftsorientiertes kompetenzen- und qualifikationsprofil f<span>"u</span>r learning professionals im 21. jahrhundert</em>. Universit<span>"a</span>t St. Gallen.
+</div>
+<div id="ref-kalz2023" class="csl-entry" role="listitem">
+Kalz, M. (2023). Zur<span>"u</span>ck in die zukunft? Eine literaturbasierte kritik der zukunftskompetenzen. <em>MedienP<span>"a</span>dagogik: Zeitschrift f<span>"u</span>r Theorie Und Praxis Der Medienbildung</em>, <em>Occasional Papers</em>, 332–352. <a href="https://doi.org/10.21240/mpaed/00/2023.11.19.X">https://doi.org/10.21240/mpaed/00/2023.11.19.X</a>
+</div>
+<div id="ref-kosmyna2025" class="csl-entry" role="listitem">
+<span class="nocase">Kosmyna, N., Maes, P., et al.</span> (2025). <em>Your brain on <span>ChatGPT</span>: Accumulation of cognitive debt when using an <span>AI</span> assistant for essay writing task</em>. MIT Media Lab Research Report.
+</div>
+<div id="ref-neuweg2014" class="csl-entry" role="listitem">
+Neuweg, G. H. (2014). Das konzept des lehrerwissens. In E. Terhart, H. Bennewitz, &amp; M. Rothland (Eds.), <em>Handbuch der forschung zum lehrerberuf</em> (2nd ed., pp. 583–614). Waxmann.
+</div>
+<div id="ref-risko2016" class="csl-entry" role="listitem">
+Risko, E. F., &amp; Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, <em>20</em>(9), 676–688. <a href="https://doi.org/10.1016/j.tics.2016.07.002">https://doi.org/10.1016/j.tics.2016.07.002</a>
+</div>
+<div id="ref-schon1983" class="csl-entry" role="listitem">
+Schön, D. A. (1983). <em>The reflective practitioner: How professionals think in action</em>. Basic Books.
+</div>
+<div id="ref-spahn2026" class="csl-entry" role="listitem">
+Spahn, W. (2026). <em><span>KI</span> ver<span>"a</span>ndert bildung – wie darauf reagieren? Kriterien f<span>"u</span>r aufgabenbezogene kognitive resistenz</em>. Atelier-Materialien, sebayt.ch. <a href="https://sebayt.ch/">https://sebayt.ch/</a>
+</div>
+<div id="ref-stadler2024" class="csl-entry" role="listitem">
+Stadler, M., Bannert, M., &amp; Sailer, M. (2024). Cognitive ease at a cost: <span>LLMs</span> reduce mental effort but compromise depth in student scientific inquiry. <em>Computers in Human Behavior</em>, <em>160</em>, 108372. <a href="https://doi.org/10.1016/j.chb.2024.108372">https://doi.org/10.1016/j.chb.2024.108372</a>
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+          if (!link.classList.contains('no-external-icon')) {
+          }
+        }
+      }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
+          if (lineIds.length > 0) {
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            placeBand(gutterDiv, el, lastEl);
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
+  </script>
+<nav class="page-navigation" aria-label="Page">
+  <div class="nav-page nav-page-previous">
+      <a href="./taller1.html" class="pagination-link" aria-label="Taller 1: La IA ya llegó (Recepción y Tareas)">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Taller 1: La IA ya llegó (Recepción y Tareas)</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./modulo1b.html" class="pagination-link" aria-label="Módulo 1B: Tareas Escolares bajo la Lupa">
+        <span class="nav-page-text"><span class="chapter-title">Módulo 1B: Tareas Escolares bajo la Lupa</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Programa de Innovación Educativa (PIE) | Consciente</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>El Salvador, 2026</p>
+</div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

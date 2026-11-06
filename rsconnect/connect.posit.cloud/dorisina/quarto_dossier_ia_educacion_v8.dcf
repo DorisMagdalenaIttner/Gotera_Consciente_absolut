@@ -1,0 +1,12 @@
+name: quarto_dossier_ia_educacion_v8
+title: quarto_dossier_ia_educacion_v8
+username: dorisina
+account: dorisina
+server: connect.posit.cloud
+hostUrl: https://api.connect.posit.cloud/v1
+appId: 01a18df4-2327-d706-71b7-a9e9fc8c0ae8
+bundleId:
+url: https://connect.posit.cloud/dorisina/content/01a18df4-2327-d706-71b7-a9e9fc8c0ae8
+version: 1
+asMultiple: FALSE
+asStatic: TRUE

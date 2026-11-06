@@ -1,0 +1,27 @@
+# Sistema de Evaluación y Acreditación Asincrónica {.unnumbered}
+
+Para asegurar que quienes cursen este programa en modalidad asincrónica o mixta puedan certificar sus aprendizajes con el mismo rigor que en las sesiones presenciales, se establece el siguiente sistema de evaluación procesual y auténtica:
+
+## 1. Evaluación Formativa Procesual (Bitácora de Trabajo)
+Consiste en el diligenciamiento personal de las tres fichas técnicas integradas a lo largo del dossier:
+
+1. **Ficha de Rediseño de Tareas (Módulo 1B):** Auditoría de una consigna tradicional y re-ingeniería aplicando al menos dos criterios de resistencia cognitiva de Wolfgang Spahn.
+2. **Ficha del Bot Socrático (Módulo 2B):** Formulación de un prompt didáctico dotado de barreras (*guardrails*) y reporte de la prueba de validación frente a intentos de atajo algorítmico.
+3. **Ficha de Re-ingeniería Evaluativa (Módulo 3A):** Clasificación semafórica de una prueba y diseño de evidencias auténticas no delegables a la máquina.
+
+---
+
+## 2. Producto Final Integrador: El Diseño Didáctico Situado
+
+Para la acreditación formal por parte del **Programa de Innovación Educativa (PIE) / Consciente**, cada docente o equipo debe entregar un documento estructurado que contenga:
+
+1. **Una Unidad Didáctica Rediseñada:** Consigna escolar situada en la realidad comunitaria de su centro educativo, justificada bajo el principio de *Human Agency* (UNESCO 2025).
+2. **Una Matriz Evaluativa Situada:** Aplicación del semáforo evaluativo (Zona Roja, Amarilla o Verde), detallando el porcentaje de calificación asignado al proceso (*Saber 3*) frente al producto final.
+3. **El Borrador del Pacto Ético de Aula:** Los 5 artículos normativos adaptados a la edad y nivel de sus estudiantes, construidos bajo el principio de transparencia activa y cuidado mutuo.
+
+---
+
+## 3. Pauta para la Entrega y Retroalimentación
+
+* **Participantes presenciales:** Las evidencias intermedias se registran de forma manuscrita en el dossier impreso durante los ateliers. El Producto Final se presenta en la última sesión o se entrega digitalmente durante la semana posterior al taller.
+* **Participantes asincrónicos:** Deberán completar las lecturas orientadoras, resolver los ejercicios de reflexión individual y enviar su carpeta digital con el *Diseño Didáctico Situado* a la coordinación del PIE / Consciente.

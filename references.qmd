@@ -1,0 +1,6 @@
+# Referencias Bibliográficas {.unnumbered}
+
+*(Las siguientes referencias son generadas automáticamente por Quarto a partir del archivo central `references.bib`, garantizando formato APA interactivo con enlaces DOI y popups de previsualización al pasar el cursor).*
+
+::: {#refs}
+:::

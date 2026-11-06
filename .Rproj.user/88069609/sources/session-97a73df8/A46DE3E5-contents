@@ -1,0 +1,69 @@
+project:
+  type: book
+  output-dir: docs
+  resources:
+    - recursos_pdf/
+    - assets/
+
+book:
+  title: "¿Aprender con o a pesar de la IA?"
+  subtitle: "Criterio pedagógico, enfoque neuroevolutivo y mediación del conocimiento en la escuela"
+  author: "Dra. Doris Magdalena Ittner (Universidad Pedagógica de Lucerna / Consciente)"
+  date: "2026-11-09"
+  language: es
+  sidebar:
+    style: "docked"
+    search: true
+  page-footer:
+    left: "Programa de Innovación Educativa (PIE) | Consciente"
+    right: "El Salvador, 2026"
+  chapters:
+    - index.qmd
+    - part: "Taller 1: La IA ya llegó (Recepción y Tareas)"
+      chapters:
+        - taller1.qmd
+        - modulo1a.qmd
+        - modulo1b.qmd
+    - part: "Taller 2: Epistemología y Entendimiento"
+      chapters:
+        - taller2.qmd
+        - modulo2a.qmd
+        - modulo2b.qmd
+    - part: "Taller 3: Evaluación Auténtica, Valores y Cuidado"
+      chapters:
+        - taller3.qmd
+        - modulo3a.qmd
+        - modulo3b.qmd
+    - part: "Acreditación y Fuentes"
+      chapters:
+        - evaluacion.qmd
+        - recursos.qmd
+        - references.qmd
+        - Materiales.qmd
+
+bibliography: references.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+
+format:
+  html:
+    css: styles.css
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    callout-appearance: simple
+    citation-hover: true
+    footnotes-hover: true
+    lightbox: true
+    mermaid:
+      theme: neutral
+  pdf:
+    documentclass: scrbook
+    lang: es
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    colorlinks: true
+    fig-width: 6
+    fig-height: 4
+    fig-align: center

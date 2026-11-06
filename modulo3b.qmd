@@ -1,0 +1,514 @@
+# Módulo 3B: La Escuela como Comunidad Ética y Relacional
+
+**Taller 3 – Parte B (15:30 – 17:00)**  
+*La locomotora del tren pedagógico: ¿Quién conduce la IA en la escuela? Crítica a la toma de decisiones automatizada (ADM), el dispositivo VaKE-IA y la construcción colectiva del Pacto Ético de Aula*
+
+<!--
+NOTAS PARA LA AUTORÍA (no se ven en el HTML):
+- Fuentes nuevas SIN clave en el .bib (están como texto plano): Freire (1970; 1996),
+  Gilligan (1982), Noddings (1984), Oser & Althof (1992), Oser, Althof & Higgins-D'Alessandro (2008),
+  Oser & Spychiger (2005), Power, Higgins & Kohlberg (1989), Patry et al. (2013).
+  Cuando las añadas al .bib, cambia el texto plano por [@clave].
+- VERIFICAR años, títulos y citas de todas las fuentes antes de publicar.
+- La «Plataforma ALFA» y sus cifras son FICTICIAS (documento de trabajo para el taller).
+-->
+
+## 1. La locomotora: ¿Quién conduce el tren?
+
+En el Módulo 3A revisamos qué llevan los cuatro vagones del tren pedagógico: saber, tareas, proceso y evaluación. 
+Ahora miramos hacia adelante: **¿Quién conduce?**
+
+::: {.content-visible when-format="html"}
+
+```{=html}
+<div style="text-align: center; max-width: 960px; margin: 2rem auto; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background: #fff; padding: 24px 18px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.06); border: 1px solid #e9ecef;">
+
+  <p style="color: #c0392b; font-size: 15px; margin-bottom: 4px; font-weight: 600;">
+    Módulo 3B · La locomotora del tren pedagógico
+  </p>
+  <h2 class="unlisted" style="font-weight: 900; letter-spacing: 0.5px; margin-top: 0; margin-bottom: 25px; color: #1b415b; border-bottom: none; font-size: 22px;">
+    ¿QUIÉN CONDUCE EL TREN: EL PILOTO AUTOMÁTICO O EL MAQUINISTA?
+  </h2>
+
+  <svg viewBox="0 0 950 160" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <g id="wheel3bg">
+        <circle cx="0" cy="0" r="16" fill="#adb5bd" stroke="#fff" stroke-width="3" />
+        <circle cx="0" cy="0" r="6" fill="#fff" />
+      </g>
+      <g id="wheel3b">
+        <circle cx="0" cy="0" r="16" fill="#1b415b" stroke="#fff" stroke-width="3" />
+        <circle cx="0" cy="0" r="6" fill="#fff" />
+      </g>
+    </defs>
+
+    <!-- KUPPLUNGEN -->
+    <rect x="145" y="85" width="40" height="12" fill="#adb5bd" rx="2" />
+    <rect x="315" y="85" width="40" height="12" fill="#adb5bd" rx="2" />
+    <rect x="485" y="85" width="40" height="12" fill="#adb5bd" rx="2" />
+    <rect x="655" y="85" width="45" height="12" fill="#1b415b" rx="2" />
+
+    <!-- WAGGONS (Modul 3A, abgeschwächt) -->
+    <g transform="translate(10, 20)">
+      <rect x="0" y="0" width="145" height="95" rx="8" fill="#ffffff" stroke="#adb5bd" stroke-width="8" />
+      <text x="72.5" y="38" font-size="13" font-weight="bold" fill="#868e96" text-anchor="middle">1. SABER Y</text>
+      <text x="72.5" y="56" font-size="13" font-weight="bold" fill="#868e96" text-anchor="middle">COMPETENCIAS</text>
+      <text x="72.5" y="76" font-size="11" fill="#868e96" text-anchor="middle">(Módulo 3A)</text>
+      <use href="#wheel3bg" x="35" y="105" />
+      <use href="#wheel3bg" x="110" y="105" />
+    </g>
+    <g transform="translate(180, 20)">
+      <rect x="0" y="0" width="145" height="95" rx="8" fill="#ffffff" stroke="#adb5bd" stroke-width="8" />
+      <text x="72.5" y="38" font-size="13" font-weight="bold" fill="#868e96" text-anchor="middle">2. DISEÑO DE</text>
+      <text x="72.5" y="56" font-size="13" font-weight="bold" fill="#868e96" text-anchor="middle">TAREAS</text>
+      <text x="72.5" y="76" font-size="11" fill="#868e96" text-anchor="middle">(Módulo 3A)</text>
+      <use href="#wheel3bg" x="35" y="105" />
+      <use href="#wheel3bg" x="110" y="105" />
+    </g>
+    <g transform="translate(350, 20)">
+      <rect x="0" y="0" width="145" height="95" rx="8" fill="#ffffff" stroke="#adb5bd" stroke-width="8" />
+      <text x="72.5" y="38" font-size="13" font-weight="bold" fill="#868e96" text-anchor="middle">3. PROCESO Y</text>
+      <text x="72.5" y="56" font-size="13" font-weight="bold" fill="#868e96" text-anchor="middle">MEDIACIÓN</text>
+      <text x="72.5" y="76" font-size="11" fill="#868e96" text-anchor="middle">(Módulo 3A)</text>
+      <use href="#wheel3bg" x="35" y="105" />
+      <use href="#wheel3bg" x="110" y="105" />
+    </g>
+    <g transform="translate(520, 20)">
+      <rect x="0" y="0" width="145" height="95" rx="8" fill="#ffffff" stroke="#adb5bd" stroke-width="8" />
+      <text x="72.5" y="38" font-size="13" font-weight="bold" fill="#868e96" text-anchor="middle">4. EVALUACIÓN</text>
+      <text x="72.5" y="56" font-size="13" font-weight="bold" fill="#868e96" text-anchor="middle">AUTÉNTICA</text>
+      <text x="72.5" y="76" font-size="11" fill="#868e96" text-anchor="middle">(Módulo 3A)</text>
+      <use href="#wheel3bg" x="35" y="105" />
+      <use href="#wheel3bg" x="110" y="105" />
+    </g>
+
+    <!-- LOKOMOTIVE: im Fokus -->
+    <g transform="translate(690, 10)">
+      <path d="M 10 50 
+               L 40 50 L 40 35 L 52 35 L 52 50 
+               L 65 50 L 65 25 L 77 25 L 77 50 
+               L 95 50 L 105 15 L 175 15 
+               C 215 15, 235 60, 225 105 
+               L 205 105 L 195 105 L 10 105 Z" 
+            fill="#c0392b" />
+      <rect x="125" y="28" width="22" height="30" rx="3" fill="#ffffff" />
+      <path d="M 160 28 L 175 28 C 185 28, 192 38, 190 58 L 160 58 Z" fill="#ffffff" />
+      <text x="70" y="75" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">LOCOMOTORA</text>
+      <text x="70" y="93" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">¿Quién conduce?</text>
+      <use href="#wheel3b" x="35" y="115" />
+      <use href="#wheel3b" x="80" y="115" />
+      <use href="#wheel3b" x="130" y="115" />
+      <use href="#wheel3b" x="180" y="115" />
+    </g>
+  </svg>
+
+  <hr style="border: none; border-top: 4px solid #1b415b; margin: 5px 0 20px 0; opacity: 1;" />
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1.3fr; gap: 12px; text-align: center;">
+    <div>
+      <h3 class="unlisted" style="margin: 0; font-size: 15px; font-weight: bold; color: #1b415b;">🧭 El mapa</h3>
+      <p style="color: #444; font-size: 12.5px; margin-top: 6px; line-height: 1.35;">
+        <b>Criterio pedagógico</b><br>¿Hacia dónde va el aprendizaje y para qué?
+      </p>
+      <span style="display: inline-block; background: #e7f5ff; color: #1864ab; font-size: 11px; font-weight: bold; padding: 2px 6px; border-radius: 4px;">Klafki · Freire</span>
+    </div>
+    <div>
+      <h3 class="unlisted" style="margin: 0; font-size: 15px; font-weight: bold; color: #1b415b;">👥 Los pasajeros</h3>
+      <p style="color: #444; font-size: 12.5px; margin-top: 6px; line-height: 1.35;">
+        <b>Ética del cuidado</b><br>¿Quién viaja, quién se queda atrás, a quién no vemos?
+      </p>
+      <span style="display: inline-block; background: #fff9db; color: #d9480f; font-size: 11px; font-weight: bold; padding: 2px 6px; border-radius: 4px;">Gilligan · Noddings</span>
+    </div>
+    <div>
+      <h3 class="unlisted" style="margin: 0; font-size: 15px; font-weight: bold; color: #1b415b;">✋ La palanca y el freno</h3>
+      <p style="color: #444; font-size: 12.5px; margin-top: 6px; line-height: 1.35;">
+        <b>Human Agency</b><br>¿Quién puede decidir, corregir y detener?
+      </p>
+      <span style="display: inline-block; background: #ebfbee; color: #2b8a3e; font-size: 11px; font-weight: bold; padding: 2px 6px; border-radius: 4px;">Asamblea · Just Community</span>
+    </div>
+    <div style="background: #fff5f5; padding: 8px; border-radius: 6px; border: 1px solid #ffc9c9;">
+      <h3 class="unlisted" style="margin: 0; font-size: 15px; font-weight: bold; color: #c0392b;">⚠️ El piloto automático (ADM)</h3>
+      <p style="color: #900; font-weight: bold; font-size: 12.5px; margin-top: 6px; line-height: 1.35;">
+        Decide por estadística del pasado, sin mirar a los pasajeros ni rendir cuentas
+      </p>
+      <span style="display: inline-block; background: #c0392b; color: #fff; font-size: 11px; font-weight: bold; padding: 2px 6px; border-radius: 4px;">Taller 3B</span>
+    </div>
+  </div>
+
+  <p style="text-align: right; font-size: 11px; color: #666; margin-top: 18px; margin-bottom: 0;">
+    (Elaboración propia a partir de Klafki, 1985; Freire, 1970; Gilligan, 1982; Noddings, 1984; Oser &amp; Althof, 1992)
+  </p>
+</div>
+```
+
+:::
+
+::: {.content-hidden when-format="html"}
+**La locomotora del tren pedagógico** (versión sin gráfico): los cuatro vagones del Módulo 3A (saber, tareas, proceso y evaluación) avanzan hacia donde los conduzca la locomotora. Sus tres instrumentos son **el mapa** (criterio pedagógico), **los pasajeros** (ética del cuidado) y **la palanca y el freno** (*Human Agency*). Su gran riesgo es el **piloto automático** (ADM): decide por estadística del pasado, sin mirar a los pasajeros ni rendir cuentas.
+:::
+
+Una locomotora con piloto automático avanza por estadística. Un tren con maquinista avanza con criterio. La tarea del docente es **conservar los tres instrumentos de la cabina**, y es lo que ejercitaremos hoy:
+
+| Instrumento de la cabina | Pregunta | Fundamento | Lo ejercitamos en… |
+|:----------------|:----------------|:-----------------|:---------------------|
+| 🧭 **El mapa:** criterio pedagógico | ¿Hacia dónde va el aprendizaje y para qué? | Klafki; Freire | Marco conceptual y síntesis del ciclo VaKE-IA |
+| 👥 **Los pasajeros:** ética del cuidado | ¿Quién viaja, quién se queda atrás, a quién no vemos? | Gilligan; Noddings; PH Bern | Auditoría crítica en VaKE-IA |
+| ✋ **La palanca y el freno:** *Human Agency* | ¿Quién puede decidir, corregir y detener? | Freire; Just Community | Asamblea y Pacto Ético de Aula |
+
+---
+
+## 2. ¿Qué se espera lograr en este módulo?
+
+Al finalizar el módulo, los docentes podrán:
+
+1. **Explicar** qué es la toma de decisiones automatizada (ADM), por qué actúa como un «piloto automático» y qué límites éticos y pedagógicos tiene [@rapp2023; @klafki1985].
+2. **Distinguir** entre una educación «bancaria» y una educación problematizadora, y aplicar esa distinción al uso de la IA.
+3. **Vivenciar** un ciclo VaKE-IA completo: ante una decisión real sobre IA en la escuela, formular preguntas, indagar en varias fuentes, auditar y decidir.
+4. **Redactar** el borrador de un Pacto Ético de Aula que deje la IA «en la cabina, pero no al volante», y **diseñar** cómo llevarlo a una asamblea con sus estudiantes.
+
+::: {.callout-note appearance="simple"}
+### 🧭 Agenda del taller (90 minutos)
+
+| Min. | Bloque |
+|:----:|:-------|
+| 5 | Puente con el Módulo 3A: ¿Quién conduce el tren? |
+| 15 | Marco conceptual: ADM, Klafki, Freire, cuidado y *Human Agency* |
+| 25 | **VaKE-IA: vivirlo** (ciclo completo con una decisión real sobre IA) |
+| 30 | **Asamblea:** del taller al Pacto Ético de Aula |
+| 10 | Síntesis, ticket de salida y plan de aplicación |
+| 5 | Margen para transiciones |
+:::
+
+---
+
+## 3. Marco conceptual: Límites del piloto automático y primacía de los valores (15 minutos)
+
+### a) La tentación recurrente del aula automática [@wollersheim2023; @kerres2023]
+
+Desde la *Didactica Magna* de Comenius hasta la *Teaching Machine* de Skinner (1958), la historia de la pedagogía ha conocido repetidos intentos de volver el aprendizaje más rápido, ordenado y eficiente (*cito, jucunde, solide*). Los proyectos son muy distintos entre sí, pero comparten una tentación: confundir el **adiestramiento** con la **formación humana (*Bildung*)**.
+
+Como muestra @wollersheim2023, la formación es un proceso de **auto-configuración del sujeto**, hecho de crisis, desvíos y dudas que ninguna máquina puede producir desde afuera. Hoy el viejo sueño del aula automática tiene un nombre técnico: la **toma de decisiones automatizada**.
+
+<!-- VERIFICAR: matiz sobre Comenius (no equipararlo sin más a Skinner) -->
+
+### b) El piloto automático y la soberanía docente 
+
+**ADM** (*Automated Decision Making*) designa los sistemas que, con algoritmos o IA, **toman o preparan decisiones sobre personas**: alertas de abandono escolar, calificación automática de ensayos, rutas de estudio asignadas, preselección de candidatos. Funcionan como un **piloto automático**: deciden por estadística del pasado, rara vez explican por qué y difuminan la responsabilidad (¿del docente, de la escuela o de la empresa?).
+
+Para la didáctica crítico-constructiva de @klafki1985, toda decisión pedagógica es un acto normativo. Su meta general se articula en tres **capacidades** que la escuela debe desarrollar:
+
+1. **Autodeterminación:** decidir sobre la propia vida sin ser encasillado por una estadística del pasado.
+2. **Cogestión:** participar en las decisiones y comprender sus razones.
+3. **Solidaridad:** reconocer y respaldar a quienes enfrentan adversidad.
+
+Un piloto automático opaco choca con las tres. Delegar el juicio a una caja negra (*black-box*) es una dimisión de la responsabilidad profesional: **el criterio pedagógico no se programa, se ejerce cara a cara**.
+
+### c) Freire: de la educación bancaria a la educación problematizadora
+
+Paulo Freire (1970) llamó **educación bancaria** a aquella en la que el docente «deposita» contenidos en estudiantes que los reciben, memorizan y repiten. Frente a ella propuso una educación **problematizadora**, basada en el diálogo, en la pregunta y en la lectura crítica del mundo («leer la palabra y el mundo»). 
+En *Pedagogía de la autonomía* (1996), Freire insiste en que enseñar no es transferir conocimiento y en que el respeto a la autonomía del educando es una exigencia ética.
+
+En la metáfora del tren: la educación bancaria trata a los estudiantes como **carga que se deposita en los vagones**. La problematizadora los trata como **pasajeros que ayudan a trazar la ruta**.
+
+| | Educación bancaria | Educación problematizadora |
+|:--------|:----------------|:-------------------------|
+| **El tren** | Los estudiantes son carga | Los estudiantes co-trazan la ruta |
+| **Rol del docente** | Quien deposita y califica | Quien problematiza y acompaña |
+| **Uso típico de la IA** | Respuesta lista que se copia; clasificación que se acepta | Fuente que se contrasta, se cuestiona y se complementa |
+| **Pregunta clave** | «¿Cuál es la respuesta?» | «¿Quién lo dice, desde dónde y a quién beneficia?» |
+
+<!-- VERIFICAR: Freire 1970 (Pedagogía del oprimido) y Freire 1996/1997 (Pedagogía de la autonomía) -->
+
+### d) Mirar a los pasajeros: la Pedagogía del Cuidado
+
+Si la IA nos ahorra tiempo en tareas mecánicas (formatear ejercicios, redactar correos, clasificar materiales), yo propongo reinvertir esa energía en la **presencia relacional y el cuidado**:
+
+* Ningún algoritmo puede consolar a un alumno en duelo familiar, advertir la desnutrición silenciosa en una escuela rural o encender la vocación de una joven que duda de su valor.
+* Cuanto más inteligente sea la herramienta, más cercana y humana debe ser la presencia docente.
+
+La ética del cuidado tiene una larga tradición propia (Gilligan, 1982; Noddings, 1984). En nuestra metáfora, es **mirar a los pasajeros**: ver lo que el piloto automático no puede ver.
+
+### e) La mano en la palanca: *Human Agency*
+
+*Human Agency* (agencia humana) es la capacidad de **decidir, intervenir y responder por lo decidido**. 
+Frente a la IA significa que una persona puede comprender lo que el sistema propone, cuestionarlo, corregirlo y, si hace falta, **frenar el tren**. Importa que esa capacidad sea real y no solo nominal: una «recomendación que el docente debe confirmar» puede ser un freno de verdad o una simple firma al pie de decisiones que nadie revisó.
+
+<!-- VERIFICAR / AÑADIR FUENTE: definición de Human Agency (p. ej. documentos de UNESCO sobre IA y educación) -->
+
+::: {.callout-note appearance="simple"}
+### 🎼 Tres tradiciones, tres énfasis
+
+Este módulo combina tres voces que no dicen lo mismo:
+
+| Tradición | Énfasis | Aporte al taller |
+|:-----------------|:-----------------|:---------------------------|
+| **Kohlberg / Oser** | Justicia y juicio moral | Dilemas y comunidad justa |
+| **Gilligan / Noddings** | Cuidado y relación | Mirar a los pasajeros |
+| **Freire** | Liberación y praxis | Pregunta crítica y diálogo |
+
+Las tres se complementan, aunque también se tensionan: el modelo de etapas de Kohlberg ha sido criticado por su universalismo y su énfasis en la justicia abstracta. Nuestro taller no las funde en una sola, sino que las pone a trabajar juntas.
+:::
+
+::: {.callout-note appearance="simple"}
+### 📖 Síntesis orientadora: la dignidad pedagógica frente a la automatización
+
+*(Texto de síntesis elaborado para este taller, inspirado en la orientación de UNESCO [@unesco2025].)*
+
+La educación es, en su raíz, un encuentro ético entre personas. Delegar decisiones sobre el rendimiento, la calificación o la orientación vocacional a sistemas automatizados plantea riesgos para la justicia y la autonomía.
+
+* **El docente en el centro del juicio pedagógico:** ningún algoritmo predictivo debe sustituir la mirada atenta y profesional del docente.
+* **El aula como espacio de cuidado mutuo:** el tiempo que la automatización permita ahorrar debe reinvertirse en escucha, retroalimentación dialogada y acompañamiento.
+* **Transparencia y consentimiento:** todo uso institucional de la IA debe ser explícito, debatido y consensuado con la comunidad educativa.
+:::
+
+---
+
+## 4. VaKE-IA: vivirlo (25 minutos)
+
+### El dispositivo
+
+**VaKE** (*Values and Knowledge Education*) es un método constructivista desarrollado por Jean-Luc Patry y su equipo en la Universidad de Salzburgo [@patry2007]. Combina la educación en valores (en la tradición de Kohlberg y de Oser & Althof, 1992) con la construcción de conocimiento (Piaget). Su lógica es un **ciclo**: un dilema moral provoca preguntas de contenido; el estudiantado las investiga en las fuentes que encuentre y vuelve a la discusión del dilema **a un nivel más alto**, lo que genera nuevas preguntas, hasta llegar a una síntesis y una generalización. Según la investigación de Patry et al. (2013), quienes aprenden con VaKE adquieren al menos tanto conocimiento como en una clase centrada en contenidos.
+
+En **VaKE-IA** el dilema trata sobre la propia IA, y esta es *una* fuente más que se usa y se audita, nunca la autoridad final:
+
+```{mermaid}
+%%| fig-cap: "Flujo didáctico del dispositivo VaKE-IA (adaptado de Patry et al.)"
+%%| fig-align: center
+flowchart LR
+    F1["<b>1. Dilema</b><br><i>¿Quién conduce?</i><br>────────────<br>Una decisión real<br>sobre IA en la escuela"] --> F2["<b>2. Postura y no-saber</b><br><i>Primera decisión</i><br>────────────<br>Argumentos y<br>preguntas pendientes"]
+
+    F2 --> F3["<b>3. Indagación</b><br><i>IA + otras fuentes</i><br>────────────<br>Ficha, personas<br>y chatbot"]
+
+    F3 --> F4["<b>4. Auditoría crítica</b><br><i>¿Qué ve la cabina?</i><br>────────────<br>Voces, sesgos y<br>pasajeros invisibles"]
+
+    F4 --> F5["<b>5. Vuelta al dilema</b><br><i>Segunda decisión</i><br>────────────<br>Deliberación a un<br>nivel más alto"]
+
+    F5 -. nuevas preguntas .-> F3
+    F5 --> F6["<b>6. Síntesis</b><br><i>Condiciones</i><br>────────────<br>¿Bajo qué reglas sube<br>la IA al tren?"]
+
+    style F1 fill:#fff5f5,stroke:#e03131,stroke-width:2px,color:#212529
+    style F2 fill:#fff9db,stroke:#f59f00,stroke-width:2px,color:#212529
+    style F3 fill:#e7f5ff,stroke:#1c7ed6,stroke-width:2px,color:#212529
+    style F4 fill:#f8f9fa,stroke:#868e96,stroke-width:2px,color:#212529
+    style F5 fill:#ebfbee,stroke:#2f9e44,stroke-width:2px,color:#212529
+    style F6 fill:#ebfbee,stroke:#2f9e44,stroke-width:2.5px,color:#212529
+```
+
+En **VaKE-IA** el dilema trata sobre la propia IA, y esta es *una* fuente más que se usa y se audita, nunca la autoridad final.
+
+::: {.callout-note collapse="true"}
+### 📖 Texto explicativo detallado: La pedagogía detrás del modelo VaKE-IA
+
+El modelo representa el ciclo iterativo del enfoque **VaKE-IA** (*Values and Knowledge Education* adaptado para la Inteligencia Artificial), una metodología que fusiona el constructivismo con la educación moral. Su objetivo es evitar que el estudiante sea un consumidor pasivo de tecnología, transformándolo en un auditor crítico capaz de ejercer su *Human Agency*.
+
+**1. Punto de partida (El Dilema Moral):**
+El ciclo no comienza con una explicación técnica sobre cómo funciona la IA, sino con un conflicto ético situado en la vida real (por ejemplo, delegar la evaluación o el perfilamiento de los alumnos a un algoritmo). Este escenario está diseñado intencionalmente para que valores pedagógicos legítimos entren en tensión (eficiencia frente a privacidad, innovación frente a cuidado personal). Esto provoca fricción cognitiva: nadie puede permanecer neutral.
+
+**2. Primera posición (Postura y visibilización del "no-saber"):**
+Se exige a los participantes tomar una decisión inicial rápida ("¿Qué harías tú en esta situación?"). Al intentar justificar esta decisión, el grupo descubre rápidamente lagunas en su conocimiento (p. ej., "¿Cómo procesa realmente los datos esta plataforma?" o "¿Qué dice la ley de privacidad?"). Este reconocimiento del "no-saber" genera una motivación intrínseca para investigar.
+
+**3. Indagación y Auditoría Crítica (La IA como fuente, no como oráculo):**
+Aquí comienza la fase de investigación. Los estudiantes utilizan la IA (chatbots) de forma activa junto con fuentes tradicionales y el diálogo humano. Siguiendo la pedagogía problematizadora de Freire, la respuesta tecnológica se audita severamente: *¿De dónde infiere la IA esta conclusión? ¿A quién beneficia esta solución de automatización? ¿Qué variables humanas (el contexto familiar, el esfuerzo invisible) ignora el algoritmo?*
+
+**4. Deliberación a un nivel superior (Vuelta al dilema):**
+Con los nuevos datos y perspectivas sobre la mesa, el grupo regresa al dilema original. El debate se eleva de categoría: ya no es un simple intercambio de opiniones o intuiciones morales, sino una deliberación robusta donde el juicio ético está respaldado por el conocimiento técnico, social y legal recién adquirido. 
+
+**5. Síntesis y Agencia Humana (Establecimiento de reglas):**
+El ciclo concluye trasladando la reflexión al mundo real. El grupo debe deducir y formular condiciones normativas vinculantes para su propio contexto. Se establecen las líneas rojas: bajo qué reglas exactas permitirían que una tecnología opere en su comunidad escolar. Es la materialización de la soberanía docente y estudiantil frente al "piloto automático".
+:::
+    
+
+### Práctica en equipos: el piloto automático de la escuela
+
+::: {.callout-warning appearance="simple"}
+### 📝 El dilema (léanlo en voz alta)
+
+La directora de un colegio recibe la oferta de una plataforma de IA, gratuita durante un año. Promete calificar automáticamente textos de los estudiantes, **predecir quiénes están en riesgo de abandonar** la escuela y sugerir rutas de estudio personalizadas. Los docentes ahorrarían varias horas de trabajo por semana.
+
+Pero la plataforma necesita subir datos personales de los estudiantes a servidores en otro país, no explica cómo calcula sus alertas y **ya marcó como «riesgo alto» a Marta**, una estudiante que trabaja por las tardes en el negocio de su familia y que, sin embargo, es una de las más constantes del curso. El sistema sugiere separarla del grupo regular para «refuerzo».
+
+La profesora Lucía conoce a Marta. La directora le pide su opinión esta semana.
+
+**¿Qué debería hacer Lucía?** (Aceptar la plataforma tal como está; usarla solo para tareas mecánicas, sin perfilar a nadie; pedir condiciones; rechazarla; llevar la decisión a una asamblea.)
+
+*Valores en tensión:* tiempo docente y eficiencia, cuidado, justicia, autonomía y dignidad, transparencia, privacidad.
+:::
+
+::: {.callout-note appearance="simple"}
+### 📄 Ficha de la oferta (documento ficticio para el taller)
+
+**Plataforma ALFA**
+
+* **Promete:** calificación automática de textos, alerta de «riesgo de abandono» y rutas de estudio sugeridas. Ahorro estimado por la empresa: 4 a 5 horas semanales por docente.
+* **Necesita:** notas, asistencia, datos de contacto y de la situación familiar, y los textos de los estudiantes. Todo se almacena en servidores de la empresa, ubicados en otro país.
+* **No explica:** cómo calcula el «riesgo», qué datos pesan más ni cuál es su tasa de error.
+* **Condiciones:** las recomendaciones «deben ser confirmadas por el docente». Desde el sistema no es posible apelar ni corregir una clasificación. La escuela puede cancelar con 30 días de aviso.
+* **Ya ocurrió:** Marta fue clasificada como «riesgo alto».
+:::
+
+**Secuencia (25 minutos):**
+
+| Min. | Paso | Qué hace el equipo |
+|:---:|:-----|:-------------------|
+| 3 | **1. Dilema** | Leer el caso e identificar los valores en juego. |
+| 4 | **2. Primera postura** | Cada persona decide (¿qué haría Lucía?) y dice por qué. Anotar las preguntas abiertas («no sé si…»). |
+| 3 | **3. Preguntas de saber** | Formular 2 o 3 preguntas cuya respuesta cambiaría la decisión (por ejemplo: ¿cómo llegó el sistema a clasificar a Marta?, ¿qué dice la normativa sobre datos de menores?, ¿qué errores y sesgos tienen estos sistemas?, ¿qué haríamos con el tiempo ahorrado?). |
+| 6 | **4. Indagación** | Consultar **al menos dos fuentes**: (a) un chatbot y (b) una fuente no digital: la **ficha de la oferta** o un compañero en el rol de directora o de madre de familia. |
+| 4 | **5. Auditoría** | Contrastar las fuentes con las preguntas de abajo. |
+| 3 | **6. Segunda postura** | Volver al dilema: ¿cambió algo? ¿Qué argumento pesa más ahora? |
+| 2 | **7. Síntesis** | Formular **una condición** bajo la cual la escuela aceptaría una IA en la cabina (y una que nunca aceptaría). |
+
+*Preguntas de la auditoría (inspiradas en Freire y en la ética del cuidado):*
+
+* ¿**Qué ve el piloto automático** desde la cabina y qué no ve? ¿Qué sabe Lucía de Marta que ningún dato registra?
+* ¿**Quién decide qué cuenta como «riesgo»**, con qué datos y desde qué idea de éxito escolar?
+* ¿**Quién habla** en cada fuente (la ficha, el chatbot) y **quién falta** (Marta, su familia, sus compañeros)?
+* ¿**A quién beneficia** presentar el problema como ahorro de tiempo y a quién perjudica?
+* ¿**Qué podríamos hacer distinto** (lo que Freire llama «inédito viable»)?
+
+::: {.callout-tip appearance="simple"}
+### 🔄 Otros dilemas VaKE-IA para usar con sus estudiantes
+
+* **Declaración de uso:** Marta entrega trabajos hechos con IA sin declararlo para no perder su beca; su compañero Daniel lo descubre. ¿Qué debería hacer Daniel?
+* **Privacidad:** un docente quiere subir fotos de los cuadernos de sus estudiantes a una IA para recibir ayuda con la corrección. ¿Qué debería considerar?
+* **Cuidado:** un estudiante ansioso confía más en un chatbot que en sus docentes y habla con él cada noche de sus problemas. ¿Debe la escuela intervenir?
+
+Un buen dilema VaKE no tiene respuesta obvia, involucra valores legítimos en tensión y *provoca preguntas de saber*.
+:::
+
+*Cierre (en plenaria):* no evaluamos el texto que produjo la pantalla, sino la **calidad del razonamiento** y la capacidad de contrastar fuentes. Esa es la evidencia que ninguna IA puede entregar por el estudiante.
+
+---
+
+## 5. De la discusión a la comunidad: la idea de *Just Community*
+
+Un buen razonamiento individual no basta: necesitamos **comunidades** donde las reglas se construyan y se revisen entre todos. En la metáfora del tren, la asamblea es **la estación donde pasajeros y personal deciden juntos el itinerario**. Esa es la idea del enfoque de la *Just Community* (comunidad justa): Kohlberg lo desarrolló en los años setenta junto con equipos docentes, y luego fue ampliado, entre otros, por Fritz Oser, Wolfgang Althof y colegas (Power, Higgins & Kohlberg, 1989; Oser, Althof & Higgins-D'Alessandro, 2008).
+
+Sus rasgos típicos (a verificar en las fuentes) son:
+
+* **Asamblea comunitaria** con una voz y un voto por persona, donde docentes y estudiantes deciden juntos.
+* **Reglas elaboradas por la propia comunidad**, no impuestas desde afuera.
+* **Un comité de equidad** que atiende los casos de incumplimiento con criterios de justicia y cuidado.
+* **Una cultura del error**, en la que equivocarse es parte del aprendizaje (Oser & Spychiger, 2005).
+
+<!-- VERIFICAR: elementos de la Just Community y Oser & Spychiger (2005) -->
+
+::: {.callout-tip appearance="simple"}
+### 🌎 Un precedente latinoamericano: del Manual al Pacto de Convivencia
+
+Un equipo de la Pontificia Universidad Javeriana (Delgado Salazar, Lara y Vargas) estudió tres colegios colombianos de educación media (Santo Ángel y Arborizadora Baja, en Bogotá, y Marco Fidel Suárez, en Medellín) que trabajan la justicia escolar desde la idea de comunidad justa (Zuluaga, 2008). Tres ideas sirven a nuestro taller:
+
+* **Del manual al pacto.** Una de las innovaciones documentadas fue reconocer que el Manual de Convivencia se quedaba corto: los estudiantes, al no participar en su elaboración, lo veían como «letra muerta». Al convertirlo en un Pacto de Convivencia con carácter consensual y deliberativo, se promovió la escucha y la argumentación. *Es exactamente el paso «borrador docente → asamblea con estudiantes».*
+* **La autoridad no desaparece.** Una comunidad justa no prescinde de la autoridad reconocida ni ignora la asimetría entre docentes y estudiantes, pero obliga a crear espacios donde esa autoridad pueda ser cuestionada. *En nuestra metáfora: el maquinista sigue en la cabina, pero los pasajeros pueden preguntar por la ruta.*
+* **Estudiantes como sujetos.** Los colegios reconocen a sus estudiantes como sujetos políticos y los preparan para participar y deliberar. *Es el eco de Freire: el estudiante como sujeto que pregunta y decide.*
+:::
+
+::: {.callout-note appearance="simple"}
+### 🌱 Versión ligera para el aula
+
+La *Just Community* completa es un proyecto de toda la escuela y requiere años. Para el aula basta una **asamblea semanal de clase**: 20 minutos para plantear un problema, escuchar, proponer y votar. El Pacto Ético de Aula es el primer tema de esa asamblea.
+:::
+
+::: {.callout-note collapse="true" appearance="simple"}
+### 📚 Para profundizar: la Comunidad Justa en español
+
+En nuestro idioma la propuesta se conoce como **comunidad justa** o **comunidad escolar justa**. Su eje es la democracia escolar: docentes y estudiantes regulan juntos la vida de la escuela mediante asambleas en las que todos tienen el mismo derecho a participar y a expresar su opinión.
+
+**Lecturas sugeridas**
+
+* **Zuluaga, P. A. (2008).** *La justicia escolar: un laboratorio de convivencia social.* Pesquisa (Pontificia Universidad Javeriana), abril–julio, pp. 12–13. Lectura breve y accesible sobre un estudio de tres colegios colombianos. Subraya que un «nosotros» no se construye entre iguales, sino mediando intereses diversos y, muchas veces, enfrentados.
+* **Rodríguez Gómez, J. M. (1996).** *La toma de decisiones en los contextos escolares colaborativos.* Revista Complutense de Educación, 7(2). Presenta la escuela como comunidad democrática y las reglas de la asamblea.
+* **Lazarte Moro, A. M. (2005).** *Más allá de una «comunidad escolar justa».* Estudios sobre Educación, 8. Una mirada crítica que propone distinguir entre «comunidad justa» y «comunidad educativa».
+* **Tello, D.** *La reflexión de situaciones cotidianas en la escuela como oportunidad para el desarrollo moral grupal.* Paideia (Universidad de Concepción, Chile). Aplicación de la comunidad justa con estudiantes de formación técnica.
+* ***De la mediación del conflicto escolar a la construcción de comunidades justas.*** Universitas Psychologica, 7(3), 2008. Artículo académico del mismo estudio de la Javeriana que resume la nota de *Pesquisa*; es la referencia para citar con rigor.
+* ***Justicia, cuidado y el planteamiento de una moral comunitaria.*** Revista de Psicología (PUCP), 1998. Pone en diálogo a Kohlberg con la ética del cuidado; conecta con el recuadro «Tres tradiciones, tres énfasis».
+* **Biaggio, A. M. B.** *Kohlberg e a «Comunidade Justa»: promovendo o senso ético e a cidadania na escola.* Psicologia: Reflexão e Crítica (en portugués). Describe la técnica y su aplicación en el contexto brasileño.
+
+<!-- COMPLETAR: autor/año de Tello, del artículo de Universitas Psychologica, del de la PUCP y de Biaggio; VERIFICAR todas las referencias. Si se sube el PDF «pesquisa06_04», incorporarlo aquí. -->
+:::
+
+---
+
+## 6. Taller: construcción del Pacto Ético de Aula (30 minutos)
+
+::: {.callout-tip appearance="simple"}
+### De la prohibición policial al acuerdo de honor
+
+La prohibición ciega de la IA es inviable e ineficaz: genera desconfianza y deteriora el clima escolar. La alternativa pedagógica es un **Pacto Ético de Aula**: compromisos compartidos que definen cuándo la tecnología suma y cuándo degrada el aprendizaje, y que dejan la IA **en la cabina, pero no al volante**.
+
+**Importante:** lo que construimos hoy es un **borrador docente**. Un pacto con valor real se construye *con* el estudiantado: el borrador de hoy es el punto de partida de esa asamblea, no el acuerdo final.
+:::
+
+### Dinámica (30 minutos)
+
+1. **Redacción por equipos (8 min).** Cada equipo recibe uno o dos artículos y escribe una propuesta breve (una o dos frases).
+2. **Asamblea (12 min).** Cada equipo presenta su propuesta (2 min). El grupo hace preguntas, propone enmiendas y vota (un voto por persona; se busca consenso o, como mínimo, dos tercios).
+3. **Artículo 7 y comité de equidad (6 min).** Entre todos acuerdan qué pasa ante un incumplimiento y quién lo atiende.
+4. **Plan de aplicación (4 min).** Cada docente anota cómo llevará el borrador a su grupo: *borrador docente → asamblea con estudiantes → revisión a las 4 a 6 semanas.*
+
+### Ficha del Pacto (borrador)
+
+| Artículo | Pregunta guía | Propuesta del equipo |
+|:---------------|:------------------------------|:-------------------|
+| **1. Transparencia activa** | ¿Cómo y cuándo declarará el estudiante el uso de la IA? (Ej.: una nota al pie con la herramienta usada y el objetivo.) | |
+| **2. El territorio del esfuerzo intransferible** | ¿Qué actividades quedan reservadas al pensamiento propio, sin delegación digital? (Piensen en el Vagón 3 y en la Zona Roja de 3A.) | |
+| **3. Auditoría crítica de la verdad** | ¿Cuál es la responsabilidad del alumno si entrega un texto con alucinaciones, citas falsas o sesgos? | |
+| **4. Compromiso de confianza docente** | ¿Qué promete el cuerpo docente a cambio de la honestidad? (Ej.: no usar detectores opacos, evaluar el proceso, valorar el error fértil.) | |
+| **5. Humano al mando (sin piloto automático)** | ¿Qué decisiones sobre estudiantes (calificar, clasificar, sancionar, derivar) **nunca** se delegan a un sistema automatizado? ¿Quién revisa, quién explica y quién puede apelar? | |
+| **6. Cuidado y dignidad comunitaria** | ¿Cómo protegemos la privacidad de los compañeros y evitamos subir fotos, datos familiares o problemas locales sensibles a servidores comerciales? | |
+| **7. Incumplimiento y revisión** | ¿Qué pasa si el pacto no se cumple? ¿Quién lo atiende (comité de equidad)? ¿Cuándo lo revisamos? | |
+
+---
+
+## 7. Síntesis y salida (10 minutos)
+
+## 7. Cierre y Ritual de Salida: El Billete del Maquinista (10 minutos)
+
+## 7. Cierre y Ritual de Salida: El Billete del Maquinista (10 minutos)
+
+::: {.callout-note appearance="simple"}
+### 🧭 Lo que nos llevamos en la cabina
+
+1. La IA puede ahorrar tiempo, pero un **piloto automático** decide por estadística. El juicio pedagógico, el cuidado y la agencia humana **no se delegan**.
+2. La IA puede ser una fuente de conocimiento si se **contrasta y se audita**; usada como clasificación aceptada sin revisar, reproduce la educación bancaria.
+3. Un pacto ético vale lo que vale su **proceso de construcción**: no se impone, se negocia con asamblea, voz y voto.
+:::
+
+::: {.callout-important appearance="simple"}
+### 🎫 Ritual de Salida: Entrega de Billetes
+
+*(Nota para la facilitación: Repartir a cada docente un tarjetón impreso previamente con el diseño del billete).*
+
+Han redactado el primer esqueleto del Pacto Ético de Aula. Sin embargo, para que la idea de la *Just Community* cobre vida, requiere que ustedes abran la puerta de la cabina a los "pasajeros". 
+
+Tomen el billete que acaban de recibir. Es su compromiso físico de no soltar los mandos. Llévenlo en su agenda o pónganlo en su escritorio como recordatorio del taller de hoy. **Llenen la fecha límite y fírmenlo ahora mismo:**
+
+```{=html}
+<div style="border: 2px dashed #1b415b; padding: 25px; border-radius: 8px; background-color: #f8f9fa; max-width: 600px; margin: 2rem auto; position: relative; font-family: sans-serif;">
+  <div style="position: absolute; top: -15px; left: 20px; background: #c0392b; color: white; padding: 4px 12px; font-weight: bold; border-radius: 4px; font-size: 14px;">HOJA DE RUTA</div>
+  <h3 class="unlisted" style="color: #1b415b; margin-top: 10px; margin-bottom: 5px; font-size: 22px; font-weight: bold;">🚂 Billete de Maquinista</h3>
+  <p style="color: #666; font-size: 14px; margin-top: 0; margin-bottom: 20px;"><strong>Trayecto:</strong> De la IA automática a la Comunidad Justa</p>
+  <p style="font-size: 16px; line-height: 1.5; color: #333; font-style: italic;">"Como profesional de la educación, mantengo la mano en la palanca. Me comprometo a no delegar mi juicio pedagógico a una máquina de caja negra y a debatir el borrador del Pacto Ético con mis estudiantes antes del..."</p>
+  <table style="width: 100%; margin-top: 25px; border-collapse: collapse; border: none; background: transparent;">
+    <tr style="background: transparent; border: none;">
+      <td style="width: 48%; vertical-align: bottom; border: none; padding: 0; background: transparent;">
+        <p style="margin: 0; font-size: 14px; color: #555;">Fecha límite de la asamblea:</p>
+        <div style="border-bottom: 1px solid #1b415b; height: 25px; width: 100%;"></div>
+      </td>
+      <td style="width: 4%; border: none; padding: 0; background: transparent;"></td>
+      <td style="width: 48%; vertical-align: bottom; border: none; padding: 0; background: transparent;">
+        <p style="margin: 0; font-size: 14px; color: #555;">Firma del/la Maquinista:</p>
+        <div style="border-bottom: 1px solid #1b415b; height: 25px; width: 100%;"></div>
+      </td>
+    </tr>
+  </table>
+</div>
+:::
+
+---
+
+## 8. Referencias del Módulo 3B
+
+*Las citas bibliográficas de este módulo [@dewitt2020; @kerres2023; @klafki1985; @patry2007; @phbern2025; @rapp2023; @unesco2025; @wollersheim2023] están vinculadas interactivamente. Consulte el listado completo en [Referencias Bibliográficas](references.qmd).*
+
+*Fuentes adicionales citadas en el texto (pendientes de incorporar al listado):* Freire (1970; 1996); Gilligan (1982); Noddings (1984); Oser & Althof (1992); Oser, Althof & Higgins-D'Alessandro (2008); Oser & Spychiger (2005); Patry et al. (2013); Power, Higgins & Kohlberg (1989).

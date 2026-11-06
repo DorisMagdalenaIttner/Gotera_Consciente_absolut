@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.11.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Módulo 2A: El Marco Neuroevolutivo y la IA-Fluidez – ¿Aprender con o a pesar de la IA?</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./modulo2b.html" rel="next">
+<link href="./taller2.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-32df71be6b98c21a863fcf0fb8b64bbd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" aria-label="Toolbar">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./taller2.html">Taller 2: Epistemología y Entendimiento</a></li><li class="breadcrumb-item"><a href="./modulo2a.html"><span class="chapter-title">Módulo 2A: El Marco Neuroevolutivo y la IA-Fluidez</span></a></li></ol></nav>
+        <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto" aria-label="Site">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">¿Aprender con o a pesar de la IA?</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentación y Enfoque Pedagógico</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-controls="quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-1-label">Taller 1: La IA ya llegó (Recepción y Tareas)</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-1" aria-labelledby="quarto-sidebar-section-1-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./taller1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Taller 1: La IA ya llegó (Recepción y Tareas)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modulo1a.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Módulo 1A: La IA llegó para quedarse: ¿Cómo la recibe un docente?</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modulo1b.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Módulo 1B: Tareas Escolares bajo la Lupa</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-controls="quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-2-label">Taller 2: Epistemología y Entendimiento</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-2" aria-labelledby="quarto-sidebar-section-2-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./taller2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Taller 2: Epistemología y Entendimiento</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modulo2a.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Módulo 2A: El Marco Neuroevolutivo y la IA-Fluidez</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modulo2b.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Módulo 2B: Epistemología, Percepción y Mediación del Saber Escolar</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-controls="quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-3-label">Taller 3: Evaluación Auténtica, Valores y Cuidado</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-3" aria-labelledby="quarto-sidebar-section-3-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./taller3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Taller 3: Evaluación Auténtica, Valores y Cuidado</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modulo3a.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Módulo 3A: Rediseñar la Evaluación</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modulo3b.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Módulo 3B: La Escuela como Comunidad Ética y Relacional</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-controls="quarto-sidebar-section-4" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-4-label">Acreditación y Fuentes</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-4" aria-labelledby="quarto-sidebar-section-4-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./evaluacion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sistema de Evaluación y Acreditación Asincrónica</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./recursos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Recursos y Enlaces a Fuentes Primarias</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Referencias Bibliográficas</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Materiales.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Materiales y Recursos de Apoyo: Taller 1</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#qué-se-espera-lograr-en-este-módulo" id="toc-qué-se-espera-lograr-en-este-módulo" class="nav-link active" data-scroll-target="#qué-se-espera-lograr-en-este-módulo">1. ¿Qué se espera lograr en este módulo?</a></li>
+  <li><a href="#fundamentación-conceptual-el-cerebro-no-tiene-atajos-biológicos-25-minutos" id="toc-fundamentación-conceptual-el-cerebro-no-tiene-atajos-biológicos-25-minutos" class="nav-link" data-scroll-target="#fundamentación-conceptual-el-cerebro-no-tiene-atajos-biológicos-25-minutos">2. Fundamentación conceptual: El cerebro no tiene atajos biológicos (25 Minutos)</a>
+  <ul class="collapse">
+  <li><a href="#el-enfoque-neuroevolutivo-y-las-dificultades-deseables" id="toc-el-enfoque-neuroevolutivo-y-las-dificultades-deseables" class="nav-link" data-scroll-target="#el-enfoque-neuroevolutivo-y-las-dificultades-deseables">2.1 El enfoque neuroevolutivo y las «dificultades deseables»</a></li>
+  <li><a href="#la-evidencia-científica-qué-ocurre-al-interactuar-con-ia-sin-barreras-pedagógicas" id="toc-la-evidencia-científica-qué-ocurre-al-interactuar-con-ia-sin-barreras-pedagógicas" class="nav-link" data-scroll-target="#la-evidencia-científica-qué-ocurre-al-interactuar-con-ia-sin-barreras-pedagógicas">2.2 La evidencia científica: ¿Qué ocurre al interactuar con IA sin barreras pedagógicas?</a></li>
+  <li><a href="#estudio-de-casos-situado-jenny-y-julio-frente-al-espejo-algorítmico-15-minutos" id="toc-estudio-de-casos-situado-jenny-y-julio-frente-al-espejo-algorítmico-15-minutos" class="nav-link" data-scroll-target="#estudio-de-casos-situado-jenny-y-julio-frente-al-espejo-algorítmico-15-minutos">2.3 Estudio de casos situado: «Jenny y Julio frente al espejo algorítmico» (15 Minutos)</a></li>
+  </ul></li>
+  <li><a href="#el-marco-de-la-ia-fluidez-fundamentos-y-las-4-d-25-minutos" id="toc-el-marco-de-la-ia-fluidez-fundamentos-y-las-4-d-25-minutos" class="nav-link" data-scroll-target="#el-marco-de-la-ia-fluidez-fundamentos-y-las-4-d-25-minutos">3. El Marco de la IA-Fluidez: Fundamentos y las 4 D (25 Minutos)</a>
+  <ul class="collapse">
+  <li><a href="#introducción-teórica-de-la-herramienta-a-la-fluidez-y-el-socio-de-pensamiento" id="toc-introducción-teórica-de-la-herramienta-a-la-fluidez-y-el-socio-de-pensamiento" class="nav-link" data-scroll-target="#introducción-teórica-de-la-herramienta-a-la-fluidez-y-el-socio-de-pensamiento">3.1 Introducción teórica: De la herramienta a la fluidez y el socio de pensamiento</a></li>
+  <li><a href="#las-tres-modalidades-de-interacción" id="toc-las-tres-modalidades-de-interacción" class="nav-link" data-scroll-target="#las-tres-modalidades-de-interacción">3.2 Las tres modalidades de interacción</a></li>
+  <li><a href="#las-4-dimensiones-4-d-un-ciclo-de-decisiones-interdependientes" id="toc-las-4-dimensiones-4-d-un-ciclo-de-decisiones-interdependientes" class="nav-link" data-scroll-target="#las-4-dimensiones-4-d-un-ciclo-de-decisiones-interdependientes">3.3 Las 4 Dimensiones (4 D): Un ciclo de decisiones interdependientes</a></li>
+  <li><a href="#planteamiento-del-problema-resolviendo-un-desafío-docente-con-las-4-d" id="toc-planteamiento-del-problema-resolviendo-un-desafío-docente-con-las-4-d" class="nav-link" data-scroll-target="#planteamiento-del-problema-resolviendo-un-desafío-docente-con-las-4-d">3.4 Planteamiento del Problema: Resolviendo un desafío docente con las 4 D</a></li>
+  </ul></li>
+  <li><a href="#actividad-práctica-matriz-de-aplicación-de-las-4-d-30-minutos" id="toc-actividad-práctica-matriz-de-aplicación-de-las-4-d-30-minutos" class="nav-link" data-scroll-target="#actividad-práctica-matriz-de-aplicación-de-las-4-d-30-minutos">4. Actividad práctica: Matriz de Aplicación de las 4 D (30 Minutos)</a></li>
+  <li><a href="#referencias-del-módulo-2a" id="toc-referencias-del-módulo-2a" class="nav-link" data-scroll-target="#referencias-del-módulo-2a">5. Referencias del Módulo 2A</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content" tabindex="-1">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./taller2.html">Taller 2: Epistemología y Entendimiento</a></li><li class="breadcrumb-item"><a href="./modulo2a.html"><span class="chapter-title">Módulo 2A: El Marco Neuroevolutivo y la IA-Fluidez</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Módulo 2A: El Marco Neuroevolutivo y la IA-Fluidez</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="assets/Gehirn_Joao.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Bases neurobiológicas del aprendizaje: La integración entre la arquitectura analítica, la experimentación rigurosa y la dimensión creativa y vivencial del cerebro humano frente a la automatización algorítmica. Fuente: Picardo Joao &amp; Ábrego (2019), «La Curva del Aprendizaje» [@picardo2019] (disponible para descarga en Recursos y Fuentes)."><img src="assets/Gehirn_Joao.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:75.0%" alt="Bases neurobiológicas del aprendizaje: La integración entre la arquitectura analítica, la experimentación rigurosa y la dimensión creativa y vivencial del cerebro humano frente a la automatización algorítmica. Fuente: Picardo Joao &amp; Ábrego (2019), «La Curva del Aprendizaje» (Picardo Joao &amp; Ábrego, 2019) (disponible para descarga en Recursos y Fuentes)."></a></p>
+</figure>
+</div>
+<figcaption><strong>Bases neurobiológicas del aprendizaje:</strong> La integración entre la arquitectura analítica, la experimentación rigurosa y la dimensión creativa y vivencial del cerebro humano frente a la automatización algorítmica. <em>Fuente: Picardo Joao &amp; Ábrego (2019), «La Curva del Aprendizaje» <span class="citation" data-cites="picardo2019">(<a href="references.html#ref-picardo2019" role="doc-biblioref">Picardo Joao &amp; Ábrego, 2019</a>)</span> (disponible para descarga en</em> <a href="./recursos.html">Recursos y Fuentes</a>).</figcaption>
+</figure>
+</div>
+<hr>
+<section id="qué-se-espera-lograr-en-este-módulo" class="level2">
+<h2 class="anchored" data-anchor-id="qué-se-espera-lograr-en-este-módulo">1. ¿Qué se espera lograr en este módulo?</h2>
+<p>Se espera que los docentes:</p>
+<ul>
+<li><strong>Comprendan los fundamentos neurobiológicos</strong> del aprendizaje significativo (plasticidad sináptica y consolidación de redes) según el enfoque neuroeducativo <span class="citation" data-cites="picardo2019">(<a href="references.html#ref-picardo2019" role="doc-biblioref">Picardo Joao &amp; Ábrego, 2019</a>)</span>.</li>
+<li><strong>Reconozcan el peligro de la «ilusión de fluidez»</strong> (<em>cognitive ease</em>): por qué leer o generar un texto impecable con IA no deja huella biológica en el cerebro del estudiante.</li>
+<li><strong>Analicen las evidencias científicas recientes</strong> sobre la acumulación de «deuda cognitiva» y el riesgo de usar herramientas de IA sin andamiajes pedagógicos (<em>guardrails</em>) <span class="citation" data-cites="bastani2025 kosmyna2025">(<a href="references.html#ref-bastani2025" role="doc-biblioref">Bastani et al., 2025</a>; <a href="references.html#ref-kosmyna2025" role="doc-biblioref"><span class="nocase">Kosmyna et al.</span>, 2025</a>)</span>.</li>
+<li><strong>Dominen el marco de la IA-Fluidez</strong> (Las 4 D: Delegación, Descripción, Discernimiento y Diligencia) <span class="citation" data-cites="dakan2025">(<a href="references.html#ref-dakan2025" role="doc-biblioref">Dakan &amp; Feller, 2025</a>)</span> para tomar decisiones conscientes de mediación en sus aulas.</li>
+</ul>
+<hr>
+</section>
+<section id="fundamentación-conceptual-el-cerebro-no-tiene-atajos-biológicos-25-minutos" class="level2">
+<h2 class="anchored" data-anchor-id="fundamentación-conceptual-el-cerebro-no-tiene-atajos-biológicos-25-minutos">2. Fundamentación conceptual: El cerebro no tiene atajos biológicos (25 Minutos)</h2>
+<section id="el-enfoque-neuroevolutivo-y-las-dificultades-deseables" class="level3">
+<h3 class="anchored" data-anchor-id="el-enfoque-neuroevolutivo-y-las-dificultades-deseables">2.1 El enfoque neuroevolutivo y las «dificultades deseables»</h3>
+<p>El aprendizaje no es un acto de recepción pasiva ni una simple transferencia de datos; es una modificación metabólica y estructural del tejido cerebral <span class="citation" data-cites="picardo2019">(<a href="references.html#ref-picardo2019" role="doc-biblioref">Picardo Joao &amp; Ábrego, 2019</a>)</span>. Desde la perspectiva neuroeducativa, no existen atajos técnicos para la fijación del conocimiento:</p>
+<ul>
+<li><strong>Sinapsis y mielinización:</strong> Para que un concepto forme parte de la memoria a largo plazo, el cerebro requiere activación reiterada, resolución de problemas y esfuerzo deliberado (<em>fricción cognitiva</em>) <span class="citation" data-cites="picardo2019">(<a href="references.html#ref-picardo2019" role="doc-biblioref">Picardo Joao &amp; Ábrego, 2019</a>)</span>. La densidad de las conexiones neuronales se incrementa exclusivamente a través del trabajo activo.</li>
+<li><strong>Las «dificultades deseables» (<em>Desirable Difficulties</em>):</strong> Como demostró Robert Bjork <span class="citation" data-cites="bjork1994">(<a href="references.html#ref-bjork1994" role="doc-biblioref">Bjork, 1994</a>)</span>, la incomodidad intelectual que experimenta un estudiante cuando duda, busca palabras adecuadas, tacha en el cuaderno y replantea su argumento constituye el marcador biológico de que la reestructuración conceptual está sucediendo.</li>
+<li><strong>El secuestro algorítmico del esfuerzo:</strong> Cuando un modelo de IA redacta el ensayo o resuelve la ecuación en segundos, suprime de raíz esa fricción metabólica. Se produce un resultado aparente impecable, pero el cerebro del estudiante no experimentó plasticidad alguna. El alumno queda atrapado en una <strong>ilusión de comprensión</strong> (<em>cognitive ease</em>): cree dominar el contenido porque la pantalla muestra un discurso fluido, pero es incapaz de sostener la argumentación de manera autónoma.</li>
+</ul>
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>El valor formativo del esfuerzo: Zona de Consumo vs.&nbsp;Zona de Aprendizaje <span class="citation" data-cites="spahn2026 picardo2019">(<a href="references.html#ref-picardo2019" role="doc-biblioref">Picardo Joao &amp; Ábrego, 2019</a>; <a href="references.html#ref-spahn2026" role="doc-biblioref">Spahn, 2026</a>)</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Zona de Consumo (Eficiencia y delegación algorítmica):</strong> Generación instantánea del texto, cero fricción, eliminación artificial del error, pero nula fijación sináptica. Se obtiene un artefacto escolar terminado sin que haya ocurrido transformación en el sujeto.</li>
+<li><strong>Zona de Aprendizaje («El sudor cognitivo»):</strong> Formulación activa de hipótesis, duda metódica, borradores intermedios y confrontación de contradicciones. La labor docente no consiste en allanar el camino hasta transformarlo en un atajo superficial, sino en sostener al estudiante mientras atraviesa esa fricción productiva.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>📖 Libro de referencia disponible para descarga
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Para profundizar en las bases biológicas y metodológicas del aprendizaje situado, puede descargar el libro de texto completo directamente en su dispositivo o consultar el repositorio abierto de la Universidad Francisco Gavidia:</p>
+<p><a href="recursos_pdf/Joao_Abrego_2019_Libro_Curva_del_aprendizaje.pdf" class="btn btn-outline-primary btn-sm" role="button" target="_blank"> <i class="fa-solid fa-file-pdf"></i> Descargar libro en PDF: <i>La Curva del Aprendizaje</i> (Picardo &amp; Ábrego) </a> &nbsp; <a href="https://ri.ufg.edu.sv/jspui/bitstream/11592/9710/1/Libro%20Curva%20del%20aprendizaje.pdf" class="btn btn-outline-secondary btn-sm" role="button" target="_blank" rel="noopener noreferrer"> <i class="fa-solid fa-globe"></i> Repositorio Institucional Digital UFG </a></p>
+</div>
+</div>
+<hr>
+</section>
+<section id="la-evidencia-científica-qué-ocurre-al-interactuar-con-ia-sin-barreras-pedagógicas" class="level3">
+<h3 class="anchored" data-anchor-id="la-evidencia-científica-qué-ocurre-al-interactuar-con-ia-sin-barreras-pedagógicas">2.2 La evidencia científica: ¿Qué ocurre al interactuar con IA sin barreras pedagógicas?</h3>
+<p>La investigación empírica reciente alerta sobre las secuelas cognitivas de delegar el pensamiento sin mediación didáctica:</p>
+<ol type="1">
+<li><p><strong>Atenuación de la actividad prefrontal <span class="citation" data-cites="kosmyna2025">(<a href="references.html#ref-kosmyna2025" role="doc-biblioref"><span class="nocase">Kosmyna et al.</span>, 2025</a>)</span>:</strong><br>
+Estudios neurofisiológicos desarrollados en el MIT Media Lab mediante electroencefalografía demuestran que, al redactar con asistencia no estructurada de IA generativa, la actividad de la corteza prefrontal y las áreas vinculadas a la memoria operativa decae drásticamente. El estudiante opera en modo de monitoreo superficial, acumulando una progresiva «deuda cognitiva».</p></li>
+<li><p><strong>El colapso del aprendizaje matemático sin <em>guardrails</em><span class="citation" data-cites="bastani2025">(<a href="references.html#ref-bastani2025" role="doc-biblioref">Bastani et al., 2025</a>)</span>:</strong><br>
+En una investigación experimental a gran escala, Hamsa Bastani y su equipo evaluaron a estudiantes de secundaria que resolvían problemas matemáticos utilizando diferentes configuraciones de IA generativa. Los resultados revelaron una trampa pedagógica severa: los estudiantes que interactuaron con una IA estándar (que proporcionaba respuestas directas y resoluciones paso a paso) completaron sus tareas cotidianas mucho más rápido y con calificaciones casi perfectas. Sin embargo, en las evaluaciones presenciales posteriores <em>sin</em> tecnología, su rendimiento se desplomó, obteniendo resultados significativamente peores que los alumnos que aprendieron mediante métodos convencionales sin IA.</p></li>
+</ol>
+<p>La máquina actuó como una «prótesis cognitiva» que resolvió el problema de forma eficiente en la pantalla, pero privó al cerebro del esfuerzo metabólico necesario para aprender. La falsa fluidez del bot generó en los alumnos una profunda <strong>ilusión de competencia</strong>. Por el contrario, el estudio demostró que cuando la IA fue configurada estrictamente como un «tutor socrático» —programada con <em>guardrails</em> para dar pistas conceptuales pero nunca revelar la respuesta final—, los estudiantes sí lograron transferir el conocimiento. La evidencia es concluyente: la IA en el aula no es intrínsecamente buena ni mala, sino que su impacto biológico depende por completo de las barreras didácticas que el docente imponga.</p>
+<p><strong>En síntesis (Puntos clave para el aula):</strong></p>
+<ul>
+<li><strong>Desempeño engañoso:</strong> Tareas perfectas y rápidas con IA estándar, pero nulo aprendizaje biológico.</li>
+<li><strong>Ilusión de competencia:</strong> Colapso total del rendimiento del alumno en evaluaciones individuales sin tecnología.</li>
+<li><strong>El rescate socrático:</strong> Usar la IA estrictamente para dar pistas (con <em>guardrails</em>) sí garantiza la transferencia cognitiva.</li>
+<li><strong>El diseño pedagógico manda:</strong> La tecnología no educa por sí sola; el impacto depende del andamiaje didáctico del docente.</li>
+</ul>
+<hr>
+</section>
+<section id="estudio-de-casos-situado-jenny-y-julio-frente-al-espejo-algorítmico-15-minutos" class="level3">
+<h3 class="anchored" data-anchor-id="estudio-de-casos-situado-jenny-y-julio-frente-al-espejo-algorítmico-15-minutos">2.3 Estudio de casos situado: «Jenny y Julio frente al espejo algorítmico» (15 Minutos)</h3>
+<p>Para conectar las bases neuroevolutivas <span class="citation" data-cites="picardo2019">(<a href="references.html#ref-picardo2019" role="doc-biblioref">Picardo Joao &amp; Ábrego, 2019</a>)</span> con las decisiones cotidianas de aula, analicemos cómo la presencia de la IA generativa reconfigura las trayectorias de dos perfiles cognitivos (basados en casos reales documentados, con roles invertidos para desafiar estereotipos):</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>🧠 Micro-Taller: Auditoría neuroevolutiva en parejas
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Lean los perfiles biográficos y respondan a las preguntas orientadoras:</p>
+<p><strong>👩🏽‍🔧 Caso A: Jenny (Perfil Mecánico-Lógico)</strong></p>
+<ul>
+<li><strong>Contexto biográfico:</strong> Desde preescolar muestra gran destreza motriz. En primaria es excelente en Matemática, Arte y Música, pero sufre severas dificultades en Lenguaje. En 8.º grado se siente “la más tonta de la clase”, rechaza la lectura, finge enfermedades para no ir a la escuela y sus padres peregrinan entre psicólogos. Históricamente, su rescate pedagógico habría ocurrido al vincular la lectura con su pasión por los automóviles y motores.</li>
+<li><strong>El atajo digital actual:</strong> Antes de que un docente note su interés por la mecánica, Jenny descubre que un chatbot redacta en 10 segundos sus ensayos literarios con un vocabulario impecable. Comienza a entregar todas las tareas y sus calificaciones en Lenguaje suben a 10.</li>
+<li><strong>El desenlace invisible:</strong> El sistema escolar cree que Jenny “mejoró”, pero ella deja de leer y escribir por completo. Al evitar la fricción, el área de procesamiento lingüístico de su cerebro no experimenta plasticidad.</li>
+</ul>
+<p><strong>🗣️👦🏽 Caso B: Julio (Perfil Lingüístico-Dialógico)</strong></p>
+<ul>
+<li><strong>Contexto biográfico:</strong> Etiquetado por padres y maestros como “perezoso” y “perdedor” por no entregar tareas. En realidad, es una mente incomprendida: un gran lector, con un lenguaje sofisticado, agudo e irónico para el debate, pero paralizado ante la abstracción matemática. Esta frustración clínica frente a los números amenaza con empujarlo a la deserción escolar y a conductas de riesgo.</li>
+<li><strong>El atajo digital actual:</strong> Para evitar los regaños, Julio toma fotos de sus ejercicios de álgebra y los sube a un tutor de IA. Copia en su cuaderno, con su propia letra, los procedimientos limpios que la máquina despliega paso a paso. Entrega sus cuadernos perfectos.</li>
+<li><strong>El desenlace invisible:</strong> Experimenta una ilusión de fluidez (<i>«si lo copio y lo entiendo al leerlo, ya lo aprendí»</i>). Sin embargo, en la evaluación presencial sin su teléfono sufre un bloqueo total, confirmando su dolorosa autoetiqueta de fracaso.</li>
+</ul>
+<p><br></p>
+<p><strong>Preguntas para la discusión dialógica (8 min en parejas + 7 min en plenaria):</strong></p>
+<ol type="1">
+<li><strong>El secuestro de la plasticidad:</strong> En el caso de Jenny, ¿qué «dificultad deseable» <span class="citation" data-cites="bjork1994">(<a href="references.html#ref-bjork1994" role="doc-biblioref">Bjork, 1994</a>)</span> fue eliminada por la IA y qué área cerebral quedó desprovista de mielinización y consolidación sináptica <span class="citation" data-cites="picardo2019">(<a href="references.html#ref-picardo2019" role="doc-biblioref">Picardo Joao &amp; Ábrego, 2019</a>)</span>?</li>
+<li><strong>La ilusión de competencia:</strong> En el caso de Julio, ¿por qué el procedimiento paso a paso entregado por el bot no construyó andamiaje matemático real sino una «deuda cognitiva» acumulada <span class="citation" data-cites="bastani2025">(<a href="references.html#ref-bastani2025" role="doc-biblioref">Bastani et al., 2025</a>)</span>?</li>
+<li><strong>Intervención pedagógica con el Marco de las 4 D <span class="citation" data-cites="dakan2025">(<a href="references.html#ref-dakan2025" role="doc-biblioref">Dakan &amp; Feller, 2025</a>)</span>:</strong>
+<ul>
+<li>¿Cómo rediseñarían la tarea de Lenguaje de Jenny para que use su pasión mecánica como anclaje sin delegar la autoría a la máquina?</li>
+<li>¿Qué barrera pedagógica (<em>guardrail</em>) le colocarían al uso de la IA en el caso de Julio para obligarlo a experimentar el «sudor cognitivo» de la resolución matemática?</li>
+</ul></li>
+</ol>
+<details>
+<summary>
+<b>💡 Haga clic aquí para ver claves didácticas de intervención</b>
+</summary>
+<p><br></p>
+<ul>
+<li><strong>Clave para Jenny (Apalancar su fortaleza motriz y lógica):</strong> En lugar de exigir un ensayo teórico estándar, la consigna demanda que Jenny elija un manual de motor o bicicleta, desarme una pieza, fotografíe el proceso y redacte una bitácora técnica explicando el procedimiento con sus propias palabras. La IA puede actuar como <em>corrector ortográfico posterior</em>, pero Jenny aporta el 100 % del razonamiento empírico.</li>
+<li><strong>Clave para Julio (Obligar a la mediación dialógica y visual):</strong> Restringir el uso de la IA a la formulación de analogías verbales (su fortaleza). Prohibir que la máquina muestre el resultado matemático. Exigir que Julio defienda verbalmente ante un compañero por qué se aplica determinada fórmula, traduciendo el problema algebraico a una narrativa social antes de realizar el cálculo a mano.</li>
+</ul>
+</details>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="el-marco-de-la-ia-fluidez-fundamentos-y-las-4-d-25-minutos" class="level2">
+<h2 class="anchored" data-anchor-id="el-marco-de-la-ia-fluidez-fundamentos-y-las-4-d-25-minutos">3. El Marco de la IA-Fluidez: Fundamentos y las 4 D (25 Minutos)</h2>
+<section id="introducción-teórica-de-la-herramienta-a-la-fluidez-y-el-socio-de-pensamiento" class="level3">
+<h3 class="anchored" data-anchor-id="introducción-teórica-de-la-herramienta-a-la-fluidez-y-el-socio-de-pensamiento">3.1 Introducción teórica: De la herramienta a la fluidez y el socio de pensamiento</h3>
+<p>El Marco de Fluidez en IA (<em>AI Fluency Framework</em>), desarrollado por Rick Dakan y Joseph Feller (2025), nace de una premisa fundamental: debemos superar la visión restrictiva que reduce la inteligencia artificial a una simple «máquina de eficiencia»[cite: 14, 15]. En su lugar, el marco propone integrar a la IA como un auténtico socio de pensamiento (<em>thinking partner</em>) para realizar un trabajo cognitivo significativo[cite: 15].</p>
+<p>Las capacitaciones tradicionales que se centran únicamente en el uso instrumental de herramientas específicas o en técnicas aisladas de <em>prompting</em> sufren de una obsolescencia acelerada debido al rápido ritmo de la innovación tecnológica[cite: 22]. Frente a este desafío, la fluidez en IA se concibe no como un saber técnico efímero, sino como un conjunto de competencias transferibles y duraderas[cite: 22]. El marco define esta fluidez como la capacidad de trabajar de manera efectiva, eficiente, ética y segura dentro de las modalidades emergentes de interacción humano-IA[cite: 15, 22]. En el contexto de la educación superior y el desarrollo profesional, esto exige que la alfabetización algorítmica no sea una asignatura aislada, sino una capacidad transversal vinculada directamente con el ejercicio profesional y el juicio crítico[cite: 22, 23].</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>📚 Documentos fuente y política institucional
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Para profundizar en la fundamentación teórica de este marco y sus metodologías de instrucción, puede consultar los textos originales directamente:</p>
+<p><a href="https://aifluencyframework.org/" class="btn btn-outline-primary btn-sm" role="button" target="_blank"> <i class="fa-solid fa-file-pdf"></i> 🇬🇧 Original (Inglés): <i>The AI Fluency Framework</i> (Dakan &amp; Feller) </a> &nbsp; &lt;a href=“https://revistas.uniacc.cl/index.php/polymathia/article/view/124/131 class=”btn btn-outline-secondary btn-sm” role=“button” target=“_blank”&gt; <i class="fa-solid fa-file-pdf"></i> 🇪🇸 Aplicación (Español): <i>Marco 4D para la fluidez en IA</i> (Bustos &amp; Gómez) </p>
+</div>
+</div>
+</section>
+<section id="las-tres-modalidades-de-interacción" class="level3">
+<h3 class="anchored" data-anchor-id="las-tres-modalidades-de-interacción">3.2 Las tres modalidades de interacción</h3>
+<p>Antes de abordar las decisiones pedagógicas, el marco identifica tres modalidades progresivas de interacción entre el ser humano y los modelos de lenguaje[cite: 15, 23]:</p>
+<ul>
+<li><strong>Automatización:</strong> En este nivel básico, la IA ejecuta tareas de forma independiente pero basándose estrictamente en las instrucciones directas del usuario[cite: 15]. Esta modalidad resulta especialmente útil para mejorar la eficiencia en procesos repetitivos, tediosos o intensivos en datos (por ejemplo, resumir un texto largo o redactar correos estandarizados)[cite: 15].</li>
+<li><strong>Aumentación:</strong> Un paso más allá, el humano y la IA colaboran de manera iterativa[cite: 15, 23]. Aquí el objetivo no es reemplazar el trabajo humano, sino potenciar la creatividad a través de un diálogo dinámico donde ambas partes co-definen y co-ejecutan la tarea (por ejemplo, al co-escribir un ensayo argumentativo o diseñar una secuencia didáctica compleja)[cite: 15].</li>
+<li><strong>Agencia:</strong> Representa el nivel de mayor autonomía tecnológica, en el cual el usuario configura a la IA no para realizar una tarea específica en el presente, sino para que actúe de manera independiente en el futuro en nombre del usuario[cite: 15, 23]. Esto requiere una comprensión profunda de las capacidades y limitaciones técnicas para diseñar, por ejemplo, un tutor virtual interactivo o un <em>chatbot</em> socrático que interactúe con los estudiantes[cite: 15].</li>
+</ul>
+</section>
+<section id="las-4-dimensiones-4-d-un-ciclo-de-decisiones-interdependientes" class="level3">
+<h3 class="anchored" data-anchor-id="las-4-dimensiones-4-d-un-ciclo-de-decisiones-interdependientes">3.3 Las 4 Dimensiones (4 D): Un ciclo de decisiones interdependientes</h3>
+<p>Para operar con éxito en las modalidades descritas, el marco establece cuatro competencias fundamentales conocidas como las 4 D (Delegación, Descripción, Discernimiento y Diligencia)[cite: 22]. Estas dimensiones no operan de forma aislada. Cada competencia es una condición necesaria pero no suficiente: una debilidad en cualquiera de estos cuatro puntos compromete la cadena completa de la colaboración humano-IA[cite: 23].</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Concepto</th>
+<th style="text-align: left;">Definición teórica</th>
+<th style="text-align: left;">Pregunta orientadora</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><span style="color: #198754;"><strong>❶ Delegación</strong></span></td>
+<td style="text-align: left;">Capacidad de establecer objetivos y decidir de forma deliberada si, cuándo y cómo involucrar a la IA en una tarea. Implica equilibrar las capacidades humanas y de la máquina.</td>
+<td style="text-align: left;"><em>¿Qué partes de esta tarea delego y cuáles preservo estrictamente como trabajo cognitivo humano?</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span style="color: #198754;"><strong>❷ Descripción</strong></span></td>
+<td style="text-align: left;">Habilidad para comunicar efectivamente los objetivos, restricciones y visiones para generar comportamientos y resultados útiles mediante instrucciones estructuradas.</td>
+<td style="text-align: left;"><em>¿Cómo articulo lo que necesito de manera clara, iterativa y alineada con mis metas pedagógicas?</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span style="color: #198754;"><strong>❸ Discernimiento</strong></span></td>
+<td style="text-align: left;">Evaluación crítica para auditar la calidad, utilidad, precisión y pertinencia de los resultados generados por la IA.</td>
+<td style="text-align: left;"><em>¿Es correcto, riguroso y éticamente apropiado lo que la IA produjo? ¿Qué debe mejorarse?</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span style="color: #198754;"><strong>❹ Diligencia</strong></span></td>
+<td style="text-align: left;">Uso responsable y ético de la IA, asumiendo la responsabilidad profesional completa por los productos, mitigando daños y manteniendo la transparencia.</td>
+<td style="text-align: left;"><em>¿Estoy usando la IA de forma ética, transparente y asumiendo responsabilidad por el resultado final?</em></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="planteamiento-del-problema-resolviendo-un-desafío-docente-con-las-4-d" class="level3">
+<h3 class="anchored" data-anchor-id="planteamiento-del-problema-resolviendo-un-desafío-docente-con-las-4-d">3.4 Planteamiento del Problema: Resolviendo un desafío docente con las 4 D</h3>
+<p>Para comprender cómo las 4 D operan como un ciclo continuo en la práctica profesional, analicemos el siguiente escenario educativo:</p>
+<p><strong>La situación (Problema):</strong> Una docente necesita diseñar urgentemente una rúbrica de evaluación inclusiva para un debate sobre derechos civiles. Siente la tentación de introducir un comando simple en un modelo de lenguaje: <em>“Hazme una rúbrica para un debate”</em>. El riesgo evidente es obtener un instrumento estandarizado, superficial, sesgado y desconectado de la realidad social y cultural de sus estudiantes.</p>
+<p><strong>La solución estructurada a través de las 4 D:</strong></p>
+<ul>
+<li><span style="color: #198754;"><strong>❶ Delegación</strong></span> <strong>(La decisión estratégica):</strong> La docente decide <em>no delegar</em> los criterios de fondo (los valores éticos que busca evaluar), pero <em>sí delega</em> la redacción tediosa de los descriptores de desempeño por niveles para optimizar su tiempo.</li>
+<li><span style="color: #198754;"><strong>❷ Descripción</strong></span> <strong>(La instrucción guiada):</strong> En lugar del comando inicial automatizado, aplica una <strong>Aumentación</strong> iterativa: <em>“Actúa como un especialista en evaluación formativa. Te daré los tres criterios de derechos civiles que mis alumnos deben cumplir en su debate. Ayúdame a redactar los descriptores para 4 niveles de logro. Hazme preguntas de contexto sobre mi grupo antes de empezar.”</em></li>
+<li><span style="color: #198754;"><strong>❸ Discernimiento</strong></span> <strong>(La auditoría crítica):</strong> Al recibir el primer borrador, la docente audita el texto. Identifica un sesgo automatizado: la IA penaliza a los estudiantes que usan expresiones locales. Utilizando su juicio profesional y disciplinar, elimina esa penalización para proteger la inclusión.</li>
+<li><span style="color: #198754;"><strong>❹ Diligencia</strong></span> <strong>(La responsabilidad final):</strong> La docente ajusta los últimos detalles de la rúbrica. Al entregar el instrumento a sus estudiantes, declara de forma transparente que la estructura base fue generada con asistencia de IA, pero que ella la auditó, validó y asume la total responsabilidad ética y pedagógica de su aplicación en el aula.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="actividad-práctica-matriz-de-aplicación-de-las-4-d-30-minutos" class="level2">
+<h2 class="anchored" data-anchor-id="actividad-práctica-matriz-de-aplicación-de-las-4-d-30-minutos">4. Actividad práctica: Matriz de Aplicación de las 4 D (30 Minutos)</h2>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>📝 Dinámica en parejas: Diagnóstico y blindaje de una unidad temática
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Seleccionen una unidad o lección próxima de su plan docente. Completen la siguiente matriz para diseñar las condiciones de mediación:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Matriz de Aplicación de las 4 D</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Tema y grado seleccionado:</strong><br><br></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span style="color: #198754;"><strong>❶ DELEGACIÓN</strong></span> <strong>consciente:</strong><br>• <em>Lo que SÍ permito delegar a la IA:</em> (ej. proponer 3 analogías para explicar la fotosíntesis).<br><br>• <em>Lo que queda ESTRICTAMENTE RESERVADO al estudiante:</em> (ej. observación directa de plantas en el patio escolar, dibujo de esquemas a mano y redacción de conclusiones con sus propias palabras).<br><br></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span style="color: #198754;"><strong>❷ DESCRIPCIÓN</strong></span> <strong>didáctica (Boceto de prompt con guardrails):</strong><br>Redacten la consigna con la que instruirían al modelo para actuar como tutor dialógico sin dar la respuesta final:<br><br><br></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span style="color: #198754;"><strong>❸ DISCERNIMIENTO</strong></span> <strong>disciplinar:</strong><br>¿Cuáles son dos errores conceptuales, simplificaciones excesivas o sesgos que un modelo suele generar en este tema?:<br><br><br></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span style="color: #198754;"><strong>❹ DILIGENCIA</strong></span> <strong>comunitaria y ética:</strong><br>¿Cómo se vincula esta actividad con la realidad situada de las familias y la comunidad local de sus estudiantes?:<br><br><br></td>
+</tr>
+</tbody>
+</table>
+<details>
+<summary>
+<b>💡 Haga clic aquí para ver un ejemplo resuelto de la Matriz</b>
+</summary>
+<p><br></p>
+<ul>
+<li>
+<b>Tema:</b> La erosión del suelo y el cultivo de la cuenca (Ciencias Naturales, 8.º grado).
+</li>
+<li>
+<b><span style="color: #198754;">❶ Delegación:</span></b><br> <i>Permitido delegar:</i> Solicitar a la IA una tabla comparativa sobre técnicas agrícolas de conservación (curvas a nivel vs.&nbsp;terrazas).<br> <i>Reservado al humano:</i> Recolección de muestras de tierra en dos puntos del terreno escolar y registro del tiempo de filtración de agua cronometrado en el cuaderno.
+</li>
+<li>
+<b><span style="color: #198754;">❷ Descripción:</span></b><br> <i>«Actúa como un agrónomo facilitador. No me des la respuesta directa. Hazme tres preguntas guía sobre la relación entre la pendiente del terreno y la retención del suelo para ayudarme a interpretar los datos de mi experimento.»</i>
+</li>
+<li>
+<b><span style="color: #198754;">❸ Discernimiento:</span></b><br> Verificar que el modelo no sugiera fertilizantes o soluciones agrícolas industriales inadecuadas para la economía y geografía de la zona rural salvadoreña.
+</li>
+<li>
+<b><span style="color: #198754;">❹ Diligencia:</span></b><br> Contrastar las propuestas del bot con el testimonio de un agricultor de la comunidad sobre cómo manejaban las lluvias torrenciales en el cantón hace veinte años.
+</li>
+</ul>
+</details>
+</div>
+</div>
+<hr>
+</section>
+<section id="referencias-del-módulo-2a" class="level2">
+<h2 class="anchored" data-anchor-id="referencias-del-módulo-2a">5. Referencias del Módulo 2A</h2>
+<p>Las citas bibliográficas de este módulo <span class="citation" data-cites="bastani2025 bjork1994 dakan2025 kosmyna2025 picardo2019 spahn2026">(<a href="references.html#ref-bastani2025" role="doc-biblioref">Bastani et al., 2025</a>; <a href="references.html#ref-bjork1994" role="doc-biblioref">Bjork, 1994</a>; <a href="references.html#ref-dakan2025" role="doc-biblioref">Dakan &amp; Feller, 2025</a>; <a href="references.html#ref-kosmyna2025" role="doc-biblioref"><span class="nocase">Kosmyna et al.</span>, 2025</a>; <a href="references.html#ref-picardo2019" role="doc-biblioref">Picardo Joao &amp; Ábrego, 2019</a>; <a href="references.html#ref-spahn2026" role="doc-biblioref">Spahn, 2026</a>)</span> están vinculadas interactivamente. Consulte el listado completo en <a href="./references.html">Referencias Bibliográficas</a>.</p>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
+<div id="ref-bastani2025" class="csl-entry" role="listitem">
+Bastani, H., Bastani, O., Sungur, A., Ge, H., Kabakcı, O., &amp; Mariman, R. (2025). Generative <span>AI</span> without guardrails can harm learning: Evidence from high school mathematics. <em>Proceedings of the National Academy of Sciences (PNAS)</em>, <em>122</em>(26), e2416752122. <a href="https://doi.org/10.1073/pnas.2416752122">https://doi.org/10.1073/pnas.2416752122</a>
+</div>
+<div id="ref-bjork1994" class="csl-entry" role="listitem">
+Bjork, R. A. (1994). Memory and metamemory considerations in the training of human beings. In J. Metcalfe &amp; A. P. Shimamura (Eds.), <em>Metacognition: Knowing about knowing</em> (pp. 185–205). MIT Press.
+</div>
+<div id="ref-dakan2025" class="csl-entry" role="listitem">
+Dakan, A., &amp; Feller, J. (2025). The <span>4D</span> framework for <span>AI</span> fluency in education. <em>Educational Technology Review</em>, <em>33</em>(1), 45–59.
+</div>
+<div id="ref-kosmyna2025" class="csl-entry" role="listitem">
+<span class="nocase">Kosmyna, N., Maes, P., et al.</span> (2025). <em>Your brain on <span>ChatGPT</span>: Accumulation of cognitive debt when using an <span>AI</span> assistant for essay writing task</em>. MIT Media Lab Research Report.
+</div>
+<div id="ref-picardo2019" class="csl-entry" role="listitem">
+Picardo Joao, Ó., &amp; Ábrego, A. M. (2019). <em>La curva del aprendizaje: Bases neurobiol<span>’o</span>gicas de la educaci<span>’o</span>n y el esfuerzo cognitivo</em>. Editorial Universitaria. <a href="https://www.researchgate.net/publication/337184260_La_Curva_del_Aprendizaje">https://www.researchgate.net/publication/337184260_La_Curva_del_Aprendizaje</a>
+</div>
+<div id="ref-spahn2026" class="csl-entry" role="listitem">
+Spahn, W. (2026). <em><span>KI</span> ver<span>"a</span>ndert bildung – wie darauf reagieren? Kriterien f<span>"u</span>r aufgabenbezogene kognitive resistenz</em>. Atelier-Materialien, sebayt.ch. <a href="https://sebayt.ch/">https://sebayt.ch/</a>
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+          if (!link.classList.contains('no-external-icon')) {
+          }
+        }
+      }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
+          if (lineIds.length > 0) {
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            placeBand(gutterDiv, el, lastEl);
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
+  </script>
+<nav class="page-navigation" aria-label="Page">
+  <div class="nav-page nav-page-previous">
+      <a href="./taller2.html" class="pagination-link" aria-label="Taller 2: Epistemología y Entendimiento">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Taller 2: Epistemología y Entendimiento</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./modulo2b.html" class="pagination-link" aria-label="Módulo 2B: Epistemología, Percepción y Mediación del Saber Escolar">
+        <span class="nav-page-text"><span class="chapter-title">Módulo 2B: Epistemología, Percepción y Mediación del Saber Escolar</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Programa de Innovación Educativa (PIE) | Consciente</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>El Salvador, 2026</p>
+</div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

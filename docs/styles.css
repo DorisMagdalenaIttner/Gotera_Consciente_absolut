@@ -1,0 +1,38 @@
+/* Estilos personalizados para el Dossier Quarto (PIE / Consciente) */
+
+/* Sangría francesa / Hanging Indent para bibliografía académica (Estilo APA) */
+.hanging-indent p, 
+div.hanging-indent p {
+  padding-left: 2.2rem;
+  text-indent: -2.2rem;
+  margin-bottom: 0.85rem;
+  line-height: 1.55;
+  text-align: justify;
+}
+
+/* Mejora visual de las tablas en pantallas y móviles */
+.table {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  border-bottom: 2px solid #dee2e6;
+}
+
+/* Ajuste de espaciado para listas y callouts */
+ul, ol {
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.35rem;
+}
+
+.callout {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}

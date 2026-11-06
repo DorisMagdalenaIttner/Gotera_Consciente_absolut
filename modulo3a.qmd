@@ -1,0 +1,385 @@
+---
+title: "Módulo 3A: Rediseñar la Evaluación"
+format:
+  html:
+    theme: cosmo
+    toc: true
+  pdf: default
+  docx: default
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+# Módulo 3A: Evaluación Auténtica y la IA {.unnumbered}
+
+## 1. El tren del Constructive Alignment (Biggs, 1996; Klar & Schleiss, 2024)
+
+Retomando nuestra metáfora conductora del tren pedagógico, la evaluación auténtica constituye el cuarto vagón inseparable de las metas formativas, el diseño de tareas y la mediación del proceso:
+
+```{=html}
+<div style="text-align: center; max-width: 960px; margin: 2rem auto; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background: #fff; padding: 24px 18px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.06); border: 1px solid #e9ecef;">
+  
+  <p style="color: #c0392b; font-size: 15px; margin-bottom: 4px; font-weight: 600;">
+    ¿Aprender con o a pesar de la IA? El Tren de la Coherencia Pedagógica
+  </p>
+  <h2 class="unlisted" style="font-weight: 900; letter-spacing: 0.5px; margin-top: 0; margin-bottom: 25px; color: #1b415b; border-bottom: none; font-size: 22px;">
+    ¿QUÉ TRACCIONA NUESTRA ENSEÑANZA: EL ATAJO DIGITAL O EL SENTIDO PEDAGÓGICO?
+  </h2>
+
+  <!-- SVG des Zuges (Fahrtrichtung: Links -> Rechts) -->
+  <svg viewBox="0 0 950 160" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <g id="wheel">
+        <circle cx="0" cy="0" r="16" fill="#1b415b" stroke="#fff" stroke-width="3" />
+        <circle cx="0" cy="0" r="6" fill="#fff" />
+      </g>
+    </defs>
+
+    <!-- KUPPLUNGEN -->
+    <rect x="145" y="85" width="40" height="12" fill="#1b415b" rx="2" />
+    <rect x="315" y="85" width="40" height="12" fill="#1b415b" rx="2" />
+    <rect x="485" y="85" width="40" height="12" fill="#1b415b" rx="2" />
+    <rect x="655" y="85" width="45" height="12" fill="#1b415b" rx="2" />
+
+    <!-- WAGGON 1: Saber y Competencias -->
+    <g transform="translate(10, 20)">
+      <rect x="0" y="0" width="145" height="95" rx="8" fill="#ffffff" stroke="#1b415b" stroke-width="8" />
+      <text x="72.5" y="38" font-size="13" font-weight="bold" fill="#1b415b" text-anchor="middle">1. SABER Y</text>
+      <text x="72.5" y="56" font-size="13" font-weight="bold" fill="#1b415b" text-anchor="middle">COMPETENCIAS</text>
+      <text x="72.5" y="76" font-size="11" fill="#555" text-anchor="middle">(Saber 1, 2 y 3)</text>
+      <use href="#wheel" x="35" y="105" />
+      <use href="#wheel" x="110" y="105" />
+    </g>
+
+    <!-- WAGGON 2: Diseño de Tareas -->
+    <g transform="translate(180, 20)">
+      <rect x="0" y="0" width="145" height="95" rx="8" fill="#ffffff" stroke="#1b415b" stroke-width="8" />
+      <text x="72.5" y="38" font-size="13" font-weight="bold" fill="#1b415b" text-anchor="middle">2. DISEÑO DE</text>
+      <text x="72.5" y="56" font-size="13" font-weight="bold" fill="#1b415b" text-anchor="middle">TAREAS</text>
+      <text x="72.5" y="76" font-size="11" fill="#555" text-anchor="middle">(Resistencia / Spahn)</text>
+      <use href="#wheel" x="35" y="105" />
+      <use href="#wheel" x="110" y="105" />
+    </g>
+
+    <!-- WAGGON 3: Proceso y Mediación -->
+    <g transform="translate(350, 20)">
+      <rect x="0" y="0" width="145" height="95" rx="8" fill="#ffffff" stroke="#1b415b" stroke-width="8" />
+      <text x="72.5" y="38" font-size="13" font-weight="bold" fill="#1b415b" text-anchor="middle">3. PROCESO Y</text>
+      <text x="72.5" y="56" font-size="13" font-weight="bold" fill="#1b415b" text-anchor="middle">MEDIACIÓN</text>
+      <text x="72.5" y="76" font-size="11" fill="#555" text-anchor="middle">(Andamiaje socrático)</text>
+      <use href="#wheel" x="35" y="105" />
+      <use href="#wheel" x="110" y="105" />
+    </g>
+
+    <!-- WAGGON 4: Evaluación Auténtica -->
+    <g transform="translate(520, 20)">
+      <rect x="0" y="0" width="145" height="95" rx="8" fill="#ffffff" stroke="#1b415b" stroke-width="8" />
+      <text x="72.5" y="38" font-size="13" font-weight="bold" fill="#1b415b" text-anchor="middle">4. EVALUACIÓN</text>
+      <text x="72.5" y="56" font-size="13" font-weight="bold" fill="#1b415b" text-anchor="middle">AUTÉNTICA</text>
+      <text x="72.5" y="76" font-size="11" fill="#555" text-anchor="middle">(Semáforo evaluativo)</text>
+      <use href="#wheel" x="35" y="105" />
+      <use href="#wheel" x="110" y="105" />
+    </g>
+
+    <!-- LOKOMOTIVE (Zieht nach rechts) -->
+    <g transform="translate(690, 10)">
+      <path d="M 10 50 
+               L 40 50 L 40 35 L 52 35 L 52 50 
+               L 65 50 L 65 25 L 77 25 L 77 50 
+               L 95 50 L 105 15 L 175 15 
+               C 215 15, 235 60, 225 105 
+               L 205 105 L 195 105 L 10 105 Z" 
+            fill="#c0392b" />
+      <rect x="125" y="28" width="22" height="30" rx="3" fill="#ffffff" />
+      <path d="M 160 28 L 175 28 C 185 28, 192 38, 190 58 L 160 58 Z" fill="#ffffff" />
+      <text x="70" y="78" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">SENTIDO</text>
+      <text x="70" y="95" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">¿ ? ?</text>
+      <use href="#wheel" x="35" y="115" />
+      <use href="#wheel" x="80" y="115" />
+      <use href="#wheel" x="130" y="115" />
+      <use href="#wheel" x="180" y="115" />
+    </g>
+  </svg>
+
+  <!-- Schiene -->
+  <hr style="border: none; border-top: 4px solid #1b415b; margin: 5px 0 20px 0; opacity: 1;" />
+
+  <!-- Synchronisierte 5-Spalten-Erklärung (exakt unter den 4 Waggons + Lok) -->
+  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1.3fr; gap: 12px; text-align: center;">
+    <div>
+      <h3 class="unlisted" style="margin: 0; font-size: 15px; font-weight: bold; color: #1b415b;">¿Qué aprender?</h3>
+      <p style="color: #444; font-size: 12.5px; margin-top: 6px; line-height: 1.35;">
+        Del dato copiable (Saber 1) al modelo mental (Saber 2) y la pericia viva (Saber 3).
+      </p>
+      <span style="display: inline-block; background: #e7f5ff; color: #1864ab; font-size: 11px; font-weight: bold; padding: 2px 6px; border-radius: 4px;">Taller 1A</span>
+    </div>
+    <div>
+      <h3 class="unlisted" style="margin: 0; font-size: 15px; font-weight: bold; color: #1b415b;">¿Con qué tareas?</h3>
+      <p style="color: #444; font-size: 12.5px; margin-top: 6px; line-height: 1.35;">
+        Tareas con fricción cognitiva, anclaje local y proceso visible.
+      </p>
+      <span style="display: inline-block; background: #e7f5ff; color: #1864ab; font-size: 11px; font-weight: bold; padding: 2px 6px; border-radius: 4px;">Taller 1B</span>
+    </div>
+    <div>
+      <h3 class="unlisted" style="margin: 0; font-size: 15px; font-weight: bold; color: #1b415b;">¿Cómo mediar?</h3>
+      <p style="color: #b00; font-weight: bold; font-size: 12.5px; margin-top: 6px; line-height: 1.35;">
+        Neuroplasticidad y esfuerzo<br>
+        <span style="font-size: 11px; color: #555; font-weight: normal;">vs.</span><br>
+        Deuda cognitiva y atajo
+      </p>
+      <span style="display: inline-block; background: #fff9db; color: #d9480f; font-size: 11px; font-weight: bold; padding: 2px 6px; border-radius: 4px;">Taller 2A y 2B</span>
+    </div>
+    <div>
+      <h3 class="unlisted" style="margin: 0; font-size: 15px; font-weight: bold; color: #1b415b;">¿Cómo evaluar?</h3>
+      <p style="color: #444; font-size: 12.5px; margin-top: 6px; line-height: 1.35;">
+        Evidencia auténtica: Zonas Roja (sin IA), Amarilla (auditada) y Verde (integrada).
+      </p>
+      <span style="display: inline-block; background: #ebfbee; color: #2b8a3e; font-size: 11px; font-weight: bold; padding: 2px 6px; border-radius: 4px;">Taller 3A</span>
+    </div>
+    <div style="background: #fff5f5; padding: 8px; border-radius: 6px; border: 1px solid #ffc9c9;">
+      <h3 class="unlisted" style="margin: 0; font-size: 15px; font-weight: bold; color: #c0392b;">🚂 La Locomotora</h3>
+      <p style="color: #900; font-weight: bold; font-size: 12.5px; margin-top: 6px; line-height: 1.35;">
+        Criterio pedagógico, ética del cuidado y <em>Human Agency</em>
+      </p>
+      <span style="display: inline-block; background: #c0392b; color: #fff; font-size: 11px; font-weight: bold; padding: 2px 6px; border-radius: 4px;">Taller 1A y 3B</span>
+    </div>
+  </div>
+
+  <p style="text-align: right; font-size: 11px; color: #666; margin-top: 18px; margin-bottom: 0;">
+    (Fuente conceptual: Adaptado de Biggs, 1996; Klar &amp; Schleiss, 2024; Neuweg, 2014; Spahn, 2026)
+  </p>
+</div>
+```
+
+## 1. El tren del Constructive Alignment (Biggs, 1996; Klar & Schleiss, 2024)
+
+Retomando nuestra metáfora conductora del tren pedagógico, la evaluación auténtica constituye el cuarto vagón inseparable de las metas formativas, el diseño de tareas y la mediación del proceso:
+
+::: {.content-visible when-format="html"}
+
+```{=html}
+<!-- HIER der komplette <div> ... </div>-Block mit dem SVG-Zug aus der Datei -->
+```
+
+:::
+
+::: {.content-hidden when-format="html"}
+**El tren de la coherencia pedagógica** (versión sin gráfico): Vagón 1, *Saber y competencias* (Taller 1A) → Vagón 2, *Diseño de tareas* (Taller 1B) → Vagón 3, *Proceso y mediación* (Taller 2A y 2B) → Vagón 4, *Evaluación auténtica* (Taller 3A). Los cuatro vagones los tracciona la **locomotora**: criterio pedagógico, ética del cuidado y *Human Agency* (Taller 1A y 3B).
+:::
+
+::: {.callout-note appearance="simple"}
+### 🎯 Metas de aprendizaje de este módulo
+
+Al finalizar el Módulo 3A, ustedes podrán:
+
+1. **Diagnosticar** en qué punto del tren (Vagón 1 a 4) se rompe la coherencia cuando la IA entra al aula sin planificación.
+2. **Justificar** por qué el producto final ya no certifica el aprendizaje y qué evidencia del proceso puede reemplazarlo.
+3. **Clasificar** un instrumento de evaluación propio en Zona Roja, Amarilla o Verde con la Matriz Semafórica.
+4. **Rediseñar** una evaluación concreta de su práctica para que recoja evidencia auténtica del pensamiento.
+
+*Cada actividad del módulo apunta a una de estas metas: los Casos A y B a la meta 1, la Dinámica Exprés a la meta 2, la Matriz a la meta 3 y el Taller de aplicación a la meta 4.*
+:::
+
+## 2. La IA como riesgo de descarrilamiento (El Atajo Digital)
+
+Cuando la Inteligencia Artificial se introduce en el aula sin planificación, actúa como un «bypass» cognitivo. Rompe el eslabón entre el diseño de la tarea y la evaluación, permitiendo al estudiante obtener un resultado final aparentemente perfecto sin haber atravesado el proceso de esfuerzo y fricción (Vagón 3).
+
+Para evitar que la IA vacíe de sentido nuestra práctica educativa, debemos auditar críticamente en qué momento exacto nuestros estudiantes abandonan el tren de la coherencia pedagógica.
+
+::: {.callout-warning appearance="simple"}
+### 📝 Laboratorio de Análisis Crítico: El tren descarrilado (15 minutos)
+
+
+**Contexto institucional:** En los siguientes escenarios, el *Constructive Alignment* se ha fracturado debido al uso pasivo y acrítico de la tecnología. El alumno ha logrado saltar de forma invisible desde el **Vagón 1 (la meta)** directamente al **Vagón 4 (la entrega final)**, eludiendo por completo el esfuerzo cognitivo del **Vagón 3**.
+
+**Misión en equipos (3-4 personas):** Analicen su caso asignado, detecten la falla estructural y diseñen una alternativa de blindaje pedagógico.
+
+**Caso A: El ensayo impecable sobre historia local**
+
+> *Un docente de sociales encarga una investigación escrita de 5 páginas sobre las causas socioeconómicas del conflicto armado en El Salvador. Un estudiante utiliza ChatGPT, genera un texto perfecto con estructura académica en 3 minutos, lo imprime y obtiene la nota máxima.*
+
+- **🔍 Diagnóstico del fallo:** ¿Por qué el **Vagón 2 (Diseño de Tareas)** dejó abierta esta vulnerabilidad de origen?
+- **🛠️ Intervención de rescate:** ¿Cómo transformarían esta consigna en una *Evaluación Auténtica* basada en fuentes vivas comunitarias que la IA no pueda resolver en solitario?
+
+**Caso B: El atajo algorítmico en ciencias exactas**
+
+> *Durante una práctica de resolución de problemas, un alumno se atasca ante una ecuación compleja. En lugar de procesar el error, escanea el enunciado con una aplicación de IA, copia ciegamente el procedimiento paso a paso en su cuaderno y entrega el resultado correcto. Meses después, fracasa estrepitosamente en la prueba presencial.*
+
+- **🔍 Diagnóstico del fallo:** ¿De qué manera este uso instrumental destruye los cimientos del **Vagón 3 (Proceso y Mediación)**?
+- **🛠️ Intervención de rescate:** ¿Cómo integrarían aquí un *Prompt Socrático con barrera didáctica* para obligar al alumno a transitar por la fricción del error en lugar de recibir el resultado servido?
+
+*Cierre (2 minutos en plenaria):* cada equipo nombra en una frase **en qué vagón** ubicó la fractura principal.
+:::
+
+------------------------------------------------------------------------
+
+## 3. El fin de la «Prueba Reina»: La crisis del ensayo tradicional
+
+Durante generaciones, la entrega de un ensayo o reporte de lectura sirvió como la «prueba reina» indiscutible del rendimiento escolar. La hipótesis implícita era simple y lineal: si el texto final entregado estaba formalmente bien estructurado, el alumno había leído, reflexionado y integrado el saber.
+
+Como advierten Klar & Schleiss (2024), la IA generativa no inventó esta debilidad, pero funciona como un amplificador implacable de una fisura estructural que ya arrastrábamos en nuestra cultura escolar:
+
+- **La ilusión de competencia:** Los LLM redactan textos enteros con impecable corrección estilística en segundos, simulando un dominio cognitivo que el estudiante jamás experimentó internamente.
+- **El callejón sin salida de los detectores de IA:** Pretender cazar el fraude mediante persecución algorítmica es un camino poco fiable y, además, injusto. Hay evidencia de que estos detectores producen falsos positivos, en especial con textos de personas que escriben en una lengua que no es la suya (Liang et al., 2023). Quien tenga un estilo de redacción poco convencional también corre el riesgo de ser acusado sin motivo.
+
+Si el producto perfecto ya no certifica el aprendizaje real, y los filtros punitivos carecen de validez ética o técnica, urge transformar nuestra mirada evaluativa: **debemos evaluar el rastro del pensamiento, no el brillo estético del papel.**
+
+::: {.callout-important appearance="simple"}
+### ⚡ Dinámica Exprés: La prueba de vida cognitiva (10 minutos)
+
+**El dilema:** Un estudiante presenta un ensayo brillante sobre la memoria histórica de su municipio. Su intuición docente le dice que ha intervenido la inteligencia artificial. Usar un software detector no es una opción.
+
+**Consigna en parejas:** Dejen por un momento el documento final e imaginen que deben certificar la existencia de un modelo mental genuino en el alumno. Diseñen un protocolo exprés de **«prueba de vida cognitiva»** que incluya:
+
+1.  **Una pregunta de contraste:** ¿Qué pregunta oral, imprevista y anclada en el contexto del estudiante le harían sobre el texto entregado para comprobar si comprende lo que firmó?
+2.  **Una micro-acción analógica de 5 minutos:** ¿Qué tarea de lápiz, papel y esquema conceptual le pedirían realizar en su presencia, a partir de las hipótesis de su propio ensayo?
+
+*(Cierre en plenaria: desplazamos el foco desde la auditoría policial del **producto** hacia la co-construcción y defensa dialógica del **proceso**. Guarden su protocolo: lo vamos a ubicar en la matriz de la sección siguiente.)*
+:::
+
+------------------------------------------------------------------------
+
+## 4. La Matriz Semafórica de Decisión Evaluativa (UNESCO IESALC, 2023; UNIBE, 2025)
+
+Para rediseñar nuestras secuencias de evaluación sin caer en la trampa del atajo digital, utilizaremos un modelo de triaje pedagógico basado en **lo que la tarea necesita demostrar**. La lógica es una cascada de tres preguntas: cada «NO» baja a la siguiente, cada «SÍ» desemboca en una zona.
+
+```{r}
+#| label: fig-semaforo
+#| fig-cap: "Matriz Semafórica de Decisión Evaluativa"
+#| fig-width: 12.5
+#| fig-height: 6.2
+#| dpi: 300
+
+library(ggplot2)
+
+# Preguntas de decisión (cascada de arriba hacia abajo)
+df_decisions <- data.frame(
+  xmin = c(0.5, 0.5, 0.5),
+  xmax = c(4.5, 4.5, 4.5),
+  ymin = c(4.1, 2.2, 0.3),
+  ymax = c(5.5, 3.6, 1.7),
+  label = c("¿Debe demostrar\ndominio cognitivo base\n(Saber 1 y 2)?",
+            "¿Debe demostrar juicio\ncrítico y contrastación\ncon fuentes (Saber 2)?",
+            "¿Debe demostrar pericia\nen una situación real\n(Saber 3)?")
+)
+
+# Zonas de resultado
+df_zones <- data.frame(
+  xmin = c(6.2, 6.2, 6.2),
+  xmax = c(12.7, 12.7, 12.7),
+  ymin = c(4.1, 2.2, 0.3),
+  ymax = c(5.5, 3.6, 1.7),
+  fill  = c("#ffe3e3", "#fff9db", "#ebfbee"),
+  color = c("#e03131", "#f59f00", "#2f9e44"),
+  title = c("ZONA ROJA: Excluida (sin IA)",
+            "ZONA AMARILLA: Asistida y auditada",
+            "ZONA VERDE: Integrada"),
+  desc = c("• Examen analógico presencial o defensa oral\n• Papel y lápiz, con la persona presente\n• Protege la construcción de modelos mentales básicos",
+           "• Prompts, versiones y borradores como evidencia\n• Breve conversación para contrastar el proceso\n• Evalúa el juicio y la curaduría, no el texto pulido",
+           "• Prototipo, trabajo de campo o solución situada\n• La IA es herramienta declarada del proceso\n• Evalúa la pericia práctica (Saber 3)")
+)
+
+ggplot() +
+  # Flechas SÍ (horizontales hacia cada zona)
+  geom_segment(aes(x = 4.5, xend = 6.2, y = c(4.8, 2.9, 1.0), yend = c(4.8, 2.9, 1.0)),
+               arrow = arrow(length = unit(0.25, "cm")),
+               linewidth = 1.2, color = c("#c0392b", "#d9480f", "#2b8a3e")) +
+  annotate("text", x = 5.35, y = c(5.05, 3.15, 1.25), label = "SÍ",
+           size = 4.5, fontface = "bold",
+           color = c("#c0392b", "#d9480f", "#2b8a3e")) +
+
+  # Flechas NO (verticales, bajan a la pregunta siguiente)
+  geom_segment(aes(x = 2.5, xend = 2.5, y = c(4.1, 2.2), yend = c(3.6, 1.7)),
+               arrow = arrow(length = unit(0.25, "cm")),
+               linewidth = 1.2, color = "#495057") +
+  annotate("text", x = 2.95, y = c(3.85, 1.95), label = "NO",
+           size = 4.5, fontface = "bold", color = "#495057") +
+
+  # Cajas de decisión
+  geom_rect(data = df_decisions,
+            aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax),
+            fill = "#f8f9fa", color = "#495057", linewidth = 1.2) +
+  geom_text(data = df_decisions,
+            aes(x = (xmin + xmax) / 2, y = (ymin + ymax) / 2, label = label),
+            size = 4.4, fontface = "bold", lineheight = 1.1, color = "#212529") +
+
+  # Zonas semáforo (colores vía aes + scale_*_identity)
+  geom_rect(data = df_zones,
+            aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax,
+                fill = fill, color = color),
+            linewidth = 1.4) +
+  scale_fill_identity() +
+  scale_color_identity() +
+  geom_text(data = df_zones,
+            aes(x = xmin + 0.25, y = ymax - 0.3, label = title),
+            hjust = 0, size = 5.0, fontface = "bold", color = "#212529") +
+  geom_text(data = df_zones,
+            aes(x = xmin + 0.25, y = ymin + 0.15, label = desc),
+            hjust = 0, vjust = 0, size = 3.9, lineheight = 1.2, color = "#333333") +
+
+  coord_fixed(ratio = 1, xlim = c(0.3, 12.9), ylim = c(0.1, 5.7)) +
+  theme_void()
+```
+
+::: {.callout-tip appearance="simple"}
+### 🔎 Cómo leer la matriz
+
+- **Zona Roja** protege lo que el estudiante debe poder hacer *sin ayuda* (Saber 1 y 2). Aquí encaja la **prueba de vida cognitiva** de la sección anterior: una defensa oral o una micro-acción analógica.
+- **Zona Amarilla** acepta la IA, pero exige **evidencia del proceso**. Un historial de prompts entregado a posteriori se puede editar o inventar. Por eso conviene pedir también versiones intermedias, el historial de cambios del documento o una conversación breve que contraste lo entregado.
+- **Zona Verde** es para tareas situadas (Saber 3), donde usar IA forma parte de la pericia y lo que se evalúa es la solución en contexto.
+- Un mismo curso suele usar **las tres zonas**. La pregunta no es «¿IA sí o no?», sino «¿qué necesito ver para saber que este estudiante aprendió?».
+:::
+
+------------------------------------------------------------------------
+
+## 5. Taller de aplicación: Semaforizar mi propia evaluación (20 minutos)
+
+**Individual o en parejas de la misma asignatura.**
+
+1.  **Elijan** un instrumento de evaluación real de su práctica (un ensayo, un examen, un informe de laboratorio, un proyecto).
+2.  **Recorran** la cascada de la matriz y anoten en qué zona cae hoy.
+3.  **Detecten** la vulnerabilidad: ¿en qué vagón se puede «saltar» el esfuerzo?
+4.  **Rediseñen** una versión: cambien de zona la tarea o añadan evidencia de proceso.
+5.  **Completen** esta ficha (pueden copiarla):
+
+| Instrumento actual | Zona actual | Vagón donde se rompe la coherencia | Rediseño propuesto | Zona nueva | Evidencia del pensamiento que recojo |
+|------------|------------|------------|------------|------------|------------|
+|  |  |  |  |  |  |
+
+*Puesta en común (5 minutos):* dos voluntarios presentan su rediseño; el grupo responde en una frase: ¿qué evidencia **no** se puede delegar a la IA en esta tarea?
+
+------------------------------------------------------------------------
+
+## 6. Condiciones de viabilidad: equidad y carga docente
+
+Un buen diseño evaluativo debe ser **posible** en el contexto real de nuestras escuelas.
+
+::: {.callout-caution appearance="simple"}
+### ⚖️ Antes de llevarlo al aula
+
+- **Acceso desigual:** la Zona Verde y la Amarilla suponen que todos los estudiantes tienen conectividad y acceso a herramientas de IA. Si no es así, ofrezcan una **ruta de baja tecnología** equivalente (por ejemplo, el mismo propósito cognitivo con trabajo de campo, entrevista o cuaderno) o garanticen acceso en el centro educativo.
+- **Carga docente y grupos numerosos:** no hace falta entrevistar a todos. Se puede **muestrear** (defensas breves de 3 minutos a una parte del grupo, rotando), usar **rúbricas cortas** y evaluar el proceso en hitos pequeños en lugar de revisar todo al final.
+- **Transparencia con el estudiantado:** expliquen desde el inicio en qué zona cae cada tarea y por qué. Una regla clara previene más trampas que una vigilancia opaca.
+- **Cuidado ante la sospecha:** una intuición docente no es prueba. La conversación y la tarea analógica sirven para **comprender**, no para castigar.
+:::
+
+------------------------------------------------------------------------
+
+## 7. Síntesis y puente al Taller 3B
+
+::: {.callout-note appearance="simple"}
+### 🧭 Lo que nos llevamos
+
+1.  La IA no rompió la evaluación: **amplificó** una fisura que ya existía, la de confiar en el producto final como prueba del aprendizaje.
+2.  Perseguir el fraude con detectores es poco fiable y puede ser injusto. La respuesta es **rediseñar** qué evidencia pedimos.
+3.  La **Matriz Semafórica** ayuda a decidir, tarea por tarea, qué necesito ver y qué lugar tiene la IA.
+4.  Evaluar bien exige **proceso visible, equidad de acceso y una carga docente viable**.
+
+**Ticket de salida (1 minuto, por escrito):** *«La próxima semana cambiaré \_\_\_\_\_\_ en mi evaluación de \_\_\_\_\_\_ para recoger evidencia de \_\_\_\_\_\_.»*
+:::
+
+Ya revisamos qué llevar en los cuatro vagones. Queda la pregunta que decide hacia dónde avanza el tren: **¿quién conduce?** En el **Taller 3B** trabajaremos la **locomotora**: el criterio pedagógico, la ética del cuidado y la *Human Agency* con que cada docente decide cuándo la IA suma al aprendizaje y cuándo lo reemplaza.
+
+## 

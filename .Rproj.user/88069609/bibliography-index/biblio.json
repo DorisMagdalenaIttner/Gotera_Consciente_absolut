@@ -1,0 +1,1060 @@
+{
+    "sources": [
+        {
+            "author": [
+                {
+                    "family": "Anijovich",
+                    "given": "Rebeca"
+                },
+                {
+                    "family": "Cappelletti",
+                    "given": "Graciela"
+                }
+            ],
+            "id": "anijovich2017",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017
+                    ]
+                ]
+            },
+            "publisher": "Paid’os",
+            "publisher-place": "Buenos Aires",
+            "title": "La evaluaci’on como oportunidad",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Baecker",
+                    "given": "Dirk"
+                }
+            ],
+            "container-title": "Kulturverlag Kadmos",
+            "id": "baecker2002",
+            "issued": {
+                "date-parts": [
+                    [
+                        2002
+                    ]
+                ]
+            },
+            "publisher-place": "Berlin",
+            "title": "Wozu systeme?",
+            "type": "article-journal"
+        },
+        {
+            "DOI": "10.1073/pnas.2416752122",
+            "author": [
+                {
+                    "family": "Bastani",
+                    "given": "Hamsa"
+                },
+                {
+                    "family": "Bastani",
+                    "given": "Osbert"
+                },
+                {
+                    "family": "Sungur",
+                    "given": "Alp"
+                },
+                {
+                    "family": "Ge",
+                    "given": "Haotian"
+                },
+                {
+                    "family": "Kabakcı",
+                    "given": "Ozun"
+                },
+                {
+                    "family": "Mariman",
+                    "given": "Rei"
+                }
+            ],
+            "container-title": "Proceedings of the National Academy of Sciences (PNAS)",
+            "id": "bastani2025",
+            "issue": "26",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "page": "e2416752122",
+            "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+            "title-short": "Generative AI without guardrails can harm learning",
+            "type": "article-journal",
+            "volume": "122"
+        },
+        {
+            "DOI": "10.21240/mpaed/45/2021.12.17.X",
+            "author": [
+                {
+                    "family": "Bettinger",
+                    "given": "Patrick"
+                }
+            ],
+            "container-title": "MedienP\"adagogik: Zeitschrift f\"ur Theorie und Praxis der Medienbildung",
+            "id": "bettinger2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "page": "34-58",
+            "title": "Etablierung normativer ordnungen als spielarten optimierter selbstf\"uhrung? Die regierung des p\"adagogischen am beispiel des 4K- und 21st-century-skills-diskurses",
+            "type": "article-journal",
+            "volume": "45"
+        },
+        {
+            "DOI": "10.1007/BF00138871",
+            "author": [
+                {
+                    "family": "Biggs",
+                    "given": "John"
+                }
+            ],
+            "container-title": "Higher Education",
+            "id": "biggs1996",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        1996
+                    ]
+                ]
+            },
+            "page": "347-364",
+            "title": "Enhancing teaching through constructive alignment",
+            "type": "article-journal",
+            "volume": "32"
+        },
+        {
+            "author": [
+                {
+                    "family": "Bjork",
+                    "given": "Robert A."
+                }
+            ],
+            "container-title": "Metacognition: Knowing about knowing",
+            "editor": [
+                {
+                    "family": "Metcalfe",
+                    "given": "Janet"
+                },
+                {
+                    "family": "Shimamura",
+                    "given": "Arthur P."
+                }
+            ],
+            "id": "bjork1994",
+            "issued": {
+                "date-parts": [
+                    [
+                        1994
+                    ]
+                ]
+            },
+            "page": "185-205",
+            "publisher": "MIT Press",
+            "publisher-place": "Cambridge, MA",
+            "title": "Memory and metamemory considerations in the training of human beings",
+            "type": "chapter"
+        },
+        {
+            "author": [
+                {
+                    "family": "Cobo",
+                    "given": "Crist’obal"
+                }
+            ],
+            "id": "cobo2019",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "publisher": "Fundaci’on Telef’onica",
+            "publisher-place": "Madrid",
+            "title": "Acepto las condiciones: Usos y abusos de las tecnolog’ias digitales",
+            "title-short": "Acepto las condiciones",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Dakan",
+                    "given": "Andrew"
+                },
+                {
+                    "family": "Feller",
+                    "given": "Joseph"
+                }
+            ],
+            "container-title": "Educational Technology Review",
+            "id": "dakan2025",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "page": "45-59",
+            "title": "The 4D framework for AI fluency in education",
+            "type": "article-journal",
+            "volume": "33"
+        },
+        {
+            "DOI": "10.21240/mpaed/39/2020.12.03.X",
+            "author": [
+                {
+                    "dropping-particle": "de",
+                    "family": "Witt",
+                    "given": "Claudia"
+                },
+                {
+                    "family": "Leineweber",
+                    "given": "Christian"
+                }
+            ],
+            "container-title": "MedienP\"adagogik: Zeitschrift f\"ur Theorie und Praxis der Medienbildung",
+            "id": "dewitt2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "32-47",
+            "title": "Zur bedeutung des nichtwissens und die suche nach probleml\"osungen. Bildungstheoretische \"Uberlegungen zur k\"unstlichen intelligenz",
+            "type": "article-journal",
+            "volume": "39"
+        },
+        {
+            "author": [
+                {
+                    "family": "Freire",
+                    "given": "Paulo"
+                }
+            ],
+            "id": "freire1970",
+            "issued": {
+                "date-parts": [
+                    [
+                        1970
+                    ]
+                ]
+            },
+            "publisher": "Siglo XXI Editores",
+            "publisher-place": "M’exico",
+            "title": "Pedagog’ia del oprimido",
+            "type": "book"
+        },
+        {
+            "URL": "https://gi.de/",
+            "author": [
+                {
+                    "literal": "Gesellschaft f\"ur Informatik e.V. (GI)"
+                }
+            ],
+            "id": "gi2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "publisher": "Gesellschaft f\"ur Informatik e.V.",
+            "publisher-place": "Berlin",
+            "title": "Positionspapier: K\"unstliche intelligenz in der bildung",
+            "title-short": "Positionspapier",
+            "type": "report"
+        },
+        {
+            "author": [
+                {
+                    "family": "Ittner",
+                    "given": "Doris"
+                }
+            ],
+            "collection-title": "CAS digitale bildung",
+            "id": "ittner2019",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "publisher": "Universit\"at St. Gallen",
+            "publisher-place": "St. Gallen",
+            "title": "Zukunftsorientiertes kompetenzen- und qualifikationsprofil f\"ur learning professionals im 21. jahrhundert",
+            "type": ""
+        },
+        {
+            "DOI": "10.21240/mpaed/00/2023.11.19.X",
+            "author": [
+                {
+                    "family": "Kalz",
+                    "given": "Marco"
+                }
+            ],
+            "container-title": "MedienP\"adagogik: Zeitschrift f\"ur Theorie und Praxis der Medienbildung",
+            "id": "kalz2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "page": "332-352",
+            "title": "Zur\"uck in die zukunft? Eine literaturbasierte kritik der zukunftskompetenzen",
+            "type": "article-journal",
+            "volume": "Occasional Papers"
+        },
+        {
+            "DOI": "10.1007/978-3-658-40079-8_6",
+            "author": [
+                {
+                    "family": "Kerres",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Buntins",
+                    "given": "Katja"
+                },
+                {
+                    "family": "Buchner",
+                    "given": "Josef"
+                },
+                {
+                    "family": "Drachsler",
+                    "given": "Hendrik"
+                },
+                {
+                    "family": "Zawacki-Richter",
+                    "given": "Olaf"
+                }
+            ],
+            "container-title": "K\"unstliche intelligenz in der bildung",
+            "editor": [
+                {
+                    "dropping-particle": "de",
+                    "family": "Witt",
+                    "given": "Claudia"
+                },
+                {
+                    "family": "Gloerfeld",
+                    "given": "Christina"
+                },
+                {
+                    "family": "Wrede",
+                    "given": "Silke E."
+                }
+            ],
+            "id": "kerres2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "page": "109-132",
+            "publisher": "Springer VS",
+            "publisher-place": "Wiesbaden",
+            "title": "Lernpfade in adaptiven und k\"unstlich-intelligenten lernprogrammen. Eine kritische analyse aus mediendidaktischer sicht",
+            "type": "chapter"
+        },
+        {
+            "DOI": "10.1007/978-3-658-18595-4",
+            "author": [
+                {
+                    "family": "Klafki",
+                    "given": "Wolfgang"
+                }
+            ],
+            "container-title": "Erziehungswissenschaftliche reflexionen und p\"adagogisch-politisches engagement",
+            "editor": [
+                {
+                    "family": "Braun",
+                    "given": "Karl-Heinz"
+                },
+                {
+                    "family": "Kr\"uger",
+                    "given": "Heinz-Hermann"
+                },
+                {
+                    "family": "St\"ubig",
+                    "given": "Frauke"
+                }
+            ],
+            "id": "klafki1985",
+            "issued": {
+                "date-parts": [
+                    [
+                        1985
+                    ],
+                    [
+                        2018
+                    ]
+                ]
+            },
+            "page": "32-50",
+            "publisher": "Springer VS",
+            "publisher-place": "Wiesbaden",
+            "title": "An welchen werten sollten sich p\"adagogische entscheidungen orientieren?",
+            "type": "chapter"
+        },
+        {
+            "DOI": "10.21240/mpaed/58/2024.03.24.X",
+            "author": [
+                {
+                    "family": "Klar",
+                    "given": "Tilman-Mathies"
+                },
+                {
+                    "family": "Schleiss",
+                    "given": "Johannes"
+                }
+            ],
+            "container-title": "MedienP\"adagogik: Zeitschrift f\"ur Theorie und Praxis der Medienbildung",
+            "id": "klar2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "page": "41-57",
+            "title": "K\"unstliche intelligenz im kontext von kompetenzen, pr\"ufungen und lehr-lern-methoden: Alte und neue gestaltungsfragen",
+            "title-short": "K\"unstliche intelligenz im kontext von kompetenzen, pr\"ufungen und lehr-lern-methoden",
+            "type": "article-journal",
+            "volume": "58"
+        },
+        {
+            "author": [
+                {
+                    "family": "Kosmyna",
+                    "given": "Nataliya"
+                },
+                {
+                    "family": "Maes",
+                    "given": "Pattie"
+                },
+                {
+                    "literal": "others"
+                }
+            ],
+            "id": "kosmyna2025",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "publisher": "MIT Media Lab Research Report",
+            "publisher-place": "Cambridge, MA",
+            "title": "Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant for essay writing task",
+            "title-short": "Your brain on ChatGPT",
+            "type": "report"
+        },
+        {
+            "DOI": "10.1016/j.patter.2023.100779",
+            "author": [
+                {
+                    "family": "Liang",
+                    "given": "Weixin"
+                },
+                {
+                    "family": "Yuksekgonul",
+                    "given": "Mert"
+                },
+                {
+                    "family": "Mao",
+                    "given": "Yian"
+                },
+                {
+                    "family": "Wu",
+                    "given": "Eric"
+                },
+                {
+                    "family": "Zou",
+                    "given": "James"
+                }
+            ],
+            "container-title": "Patterns",
+            "id": "liang2023",
+            "issue": "7",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "page": "100779",
+            "title": "GPT detectors are biased against non-native english writers",
+            "type": "article-journal",
+            "volume": "4"
+        },
+        {
+            "DOI": "10.1007/s00287-024-01601-5",
+            "author": [
+                {
+                    "family": "Losch",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Humbert",
+                    "given": "Ludger"
+                },
+                {
+                    "family": "Best",
+                    "given": "Alexander"
+                },
+                {
+                    "literal": "others"
+                }
+            ],
+            "container-title": "Informatik Spektrum",
+            "id": "losch2025",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "page": "38-46",
+            "title": "Was alle \"uber k\"unstliche intelligenz wissen sollen und wie KI-bezogene kompetenzen in der schule entwickelt werden k\"onnen",
+            "type": "article-journal",
+            "volume": "48"
+        },
+        {
+            "author": [
+                {
+                    "family": "Maggio",
+                    "given": "Mariana"
+                }
+            ],
+            "id": "maggio2018",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018
+                    ]
+                ]
+            },
+            "publisher": "Paid’os",
+            "publisher-place": "Buenos Aires",
+            "title": "Reinventar la clase en la universidad",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Meyer-Drawe",
+                    "given": "K\"ate"
+                }
+            ],
+            "container-title": "Zeitschrift f\"ur P\"adagogik",
+            "id": "meyerdrawe2005",
+            "issued": {
+                "date-parts": [
+                    [
+                        2005
+                    ]
+                ]
+            },
+            "page": "24-37",
+            "title": "Anf\"ange des lernens",
+            "type": "article-journal",
+            "volume": "Beiheft 49"
+        },
+        {
+            "author": [
+                {
+                    "family": "Neuweg",
+                    "given": "Georg Hans"
+                }
+            ],
+            "container-title": "Handbuch der forschung zum lehrerberuf",
+            "edition": "2",
+            "editor": [
+                {
+                    "family": "Terhart",
+                    "given": "Ewald"
+                },
+                {
+                    "family": "Bennewitz",
+                    "given": "Hedda"
+                },
+                {
+                    "family": "Rothland",
+                    "given": "Martin"
+                }
+            ],
+            "id": "neuweg2014",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014
+                    ]
+                ]
+            },
+            "page": "583-614",
+            "publisher": "Waxmann",
+            "publisher-place": "M\"unster",
+            "title": "Das konzept des lehrerwissens",
+            "type": "chapter"
+        },
+        {
+            "DOI": "10.1086/444136",
+            "author": [
+                {
+                    "family": "Newmann",
+                    "given": "Fred M."
+                },
+                {
+                    "family": "Marks",
+                    "given": "Helen M."
+                },
+                {
+                    "family": "Gamoran",
+                    "given": "Adam"
+                }
+            ],
+            "container-title": "American Journal of Education",
+            "id": "newmann1996",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        1996
+                    ]
+                ]
+            },
+            "page": "280-312",
+            "title": "Authentic pedagogy and student performance",
+            "type": "article-journal",
+            "volume": "104"
+        },
+        {
+            "DOI": "10.1007/978-1-4020-6184-4_8",
+            "author": [
+                {
+                    "family": "Patry",
+                    "given": "Jean-Luc"
+                },
+                {
+                    "family": "Weyringer",
+                    "given": "Sieglinde"
+                },
+                {
+                    "family": "Weinberger",
+                    "given": "Alfred"
+                }
+            ],
+            "container-title": "Values education and lifelong learning",
+            "editor": [
+                {
+                    "family": "Aspin",
+                    "given": "David N."
+                },
+                {
+                    "family": "Chapman",
+                    "given": "Judith D."
+                }
+            ],
+            "id": "patry2007",
+            "issued": {
+                "date-parts": [
+                    [
+                        2007
+                    ]
+                ]
+            },
+            "page": "160-179",
+            "publisher": "Springer",
+            "publisher-place": "Dordrecht",
+            "title": "Combining values and knowledge education (VAKE)",
+            "type": "chapter"
+        },
+        {
+            "author": [
+                {
+                    "literal": "PHBern"
+                }
+            ],
+            "id": "phbern2025",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "publisher": "Fachstelle Hochschuldidaktik, P\"adagogische Hochschule Bern",
+            "publisher-place": "Bern",
+            "title": "Haltung und rahmenbedingungen: Orientierungshilfe f\"ur den umgang mit KI in der aus- und weiterbildung",
+            "title-short": "Haltung und rahmenbedingungen",
+            "type": "report"
+        },
+        {
+            "URL": "https://www.researchgate.net/publication/337184260_La_Curva_del_Aprendizaje",
+            "author": [
+                {
+                    "family": "Picardo Joao",
+                    "given": "Óscar"
+                },
+                {
+                    "family": "Ábrego",
+                    "given": "Ana María"
+                }
+            ],
+            "id": "picardo2019",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "publisher": "Editorial Universitaria",
+            "publisher-place": "San Salvador",
+            "title": "La curva del aprendizaje: Bases neurobiol’ogicas de la educaci’on y el esfuerzo cognitivo",
+            "title-short": "La curva del aprendizaje",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Platón"
+                }
+            ],
+            "id": "Platon_republica",
+            "issued": {
+                "date-parts": [
+                    [
+                        2000
+                    ]
+                ]
+            },
+            "publisher": "Editorial Gredos",
+            "publisher-place": "Madrid",
+            "title": "La república",
+            "translator": [
+                {
+                    "family": "Eggers Lan",
+                    "given": "Conrado"
+                }
+            ],
+            "type": "book"
+        },
+        {
+            "DOI": "10.1007/978-3-658-40079-8_2",
+            "author": [
+                {
+                    "family": "Rapp",
+                    "given": "Frank"
+                },
+                {
+                    "family": "Vogel",
+                    "given": "Christian"
+                },
+                {
+                    "family": "Deimann",
+                    "given": "Markus"
+                }
+            ],
+            "container-title": "K\"unstliche intelligenz in der bildung",
+            "editor": [
+                {
+                    "dropping-particle": "de",
+                    "family": "Witt",
+                    "given": "Claudia"
+                },
+                {
+                    "family": "Gloerfeld",
+                    "given": "Christina"
+                },
+                {
+                    "family": "Wrede",
+                    "given": "Silke E."
+                }
+            ],
+            "id": "rapp2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "page": "31-46",
+            "publisher": "Springer VS",
+            "publisher-place": "Wiesbaden",
+            "title": "K\"unstliche intelligenz. Eine bildungstheoretische ann\"aherung aus sicht kritisch-konstruktiver didaktik",
+            "type": "chapter"
+        },
+        {
+            "DOI": "10.1016/j.tics.2016.07.002",
+            "author": [
+                {
+                    "family": "Risko",
+                    "given": "Evan F."
+                },
+                {
+                    "family": "Gilbert",
+                    "given": "Sam J."
+                }
+            ],
+            "container-title": "Trends in Cognitive Sciences",
+            "id": "risko2016",
+            "issue": "9",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "page": "676-688",
+            "title": "Cognitive offloading",
+            "type": "article-journal",
+            "volume": "20"
+        },
+        {
+            "author": [
+                {
+                    "family": "Schön",
+                    "given": "Donald A."
+                }
+            ],
+            "id": "schon1983",
+            "issued": {
+                "date-parts": [
+                    [
+                        1983
+                    ]
+                ]
+            },
+            "publisher": "Basic Books",
+            "publisher-place": "New York",
+            "title": "The reflective practitioner: How professionals think in action",
+            "title-short": "The reflective practitioner",
+            "type": "book"
+        },
+        {
+            "URL": "https://sebayt.ch/",
+            "author": [
+                {
+                    "family": "Spahn",
+                    "given": "Wolfgang"
+                }
+            ],
+            "id": "spahn2026",
+            "issued": {
+                "date-parts": [
+                    [
+                        2026
+                    ]
+                ]
+            },
+            "publisher": "Atelier-Materialien, sebayt.ch",
+            "title": "KI ver\"andert bildung – wie darauf reagieren? Kriterien f\"ur aufgabenbezogene kognitive resistenz",
+            "type": ""
+        },
+        {
+            "DOI": "10.1016/j.chb.2024.108372",
+            "author": [
+                {
+                    "family": "Stadler",
+                    "given": "Matthias"
+                },
+                {
+                    "family": "Bannert",
+                    "given": "Maria"
+                },
+                {
+                    "family": "Sailer",
+                    "given": "Maximilian"
+                }
+            ],
+            "container-title": "Computers in Human Behavior",
+            "id": "stadler2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "page": "108372",
+            "title": "Cognitive ease at a cost: LLMs reduce mental effort but compromise depth in student scientific inquiry",
+            "title-short": "Cognitive ease at a cost",
+            "type": "article-journal",
+            "volume": "160"
+        },
+        {
+            "URL": "https://unesdoc.unesco.org/",
+            "author": [
+                {
+                    "literal": "UNESCO"
+                }
+            ],
+            "id": "unesco2025",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "publisher": "United Nations Educational, Scientific; Cultural Organization",
+            "publisher-place": "Paris",
+            "title": "AI competency framework for teachers",
+            "type": "report"
+        },
+        {
+            "URL": "https://www.iesalc.unesco.org/",
+            "author": [
+                {
+                    "literal": "UNESCO-IESALC"
+                }
+            ],
+            "id": "unesco_iesalc2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "publisher": "Instituto Internacional de la UNESCO para la Educaci’on Superior en Am’erica Latina y el Caribe",
+            "publisher-place": "Caracas",
+            "title": "Orientaciones sobre el uso de la inteligencia artificial generativa en la educaci’on y la investigaci’on",
+            "type": "report"
+        },
+        {
+            "URL": "https://www.unibe.ch/",
+            "author": [
+                {
+                    "literal": "University of Bern"
+                }
+            ],
+            "id": "unibe2025",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "publisher": "Medical and Natural Sciences Library, Universit\"at Bern",
+            "publisher-place": "Bern",
+            "title": "Responsible use of GenAI: A step-by-step decision guide",
+            "title-short": "Responsible use of GenAI",
+            "type": ""
+        },
+        {
+            "DOI": "10.1007/978-3-658-40079-8_1",
+            "author": [
+                {
+                    "family": "Wollersheim",
+                    "given": "Heinz-Werner"
+                }
+            ],
+            "container-title": "K\"unstliche intelligenz in der bildung",
+            "editor": [
+                {
+                    "dropping-particle": "de",
+                    "family": "Witt",
+                    "given": "Claudia"
+                },
+                {
+                    "family": "Gloerfeld",
+                    "given": "Christina"
+                },
+                {
+                    "family": "Wrede",
+                    "given": "Silke E."
+                }
+            ],
+            "id": "wollersheim2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "page": "3-30",
+            "publisher": "Springer VS",
+            "publisher-place": "Wiesbaden",
+            "title": "Bildung durch k\"unstliche intelligenz erm\"oglichen. Ein beitrag aus bildungstheoretischer perspektive",
+            "type": "chapter"
+        },
+        {
+            "DOI": "10.25656/01:13875",
+            "author": [
+                {
+                    "family": "Adamina",
+                    "given": "Marco"
+                }
+            ],
+            "container-title": "Beiträge zur Lehrerinnen- und Lehrerbildung",
+            "id": "adamina2014",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014
+                    ]
+                ]
+            },
+            "page": "359-372",
+            "title": "Lehr- und lernmaterialien im kompetenzorientierten unterricht",
+            "type": "article-journal",
+            "volume": "32"
+        },
+        {
+            "author": [
+                {
+                    "family": "Leisen",
+                    "given": "Josef"
+                }
+            ],
+            "id": "leisen2011",
+            "issued": {
+                "date-parts": [
+                    [
+                        2011
+                    ]
+                ]
+            },
+            "publisher": "Varus",
+            "publisher-place": "Bonn",
+            "title": "Handbuch sprachförderung im fach: Sprachsensibler fachunterricht in der praxis",
+            "title-short": "Handbuch sprachförderung im fach",
+            "type": "book"
+        }
+    ],
+    "project_biblios": [
+        "references.bib"
+    ]
+}

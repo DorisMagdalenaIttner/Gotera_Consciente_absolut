@@ -1,0 +1,46 @@
+# Materiales y Recursos de Apoyo: Taller 1
+
+Este espacio reúne guías técnicas, marcos conceptuales y lecturas de referencia para acompañar el trabajo práctico de auditoría y rediseño de tareas escolares desarrollado durante el Taller 1.
+
+------------------------------------------------------------------------
+
+## 1. Documentación Oficial y Guías de Ingeniería de Instrucciones
+
+Para llevar a la práctica las propuestas de reingeniería didáctica y dialogar de manera rigurosa con los modelos de lenguaje (utilizándolos como *sparring* socrático o asistentes metodológicos), se recomienda consultar las guías oficiales:
+
+::: {.callout-tip appearance="simple"}
+## 🛠️ Anthropic Claude: Documentación y Guías en Español
+
+Anthropic ofrece un portal completo con pautas operativas y técnicas orientadas al diseño de instrucciones y control contextual:
+
+- 🌐 **Portal oficial:** [Anthropic Claude – Guía y Documentación en Español](https://platform.claude.com/docs/es/home){target="_blank"}
+- **Ejes clave para la práctica docente:**
+  - **Configuración de roles (*system prompts*):** Instruir a la herramienta para que actúe como tutor formativo que formula preguntas guía en lugar de redactar respuestas directas.
+  - **Control de contexto y restricciones:** Delimitar con precisión el vocabulario, la extensión, el tono pedagógico y las fuentes autorizadas para mitigar alucinaciones.
+  - **Uso de ejemplos contextualizados (*few-shot prompting*):** Entrenar al modelo mediante modelos de respuesta para asegurar un andamiaje adaptado al nivel evolutivo de los estudiantes.
+:::
+
+------------------------------------------------------------------------
+
+## 2. Marcos de Referencia del Taller
+
+Para profundizar en los fundamentos pedagógicos y analíticos trabajados en los módulos 1A y 1B:
+
+- [**Marco de Competencias Docentes en IA (UNESCO, 2025)**](https://unesdoc.unesco.org){target="_blank"}\
+  Enfoque centrado en la protección de la capacidad de acción humana (*Human Agency*), la soberanía reflexiva y la alfabetización crítica.
+
+- [**Declaración y Modelo del Triángulo de Dagstuhl (GI, 2016)**](https://gi.de/dagstuhl-erklaerung){target="_blank"}\
+  Matriz de análisis integral en tres perspectivas: tecnológica (*¿Cómo funciona?*), sociocultural (*¿Qué efectos produce?*) y didáctico-práctica (*¿Cómo se media?*).
+
+- [**Microsoft AI Economy Institute: Global AI Diffusion Report**](https://www.microsoft.com/en-us/corporate-responsibility/topics/ai-economy-institute/reports/global-ai-diffusion-report/){target="_blank"}\
+  Datos y análisis sobre la adopción global de la IA generativa y su impacto en las dinámicas laborales y formativas contemporáneas.
+
+------------------------------------------------------------------------
+
+## 3. Instrumentos de Trabajo y Fichas Descargables
+
+Durante las sesiones presenciales se utilizan los siguientes instrumentos para la auditoría y rediseño:
+
+1.  **Ficha de Auditoría de Tarea Real (Choque Algorítmico):** Matriz para cronometrar la respuesta del bot y diagnosticar qué operaciones cognitivas quedan anuladas.
+2.  **Matriz de Re-Engineering de Wolfgang Spahn:** Pauta de 5 ejes (arraigo local, sub-especificación, juicios de valor, toma de postura y evidencias de proceso) para rediseñar consignas.
+3.  **Pauta de Observación Cruzada (*Gruppenpuzzle*):** Guía de retroalimentación en pares para evaluar la resistencia pedagógica del producto reestructurado.

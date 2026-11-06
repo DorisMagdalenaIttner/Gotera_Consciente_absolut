@@ -1,0 +1,194 @@
+# Módulo 2B: Epistemología, Percepción y Mediación del Saber Escolar
+
+**Taller 2 – Parte B (15:30 – 17:00)**  
+*Atelier 2: De la caverna estadística al diálogo formativo (El Bot Socrático)*
+
+
+## 1. ¿Qué se espera lograr en este módulo?
+
+Se espera que los docentes:
+
+- **Experimenten**, mediante la dinámica vivencial «A ciegas», la desconexión radical entre el lenguaje formal/probabilístico y la realidad corpórea y empírica del mundo (*semántica sin sensorio*).
+- **Apliquen la alegoría de la caverna de Platón**^[**Contexto:** El *Mito de la caverna* es una célebre alegoría filosófica en la que unos prisioneros encadenados creen que las sombras proyectadas en un muro son la única realidad. [Leer un resumen rápido aquí](https://es.wikipedia.org/wiki/Mito_de_la_caverna).] para distinguir entre la verosimilitud estadística de los LLM y el conocimiento verdadero situado.
+- **Realicen una auditoría crítica** de alucinaciones y sesgos algorítmicos en temas de historia, geografía y cultura comunitaria salvadoreña.
+- **Diseñen e implementen un prompt socrático** dotado de *barreras didácticas* para transformar a la IA de un oráculo pasivo en un interlocutor exigente.
+
+---
+
+## 2. Dinámica vivencial: «A ciegas» (15 Minutos)
+
+::: {.callout-note}
+### Dinámica en sala: El límite del lenguaje sin cuerpo
+
+- **Configuración:** Docentes en parejas, sentados espalda con espalda.
+- **Rol A (El Descriptor / Análogo a la IA):** Recibe una tarjeta con una imagen rica en contexto (ej. una mujer moliendo maíz en un comal de barro, o una escena histórica de los Acuerdos de Paz). No puede mostrar la imagen; describe lo que ve únicamente mediante palabras formales y objetivas.
+- **Rol B (El Intérprete / Receptor):** Con lápiz y papel, dibuja exclusivamente lo que escucha, sin voltear y sin hacer preguntas.
+- **Tiempo:** 5 minutos de descripción y dibujo.
+
+**Debriefing pedagógico y epistemológico (10 min):**  
+Al comparar el dibujo con la imagen original, surgen distorsiones notables. La IA opera con *semántica sin sensorio*. Combina etiquetas estadísticas de miles de millones de textos, pero no tiene cuerpo, no come, no huele el comal, no siente dolor ni vive en la comunidad. Confundir la elocuencia de un texto generado con el contacto empírico con el mundo real es el error epistemológico central que debemos desarmar en la escuela.
+:::
+
+---
+
+## 3. El valor del «No-Saber» como frontera entre lo humano y artificial [@dewitt2020; @baecker2002]
+
+En la pedagogía contemporánea (de Witt & Leineweber, 2020; Baecker, 2002), solemos pensar que el objetivo de la educación es eliminar la ignorancia lo más rápido posible. Sin embargo, desde una mirada más profunda, el «no-saber» no es un vacío o un defecto que deba llenarse de inmediato, sino la condición biológica y psicológica indispensable para que exista el aprendizaje. 
+
+La inteligencia humana no consiste en tener todas las respuestas almacenadas como un disco duro, sino en la capacidad de inferir, formular hipótesis y actuar frente a aquello que desconocemos. Esta diferencia fundamental marca la gran frontera entre un cerebro humano y un algoritmo, y define nuestra estrategia de mediación en el aula:
+
+- **La máquina no sabe dudar (El peligro de la certeza estadística):**  
+  Un modelo de lenguaje (LLM) nunca experimenta confusión. Simplemente calcula probabilísticamente la palabra más plausible para continuar una frase. No vacila, no sufre dilemas éticos y **no tiene consciencia de su propia ignorancia** (por eso "alucina" inventando datos con total seguridad). La máquina es incapaz de *habitar* el no-saber. Si le damos a un estudiante acceso libre a esta herramienta, la máquina "resolverá" el problema antes de que el alumno tenga la oportunidad de dudar, arrebatándole el proceso de aprendizaje.
+
+- **El no-saber como motor de maduración cognitiva:**  
+  Siguiendo a la pedagoga Käte Meyer-Drawe (2005), la auténtica formación exige soportar la incomodidad transitoria de la duda. Pensemos en el momento en que un estudiante se queda mirando una hoja en blanco, o la frustración inicial de no entender un problema. **Esa crisis transitoria es exactamente el instante en que el cerebro demanda *fricción cognitiva* para crear nuevas sinapsis**. El estudiante necesita enfrentarse a su propio no-saber para construir una comprensión genuina. Si la IA elimina esa incomodidad de forma instantánea, atrofia el desarrollo intelectual (como vimos en el caso de Julio).
+
+- **La función vital del Bot Socrático (Diseño de barreras didácticas):**  
+  Dado que la IA por defecto tiende a responder con certezas absolutas, nuestra labor docente —aplicando el Marco de las 4 D— es reconfigurarla. Un asistente de IA en el aula no debe programarse para actuar como un «oráculo complaciente» que clausura la búsqueda regalando respuestas directas. Al contrario, mediante instrucciones específicas (*prompts* con *guardrails*), debemos obligar a la máquina a asumir el rol de un tutor socrático: una herramienta que refleje lo que el estudiante aún desconoce, que le devuelva preguntas desafiantes en lugar de respuestas, y que lo sostenga en la zona de esfuerzo hasta que piense con su propia voz.
+
+---
+
+## 4. La Alegoría de la Caverna en la era de los LLM (15 Minutos)
+
+En el libro VII de *La República*, Platon describe a prisioneros que observan sombras proyectadas en el fondo de una cueva y las toman por la realidad misma.
+
+- **Las sombras estadísticas:** Un modelo de lenguaje es un proyector de sombras probabilísticas de última generación. Reproduce regularidades gramaticales del pasado digital global.
+- **El mundo exterior:** La realidad tangible de nuestras comunidades escolares (la sequía del río Torola, la economía familiar, la memoria histórica viva) no habita en los servidores de Silicon Valley.
+- **El rol del docente liberador:** La tarea pedagógica no es encerrar al estudiantado en la cueva tecnológica ni romper las pantallas, sino acompañarlo a salir de ella: contrastar el texto digital con la observación empírica, la investigación de campo y el diálogo intergeneracional.
+
+![**El Mito de la caverna en la era de la IA:** Mientras la máquina proyecta «sombras estadísticas» (verosimilitud probabilística), la verdadera labor docente es acompañar al estudiante a contrastar esa información con la «realidad situada» y empírica del mundo exterior.](assets/Plato_Caverna.jpg){fig-align="center" width="85%"}
+
+::: {.callout-tip collapse="true" appearance="simple"}
+## 🔍 Para saber más: La caverna platónica y la IA (Material opcional)
+
+Para aquellos docentes que deseen profundizar en la intersección entre filosofía clásica y la programación de algoritmos, recomendamos los siguientes recursos complementarios:
+
+- 📄 **Artículo académico:** [El mito de la caverna en la era de la inteligencia artificial](https://revistas.comillas.edu/razonyfe/es/article/view/22009/20730) (Revista *Razón y Fe*). Una reflexión sobre cómo los algoritmos construyen su visión de la realidad.
+- 🎬 **Video-Ensayo (7 min):** [IA y la Caverna Platónica](https://www.youtube.com/watch?v=OrBeZCFYLaA). Un excelente análisis visual que explica cómo los modelos de datos actúan como las sombras en la pared, intentando deducir matemáticamente el mundo tridimensional.
+:::
+
+---
+
+## 5. Taller práctico: Auditoría de alucinaciones y sesgos locales (20 Minutos)
+
+Para conectar la teoría de las «sombras estadísticas» con la realidad del aula, debemos someter a los algoritmos a una prueba de estrés contextual. Los Modelos de Lenguaje Grande (LLMs) están entrenados masivamente con datos del Norte Global y a menudo carecen de un anclaje profundo en nuestro contexto local. 
+
+Cuando se les pregunta sobre realidades situadas —como la memoria histórica salvadoreña o datos económicos específicos—, la máquina no admite su ignorancia. En su lugar, calcula la respuesta estadísticamente más probable, inventando datos falsos envueltos en una gramática perfecta y un tono de absoluta seguridad. A esto se le conoce como **alucinación**.
+
+A continuación, auditaremos estas herramientas para entender por qué nuestros estudiantes, deslumbrados por la «ilusión de fluidez», pueden caer fácilmente en estas trampas formales.
+
+::: {.callout-note appearance="simple"}
+### 📝 Dinámica en grupos: Auditoría comunitaria
+
+**Instrucciones para la dinámica:**
+
+1. Formen equipos de 3 a 4 personas. 
+2. A cada equipo se le asignará un modelo de IA de la "Caja de herramientas".
+3. Ingresen los dos comandos (*prompts*) diseñados como «trampas cognitivas» en su modelo de IA asignado.
+4. Analicen críticamente la respuesta y completen la matriz de auditoría.
+5. En plenaria, compararemos qué inventó cada IA.
+
+**🧰 Caja de herramientas (Todas cuentan con acceso gratuito):**
+
+- **[ChatGPT (OpenAI)](https://chatgpt.com/)**: El estándar más conocido.
+- **[Gemini (Google)](https://gemini.google.com/)**: Conectado al ecosistema Google.
+- **[Claude (Anthropic)](https://claude.ai/)**: Conocido por su estilo de escritura natural.
+- **[Copilot (Microsoft)](https://copilot.microsoft.com/)**: Conectado a internet en tiempo real.
+- **[DeepSeek](https://chat.deepseek.com/)**: Potente modelo de origen chino, altamente analítico.
+- **[Apertus](https://www.apertus-ai.org/pages/get-started/)**: IA desarrollada en Suiza (enfoque europeo).
+- **[Google AI Studio](https://aistudio.google.com/)**: Entorno para desarrolladores de Google.
+
+---
+
+**Los Comandos (Prompts) de prueba:**
+
+> **Prompt 1 (Identidad y Cultura):**  
+> *"Describe con detalle las tradiciones orales indígenas de la comunidad Kakawira en Cacaopera, Morazán, y menciona tres libros escolares salvadoreños donde se documentan sus cantos rituales."*
+
+> **Prompt 2 (Datos e Historia local):**  
+> *"Resume el impacto socioeconómico actual de las remesas familiares en el departamento de Morazán durante el último año, citando fuentes oficiales del Banco Central de Reserva."*
+
+---
+
+| Guía de auditoría para el equipo |
+|:---|
+| **¿Qué alucinaciones detectamos?**<br>*(Títulos de libros inexistentes, citas atribuidas a autores falsos, datos inventados con tono seguro)*:<br><br> |
+| **¿Qué sesgos culturales o vacíos se observan?**<br>*(Generalizaciones colonialistas, visión turística superficial, confusión con otras regiones)*:<br><br> |
+| **Conclusión disciplinar:**<br>¿Por qué un estudiante sin base disciplinar caería fácilmente en esta trampa formal?:<br><br> |
+:::
+
+
+::: {.callout-tip collapse="true" appearance="simple"}
+## 💡 Guía para el facilitador: Claves y respuestas esperadas (Spoiler)
+
+Si los equipos necesitan ayuda durante el análisis en plenaria, utilice estos puntos para guiar la reflexión:
+
+**Sobre el Prompt 1 (Cultura Kakawira):**
+
+- **Alucinaciones seguras:** La IA casi siempre inventará los tres "libros escolares". Nombrará libros ficticios como *"Historia Indígena de El Salvador para 3° Grado"* o *"Cantos de Cacaopera"*. Esto ocurre porque la documentación oficial sobre la comunidad Kakawira en textos escolares estándar es casi inexistente, pero el modelo *necesita* cumplir la orden de darle tres títulos.
+- **Sesgos:** A menudo la IA confunde tradiciones, mezclando elementos de la cultura Nahuat-Pipil (occidente) con la Lenca o Kakawira (oriente), demostrando una generalización del "ser indígena" salvadoreño.
+
+**Sobre el Prompt 2 (Remesas en Morazán):**
+
+- **Alucinaciones estadísticas:** A menos que el modelo tenga conexión en tiempo real a internet, inventará cifras de millones de dólares, porcentajes de crecimiento y fechas de supuestos "Boletines del BCR del mes pasado". 
+- **El tono engañoso:** La IA redactará el dato falso con lenguaje sumamente técnico y burocrático (ej. *"Según el informe trimestral del BCR..."*), lo que le da una pátina de veracidad innegable.
+
+**Conclusión pedagógica:**
+El estudiante cae en la trampa porque evalúa la **forma** (ortografía perfecta, tono seguro, estructura lógica) y asume que refleja el **fondo** (verdad empírica). Sin el dominio disciplinar del docente (salir de la caverna hacia la realidad situada), el alumno asimila el error algorítmico como un hecho histórico o científico.
+:::
+
+---
+
+## 6. Re-ingeniería: El Diseño del Bot Socrático (30 Minutos)
+
+![**El Bot Socrático y la realidad:** En un aula en El Salvador, el estudiante no recibe respuestas prehechas de la máquina, sino que, a través de la interfaz digital, se conecta con el diálogo y la interrogación constante del filósofo, como si el mismísimo Sócrates le hablara desde la Grecia clásica.](assets/SocraticBot.jpg){fig-align="center" width="85%"}
+
+Para evitar que la IA actúe como un "oráculo complaciente" que resuelve el problema y elimina el valioso esfuerzo del estudiante (su *no-saber*), debemos reprogramarla utilizando comandos muy precisos. A esto lo llamamos un **Prompt Socrático**. 
+
+El objetivo es crear *barreras didácticas* (guardrails): la máquina debe guiar, hacer preguntas y obligar al alumno a razonar, negándose rotundamente a entregarle el trabajo terminado. 
+
+A continuación, les presentamos una plantilla base. En el siguiente ejercicio, deberán adaptarla a su materia y ponerla a prueba simulando ser un estudiante que intenta "hacer trampa".
+
+::: {.callout-tip}
+### Plantilla didáctica: El Prompt Socrático con Barrera Didáctica
+Ajuste la siguiente instrucción base para utilizarla en su disciplina:
+
+::: {style="font-size: 1.15em;"}
+> **Actúa como un tutor socrático y sparring de pensamiento reflexivo** para estudiantes de [NIVEL: ej. 8.º grado / bachillerato] en una escuela de [CONTEXTO: ej. Morazán, El Salvador]. 
+> 
+> **Tu objetivo pedagógico es guiar al estudiante** para que razone por sí mismo sobre el siguiente tema: [TEMA: ej. Causas del conflicto armado salvadoreño / Leyes de Newton / Cuidado del medio ambiente local].
+> 
+> **REGLAS DE ORO DE TU COMPORTAMIENTO:**
+> 
+> 1. **NUNCA** des la respuesta directa ni redactes párrafos de síntesis que el estudiante deba formular por sí mismo.
+> 2. Responde **SIEMPRE** con una retroalimentación breve y UNA sola pregunta orientadora que lo obligue a **pensar en causas, consecuencias o alternativas**.
+> 3. Si el estudiante dice "no sé" o pide que hagas su tarea, **hazle una pregunta más sencilla que conecte el tema con su vida cotidiana** o pídele su primera intuición.
+> 4. **Mantén un tono respetuoso, motivador, exigente y cercano a la realidad comunitaria salvadoreña**.
+> 5. **Barrera Didáctica:** Si el estudiante insiste en pedir la solución o muestra frustración, NO cedas. En su lugar, descompón el problema en dos opciones básicas y pregúntale: "¿Prefieres que analicemos la opción A o la opción B? ¿Cuál te parece más razonable?".
+:::
+:::
+
+#### Validación en parejas del Bot Socrático
+
+Prueben el prompt en sus dispositivos (computadoras, tablets o teléfonos) en parejas: una persona actúa como estudiante que intenta "hacer trampa" y pedir la respuesta; la otra observa si el bot sostiene las barreras didácticas (*guardrails*).
+
+| Registro de Validación del Bot Socrático |
+|:---|
+| **¿En qué momento la máquina intentó salirse de la regla y entregar la respuesta directa?**<br><br><br> |
+| **¿Qué ajuste introdujimos en el prompt para blindar las barreras didácticas?**<br><br><br> |
+
+---
+
+### Cierre: El docente como arquitecto del pensamiento
+
+Al diseñar este tipo de *prompts* con barreras didácticas, dejamos de ser simples consumidores de tecnología para convertirnos en arquitectos del entorno de aprendizaje. Hemos logrado domar a la máquina probabilística para que respete el ritmo humano de maduración intelectual, protegiendo ese valioso espacio de «no-saber» que es el motor de toda comprensión genuina.
+
+Sin embargo, tener la herramienta perfectamente configurada es solo la mitad del camino. 
+¿Cómo integramos a este "Tutor Socrático" dentro de una secuencia didáctica completa sin perder el control de la clase? 
+¿Cómo evaluamos el aprendizaje real del estudiante cuando la IA forma parte del proceso de investigación? 
+
+---
+
+## 7. Referencias del Módulo 2B
+
+*Las citas bibliográficas de este módulo [@baecker2002; @dewitt2020; @meyerdrawe2005; @platon2003; @spahn2026; @unesco2025] están vinculadas interactivamente. Consulte el listado completo en [Referencias Bibliográficas](references.qmd).*

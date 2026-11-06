@@ -1,0 +1,4 @@
+Coloque aquí el archivo PDF del libro con el nombre exacto:
+Picardo_Abrego_La_Curva_del_Aprendizaje.pdf
+
+El dossier Quarto ya está configurado con enlaces y botones interactivos de descarga apuntando a esta ruta.

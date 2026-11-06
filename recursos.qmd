@@ -1,0 +1,49 @@
+# Recursos y Enlaces a Fuentes Primarias {.unnumbered}
+
+En este apartado encontrará los accesos directos a los documentos clave, marcos normativos internacionales, repositorios institucionales y plataformas de experimentación analizados a lo largo de los tres talleres:
+
+---
+
+## 1. Marcos Normativos y Didácticos Internacionales
+
+* [**UNESCO (2025): AI Competency Framework for Teachers**](https://unesdoc.unesco.org/ark:/48223/pf0000391104)  
+  Documento de referencia global sobre la primacía de la *Human Agency* (Capacidad de acción humana) frente a la tecnología en el aula.
+* [**UNESCO-IESALC (2023): Orientaciones sobre el uso de la IA generativa**](https://www.iesalc.unesco.org/wp-content/uploads/2023/04/ChatGPT-y-educacion-superior_UNESCO-IESALC_ES.pdf)  
+  Guía regional para América Latina y el Caribe; fundamento de la matriz semafórica institucional (Zonas Roja, Amarilla y Verde).
+* [**University of Bern (2025): Decision Guide for the Responsible Use of AI Tools**](https://www.unibe.ch/)  
+  Guía paso a paso desarrollada por la Biblioteca de Medicina y Ciencias Naturales de la Universidad de Berna con las cuatro preguntas de control ético y disciplinar.
+* [**Gesellschaft für Informatik e.V. (GI, 2023): Positionspapier Künstliche Intelligenz in der Bildung**](https://gi.de/meldung/positionspapier-kuenstliche-intelligenz-in-der-bildung)  
+  Marco del Triángulo de Dagstuhl: análisis tridimensional (tecnológico, sociocultural y didáctico-práctico).
+
+---
+
+## 2. Libros y Ensayos de Investigación Clave (Descarga directa y Open Access)
+
+* [**Óscar Picardo Joao & Ana María Ábrego (2019): La curva del aprendizaje: Bases neurobiológicas de la educación y el esfuerzo cognitivo**](recursos_pdf/Picardo_Abrego_La_Curva_del_Aprendizaje.pdf){.btn .btn-outline-primary .btn-sm role="button" target="_blank"}  
+  *Referencia neuroeducativa salvadoreña clave para el Taller 2: bases biológicas de la neuroplasticidad, sinapsis y la fundamentación del esfuerzo cognitivo frente a la comodidad de la IA.*  
+  *[Acceso alternativo en repositorio digital (ResearchGate / UFG)](https://www.researchgate.net/publication/337184260_La_Curva_del_Aprendizaje)*
+
+
+* [**Wolfgang Spahn (2026): sebayt.ch -- Didaktische Reflexionen zu KI**](https://sebayt.ch/)  
+  Materiales de atelier, criterios de resistencia cognitiva en tareas escolares y la metáfora del sándwich didáctico.
+* [**Claudia de Witt & Christian Leineweber (2020): Zur Bedeutung des Nichtwissens**](https://doi.org/10.21240/mpaed/39/2020.12.03.X)  
+  Artículo en *MedienPädagogik* sobre el valor del no-saber como condición indispensable de la formación humana y la inteligencia.
+* [**Patrick Bettinger (2021): Etablierung normativer Ordnungen (4K-Diskurs)**](https://doi.org/10.21240/mpaed/45/2021.12.17.X)  
+  Crítica de la gubernamentalidad y la «Skillflation»: por qué la adaptación técnica acrítica no equivale a emancipación.
+* [**Tilman-Mathies Klar & Johannes Schleiss (2024): KI im Kontext von Prüfungen**](https://doi.org/10.21240/mpaed/58/2024.03.24.X)  
+  Análisis del colapso del examen escrito tradicional y el principio del *Constructive Alignment*.
+* [**Marco Kalz (2023): Zurück in die Zukunft? Eine Kritik der Zukunftskompetenzen**](https://doi.org/10.21240/mpaed/00/2023.11.19.X)  
+  Desmontando el hype de las «Future Skills»: la competencia vacía sin contenido disciplinar no genera aprendizaje.
+* [**Hamsa Bastani et al. (PNAS, 2025): Generative AI without guardrails**](https://doi.org/10.1073/pnas.2416752122)  
+  Evidencia experimental en educación secundaria: por qué la IA sin barreras didácticas (*guardrails*) atrofia el aprendizaje matemático autónomo.
+* [**Weixin Liang et al. (Patterns, 2023): GPT detectors are biased**](https://doi.org/10.1016/j.patter.2023.100779)  
+  Estudio empírico de Stanford: evidencia sobre el sesgo inaceptable y falsos positivos de los detectores automáticos de texto.
+
+---
+
+## 3. Herramientas Recomendadas para la Experimentación en el Aula
+
+* [**HuggingChat (Open Source)**](https://huggingface.co/chat/)  
+  Plataforma abierta para interactuar con modelos de lenguaje de código abierto (Llama, Mistral) sin depender de ecosistemas corporativos cerrados.
+* [**Teachable Machine (Google Experiments)**](https://teachablemachine.withgoogle.com/)  
+  Herramienta visual e interactiva para que estudiantes de básica y media entrenen modelos sencillos de clasificación visual o sonora y entiendan cómo aprende una máquina.
